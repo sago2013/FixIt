@@ -1,6 +1,7 @@
 package com.fixit.fixit;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -24,12 +26,15 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        final FloatingActionButton phonefab = (FloatingActionButton) findViewById(R.id.fabphone);
+        final FloatingActionButton computerfab = (FloatingActionButton) findViewById(R.id.fabcomputer);
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                phonefab.setVisibility(View.VISIBLE);
+                computerfab.setVisibility(View.VISIBLE);
             }
         });
 
@@ -106,5 +111,32 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void ch_computer(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("device", "computer");
+        editor.apply();
+        Toast.makeText(this, "device: Computer", Toast.LENGTH_LONG).show();
+        final FloatingActionButton phonefab = (FloatingActionButton) findViewById(R.id.fabphone);
+        final FloatingActionButton computerfab = (FloatingActionButton) findViewById(R.id.fabcomputer);
+        phonefab.setVisibility(View.GONE);
+        computerfab.setVisibility(View.GONE);
+
+
+    }
+    public void ch_phone(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("device","phone");
+        editor.apply();
+        Toast.makeText(this, "device: Phone", Toast.LENGTH_LONG).show();
+        final FloatingActionButton phonefab = (FloatingActionButton) findViewById(R.id.fabphone);
+        final FloatingActionButton computerfab = (FloatingActionButton) findViewById(R.id.fabcomputer);
+        computerfab.setVisibility(View.GONE);
+        phonefab.setVisibility(View.GONE);
+
+
     }
 }

@@ -1,0 +1,43 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/StudioProjects/Team-53" />
+        <option value="$USER_HOME$/StudioProjects/FixIt" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/StudioProjects/Team-53" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/StudioProjects/Team-53" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/StudioProjects/FixIt">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-162.3871768" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1492836697824" />
+              <option name="buildTimestamp" value="1491019200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/Team-53">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-162.3871768" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1492841142053" />
+              <option name="buildTimestamp" value="1491019200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/StudioProjects" />
+  </component>
+</application>

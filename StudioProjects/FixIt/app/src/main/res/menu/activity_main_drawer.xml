@@ -27,7 +27,7 @@
         <item
             android:id="@+id/FixITGuarantee"
             android:icon="@drawable/saftey2"
-            android:title="Product Safety Guarantee Policy" />
+            android:title="Device Safety Guarantee" />
     </group>
 
     <item android:title="About FixIt">

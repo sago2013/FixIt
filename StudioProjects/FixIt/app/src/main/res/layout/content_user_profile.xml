@@ -19,36 +19,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:padding="5dp"
         android:layout_marginTop="40dp"
         android:layout_weight="0.16"
-        android:background="@color/fab"
-        android:foregroundGravity="center"
-        android:paddingTop="20dp"
         android:text="Username"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:background="@drawable/rounded_corner"/>
+
 
 </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
             android:layout_weight="1"
-            android:text="Full name" />
+            android:background="@drawable/rounded_corner"
+            android:padding="5dp"
+            android:text="Full Name"
+            android:textAlignment="center" />
 
         <TextView
             android:id="@+id/rating"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Rating" />
+            android:text="Rating"
+            android:padding="5dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_corner"
+            android:textAlignment="center"
+            android:layout_margin="10dp"/>
 
 
     </LinearLayout>
@@ -63,15 +72,25 @@
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
             android:layout_weight="1"
-            android:text="phone" />
+            android:background="@drawable/rounded_corner"
+            android:padding="5dp"
+            android:text="Email"
+            android:textAlignment="center" />
 
         <TextView
             android:id="@+id/phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
             android:layout_weight="1"
-            android:text="Phone Number" />
+            android:background="@drawable/rounded_corner"
+            android:padding="5dp"
+            android:text="Phone Number"
+            android:textAlignment="center" />
     </LinearLayout>
 
 </LinearLayout>
