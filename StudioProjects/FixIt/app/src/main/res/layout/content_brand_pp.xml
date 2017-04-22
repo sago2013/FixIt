@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fixit.fixit.brand_pp"
+    tools:showIn="@layout/activity_brand_pp"
+    android:background="@drawable/newbackgroun">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_samsung"
+
+        android:onClick="ch_android"
+        app:backgroundTint="@color/fab"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/samsung"
+        android:layout_gravity="center"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_bae"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:onClick="ch_bae"
+        app:backgroundTint="@color/fab"
+        app:srcCompat="@drawable/bae" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_htc"
+        android:onClick="ch_htc"
+        app:backgroundTint="@color/fab"
+        app:srcCompat="@drawable/htc"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_microsoft"
+        android:layout_gravity="center"
+        android:onClick="ch_microsoft"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:backgroundTint="@color/fab"
+        app:srcCompat="@drawable/microsoft" />
+
+</LinearLayout>

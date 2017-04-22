@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fixit.fixit.model_apple"
+    tools:showIn="@layout/activity_model_apple"
+    android:background="@drawable/newbackgroun">
+    <!--
+    1st gen: June 29, 2007
+3G: July 11, 2008
+3GS: June 19, 2009
+4: June 24, 2010
+4S: October 14, 2011
+5: September 21, 2012
+5C, 5S: September 20, 2013
+6 / 6 Plus: September 19, 2014
+SE: March 31, 2016
+7 / 7 Plus: September 16, 2016
+-->
+
+</LinearLayout>

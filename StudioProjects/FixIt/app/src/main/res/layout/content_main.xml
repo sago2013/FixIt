@@ -1,37 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/newbackgroun"
+    android:orientation="horizontal"
+    android:weightSum="1"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.fixit.fixit.MainActivity"
-    android:background="@drawable/newbackgroun"
-    tools:showIn="@layout/app_bar_main"
-    android:weightSum="1">
+    tools:showIn="@layout/app_bar_main">
 
-    <android.support.design.widget.FloatingActionButton
-    android:id="@+id/fabphone"
-    android:layout_width="0dp"
-    android:layout_height="115dp"
-    android:layout_gravity="center"
-    android:layout_marginLeft="100dp"
-    android:layout_weight="0.25"
-    app:backgroundTint="@color/fab"
-    app:srcCompat="@drawable/phone"
-    android:visibility="gone"
-        android:onClick="ch_computer"/>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fabcomputer"
-        android:layout_width="0dp"
-        android:layout_height="115dp"
-        android:layout_gravity="center"
-        android:layout_marginLeft="20dp"
-        android:layout_weight="0.25"
-        app:backgroundTint="@color/fab"
-        app:srcCompat="@drawable/computer"
-        android:visibility="gone"
-        android:onClick="ch_phone"/>
 
-</LinearLayout>
+
+
+
+
+</TableLayout>
+

@@ -26,15 +26,12 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final FloatingActionButton phonefab = (FloatingActionButton) findViewById(R.id.fabphone);
-        final FloatingActionButton computerfab = (FloatingActionButton) findViewById(R.id.fabcomputer);
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                phonefab.setVisibility(View.VISIBLE);
-                computerfab.setVisibility(View.VISIBLE);
+                Intent i = new Intent(MainActivity.this, device.class);
+                startActivity(i);
             }
         });
 
@@ -113,30 +110,5 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    public void ch_computer(View view) {
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("device", "computer");
-        editor.apply();
-        Toast.makeText(this, "device: Computer", Toast.LENGTH_LONG).show();
-        final FloatingActionButton phonefab = (FloatingActionButton) findViewById(R.id.fabphone);
-        final FloatingActionButton computerfab = (FloatingActionButton) findViewById(R.id.fabcomputer);
-        phonefab.setVisibility(View.GONE);
-        computerfab.setVisibility(View.GONE);
 
-
-    }
-    public void ch_phone(View view) {
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("device","phone");
-        editor.apply();
-        Toast.makeText(this, "device: Phone", Toast.LENGTH_LONG).show();
-        final FloatingActionButton phonefab = (FloatingActionButton) findViewById(R.id.fabphone);
-        final FloatingActionButton computerfab = (FloatingActionButton) findViewById(R.id.fabcomputer);
-        computerfab.setVisibility(View.GONE);
-        phonefab.setVisibility(View.GONE);
-
-
-    }
 }

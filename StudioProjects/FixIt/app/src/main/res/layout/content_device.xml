@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fixit.fixit.device"
+    tools:showIn="@layout/activity_device"
+    android:background="@drawable/newbackgroun"
+    android:orientation="vertical">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabcomputer"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:onClick="ch_computer"
+        app:backgroundTint="@color/fab"
+        app:srcCompat="@drawable/computer"
+        android:layout_gravity="center"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabphone"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:onClick="ch_phone"
+        app:backgroundTint="@color/fab"
+        app:srcCompat="@drawable/phone" />
+
+</LinearLayout>
