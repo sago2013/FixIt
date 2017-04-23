@@ -22,12 +22,16 @@
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
-        android:layout_width="72dp"
-        android:layout_height="81dp"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
         android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@drawable/add"
-        app:backgroundTint="@color/fab"/>
+        android:layout_margin="8dp"
+        app:srcCompat="@drawable/fab_add"
+        app:backgroundTint="@color/fab"
+        app:fabSize="mini"
+        app:rippleColor="@color/colorPrimaryDark"
+        />
+
 
     <include layout="@layout/content_main" />
 

@@ -8,41 +8,147 @@
     tools:context="com.fixit.fixit.brand_pp"
     tools:showIn="@layout/activity_brand_pp"
     android:background="@drawable/newbackgroun">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="0.74"
+        android:elevation="5dp"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="25dp"
+        android:paddingBottom="40dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp">
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_samsung"
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="100dp">
 
-        android:onClick="ch_android"
-        app:backgroundTint="@color/fab"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/samsung"
-        android:layout_gravity="center"/>
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_google"
+                android:onClick="ch_google"
+                android:padding="10dp" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_bae"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:onClick="ch_bae"
-        app:backgroundTint="@color/fab"
-        app:srcCompat="@drawable/bae" />
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_htc"
-        android:onClick="ch_htc"
-        app:backgroundTint="@color/fab"
-        app:srcCompat="@drawable/htc"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_htc"
+                android:onClick="ch_htc"
+                android:padding="10dp" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_microsoft"
-        android:layout_gravity="center"
-        android:onClick="ch_microsoft"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:backgroundTint="@color/fab"
-        app:srcCompat="@drawable/microsoft" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_samsung"
+                android:onClick="ch_samsung"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_nokia"
+                android:onClick="ch_nokia"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_motolenovo"
+                android:padding="10dp"
+                android:onClick="ch_motolenovo"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_oppo"
+                android:onClick="ch_oppo"
+                android:padding="10dp" />
+            <Button
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_lg"
+                android:onClick="ch_lg"
+            android:padding="10dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_huawei"
+                android:onClick="ch_huawei"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_xiomi"
+                android:onClick="ch_xiomi"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_microsoft"
+                android:onClick="ch_microsoft"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_zte"
+                android:onClick="ch_zte"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_tcl"
+                android:onClick="ch_tcl"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_alcatel"
+                android:onClick="ch_alcatel"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_lg"
+                android:background="@drawable/lg"
+                android:padding="10dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </LinearLayout>
