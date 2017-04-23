@@ -22,9 +22,724 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">FixIt</string>
     <string name="title_activity_user_profile">Your Profile</string>
-    <string name="title_activity_device">device</string>
-    <string name="title_activity_brand">brand</string>
-    <string name="title_activity_brand_p">brand_p</string>
-    <string name="title_activity_brand_pp">brand_pp</string>
-    <string name="title_activity_model_apple">model_apple</string>
+    <string name="title_activity_device">What device are we Fixing today?</string>
+    <string name="title_activity_brand">What Brand is Your Computer/Laptop?</string>
+    <string name="title_activity_brand_p">Is it an Android or Apple Phone?</string>
+    <string name="title_activity_brand_pp">What Brand is Your Phone?</string>
+    <string name="title_activity_model_apple">What Model is Your Iphone?</string>
+    <string name="title_activity_model_samsung_p">What Model is Your Samsung Phone?</string>
+    <string name="title_activity_model_htc_p">What Model is Your HTC Phone?</string>
+    <string name="title_activity_model_google_p">What Model is Your Google Phone?</string>
+    <string name="title_activity_model_oppo_p">What Model is Your Oppo Phone?</string>
+    <string name="title_activity_model_lg_p">What Model is Your LG Phone?</string>
+    <string name="title_activity_model_nokia_p">What Model is Your Nokia Phone?</string>
+    <string name="title_activity_model_motolenovo_p">What Model is Your Motorola Phone?</string>
+    <string name="title_activity_model_microsoft_p">What Model is Your Microsoft Phone?</string>
+    <string name="title_activity_model_zte_p">What Model is Your ZTE Phone?</string>
+    <string name="title_activity_model_xiaomi_p">What Model is Your Xiaomi Phone?</string>
+    <string name="title_activity_model_huawei_p">What Model is Your Huawei Phone?</string>
+
+
+    ///Arrays for models, to save time. and space in the users phone
+    <string-array name="huaw_honor">
+        <item>Honor</item>
+        <item>Honor 3</item>
+        <item>Honor 3C</item>
+        <item>Honor 3C 4G</item>
+        <item>Honor 3C Play</item>
+        <item>Honor 3X Pro</item>
+        <item>Honor 4 Play</item>
+        <item>Honor 4A</item>
+        <item>Honor 4A LTE</item>
+        <item>Honor 4C</item>
+        <item>Honor 4X</item>
+        <item>Honor 5</item>
+        <item>Honor 5A</item>
+        <item>Honor 5C</item>
+        <item>Honor 5C LTE</item>
+        <item>Honor 5X</item>
+        <item>Honor 6</item>
+        <item>Honor 6 Extreme Edition</item>
+        <item>Honor 6 Plus</item>
+        <item>Honor 6C</item>
+        <item>Honor 6X</item>
+        <item>Honor 7</item>
+        <item>Honor 7 Dual SIM</item>
+        <item>Honor 7i</item>
+        <item>Honor 8 </item>
+        <item>Honor 8 Lite </item>
+        <item>Honor 8 Pro</item>
+        <item>Honor 8 Smart</item>
+        <item>Honor Bee</item>
+        <item>Honor Bee 2</item>
+        <item>Honor Holly</item>
+        <item>Honor Holly 2 Plus</item>
+        <item>Honor Holly 3</item>
+        <item>Honor Magic</item>
+        <item>Honor Note 8</item>
+        <item>Honor V8 G9 Lite</item>
+        <item>Honor V9</item>
+    </string-array>
+    <string-array name="huaw_ascend">
+        <item>Ascend D1</item>
+        <item>Ascend D2</item>
+        <item>Ascend G510</item>
+        <item>Ascend G6</item>
+        <item>Ascend G600</item>
+        <item>Ascend G7</item>
+        <item>Ascend G700</item>
+        <item>Ascend G730</item>
+        <item>Ascend G750</item>
+        <item>Ascend GX1</item>
+        <item>Ascend M860</item>
+        <item>Ascend Mate</item>
+        <item>Ascend Mate 2</item>
+        <item>Ascend Mate 7</item>
+        <item>Ascend P1</item>
+        <item>Ascend P1 S</item>
+        <item>Ascend P2</item>
+        <item>Ascend P6</item>
+        <item>Ascend P6 S</item>
+        <item>Ascend P7</item>
+        <item>Ascend P7 mini</item>
+        <item>Ascend P7 Sapphire Edition</item>
+        <item>Ascend P8</item>
+        <item>Ascend P8lite</item>
+        <item>Ascend P8max</item>
+        <item>Ascend W1</item>
+        <item>Ascend W2</item>
+        <item>Ascend X</item>
+        <item>Ascend Y200</item>
+        <item>Ascend Y300</item>
+        <item>Ascend Y320</item>
+        <item>Ascend Y511</item>
+        <item>Ascend Y530</item>
+        <item>Ascend Y600</item></string-array>
+    <string-array name="huaw_enjoy">
+        <item>Enjoy 5</item>
+        <item>Enjoy 5S</item>
+        <item>Enjoy 6</item>
+        <item>Enjoy 6s</item>
+        <item>Enjoy 7 Plus</item>
+    </string-array>
+
+    <string-array name="huaw_ideos">
+        <item>Ideos X3</item>
+        <item>Ideos X5</item>
+        <item>New Ideos X5</item>
+    </string-array>
+
+    <string-array name="huaw_mate">
+        <item>Mate 8</item>
+        <item>Mate 9</item>
+        <item>Mate 9 Lite</item>
+        <item>Mate 9 Pro</item>
+        <item>Mate S</item>
+    </string-array>
+
+    <string-array name="huaw_m">
+        <item>M835</item>
+        <item>M865</item>
+        <item>M886</item>
+        <item>M920</item>
+    </string-array>
+
+    <string-array name="huaw_nova">
+        <item>Nova</item>
+        <item>Nova lite</item>
+        <item>Nova Plus </item>
+    </string-array>
+
+    <string-array name="huaw_p">
+        <item>P10</item>
+        <item>P10 Lite</item>
+        <item>P10 Plus</item>
+        <item>P8 Lite (2017)</item>
+        <item>P9</item>
+        <item>P9 Lite</item>
+        <item>P9 Plus</item>
+    </string-array>
+
+    <string-array name="huaw_y">
+        <item>Y3 II</item>
+        <item>Y3 II 4G</item>
+        <item>Y300</item>
+        <item>Y336</item>
+        <item>Y360</item>
+        <item>Y5 2017</item>
+        <item>Y5 II</item>
+        <item>Y5 II 4G</item>
+        <item>Y541</item>
+        <item>Y6 Pro</item>
+        <item>Y625</item>
+        <item>Y635</item>
+    </string-array>
+
+    <string-array name="huaw_u">
+        <item>Sonic U8650</item>
+        <item>Boulder U8350</item>
+        <item>U5510</item>
+        <item>U8100</item>
+        <item>U8110</item>
+        <item>U8150 Ideos</item>
+        <item>U8220</item>
+        <item>U8300</item>
+        <item>U8651T</item>
+        <item>U8652</item>
+        <item>U8850 Vision</item>
+    </string-array>
+
+    <string-array name="huaw_nexus">
+        <item>Google Nexus 6P</item>
+    </string-array>
+
+    <string-array name="huaw_g">
+        <item>G Play Mini</item>
+        <item>G300</item>
+        <item>G5510</item>
+        <item>G610</item>
+        <item>G620S</item>
+        <item>G7 Plus</item>
+        <item>G7010 </item>
+        <item>G8</item>
+        <item>G9 Plus</item>
+        <item>GX8</item>
+    </string-array>
+    <string-array name="oppo_r">
+        <item>R1s</item>
+        <item>R1</item>
+        <item>R1C</item>
+        <item>R1x</item>
+        <item>R3</item>
+        <item>R5</item>
+        <item>R5s</item>
+        <item>R5s</item>
+        <item>R7</item>
+        <item>R7s</item>
+        <item>R7 Lite</item>
+        <item>R7 Plus</item>
+        <item>R9</item>
+        <item>R9 Plus</item>
+        <item>R9s</item>
+        <item>R9s Plus</item>
+    </string-array>
+
+    <string-array name="oppo_f">
+        <item>F1</item>
+        <item>F1s</item>
+        <item>F1Plus</item>
+        <item>F3 Plus</item>
+    </string-array>
+
+    <string-array name="oppo_a">
+        <item>A30</item>
+        <item>A31</item>
+        <item>A33</item>
+        <item>A37</item>
+        <item>A53</item>
+        <item>A57</item>
+        <item>A59</item>
+    </string-array>
+
+    <string-array name="oppo_n">
+        <item>N1 Mini</item>
+        <item>N3</item>
+        <item>N1</item>
+    </string-array>
+
+    <string-array name="oppo_neo">
+        <item>Neo</item>
+        <item>Neo 3</item>
+        <item>Neo 5</item>
+        <item>Neo 5 (2015)</item>
+        <item>Neo 5s </item>
+        <item>Neo 7</item>
+    </string-array>
+
+    <string-array name="oppo_mirror">
+        <item>Mirror 3</item>
+        <item>Mirror 5</item>
+        <item>Mirror 5s</item>
+    </string-array>
+
+    <string-array name="oppo_joy">
+        <item>Joy</item>
+        <item>Joy Plus</item>
+        <item>Joy 3 </item>
+    </string-array>
+
+    <string-array name="oppo_find">
+        <item>Find 5</item>
+        <item>Find 7a</item>
+        <item>Find 7v</item>
+    </string-array>
+
+    <string-array name="sam_B2">
+    <item>
+        B209</item>
+    <item>
+        B229</item>
+    </string-array>
+
+
+    <string-array name="sam_E2">
+    <item>
+        E1207T</item>
+    <item>
+        E1282T</item>
+    </string-array>
+
+
+    <string-array name="sam_galaxy">
+    <item>
+        Galaxy A3</item>
+    <item>
+        Galaxy A3 (2016)</item>
+    <item>
+        Galaxy A3 (2017)</item>
+    <item>
+        Galaxy A3 Duos</item>
+    <item>
+        Galaxy A5</item>
+    <item>
+        Galaxy A5 (2016)</item>
+    <item>
+        Galaxy A5 (2017)</item>
+    <item>
+        Galaxy A5 Duosv</item>
+    <item>
+        Galaxy A7</item>
+    <item>
+        Galaxy A7 (2016)</item>
+    <item>
+        Galaxy A7 (2017)</item>
+    <item>
+        Galaxy A7 Duos</item>
+    <item>
+        Galaxy A8</item>
+    <item>
+        Galaxy A8 (2016)</item>
+    <item>
+        Galaxy A9</item>
+    <item>
+        Galaxy A9 Pro</item>
+    <item>
+        Galaxy Ace</item>
+    <item>
+        Galaxy Ace 3</item>
+    <item>
+        Galaxy Ace 4</item>
+    <item>
+        Galaxy Ace 4 LT</item>
+    <item>
+        Galaxy Ace Duos</item>
+    <item>
+        Galaxy Ace NXT</item>
+    <item>
+        Galaxy Ace Plus</item>
+    <item>
+        Galaxy Ace Style</item>
+    <item>
+        Galaxy Ace Style LTE</item>
+    <item>
+        Galaxy Active Neo</item>
+    <item>
+        Galaxy Alpha</item>
+    <item>
+        Galaxy Amp Prime</item>
+    <item>
+        Galaxy Avant</item>
+    <item>
+        Galaxy Beam</item>
+    <item>
+        Galaxy Beam 2</item>
+    <item>
+        Galaxy C5</item>
+    <item>
+        Galaxy C5 Pro</item>
+    <item>
+        Galaxy C7</item>
+    <item>
+        Galaxy C7 Pro</item>
+    <item>
+        Galaxy C9 Pro</item>
+    <item>
+        Galaxy Ch@t</item>
+    <item>
+        Galaxy Core</item>
+    <item>
+        Galaxy Core 2</item>
+    <item>
+        Galaxy Core 4G</item>
+    <item>
+        Galaxy Core Advance</item>
+    <item>
+        Galaxy Core Lite</item>
+    <item>
+        Galaxy Core Max</item>
+    <item>
+        Galaxy Core Mini 4G</item>
+    <item>
+        Galaxy Core Plus</item>
+    <item>
+        Galaxy Core Prime</item>
+    <item>
+        Galaxy Core Prime 4G</item>
+    <item>
+        Galaxy Core Prime VE</item>
+    <item>
+        Galaxy E5</item>
+    <item>
+        Galaxy E7</item>
+    <item>
+        Galaxy Express 2</item>
+    <item>
+        Galaxy Fame</item>
+    <item>
+        Galaxy Fame Lite</item>
+    <item>
+        Galaxy Folder</item>
+    <item>
+        Galaxy Folder 2</item>
+    <item>
+        Galaxy Golden</item>
+    <item>
+        Galaxy Grand 2</item>
+    <item>
+        Galaxy Grand Duos</item>
+    <item>
+        Galaxy Grand Max</item>
+    <item>
+        Galaxy Grand Neo</item>
+    <item>
+        Galaxy Grand Neo Plus</item>
+    <item>
+        Galaxy Grand Prime</item>
+    <item>
+        Galaxy Grand Prime 4G</item>
+    <item>
+        Galaxy Grand Quattro</item>
+    <item>
+        Galaxy i7500</item>
+    <item>
+        Galaxy J</item>
+    <item>
+        Galaxy J1</item>
+    <item>
+        Galaxy J1 (2016)</item>
+    <item>
+        Galaxy J1 (4G)</item>
+    <item>
+        Galaxy J1 4G</item>
+    <item>
+        Galaxy J1 Ace</item>
+    <item>
+        Galaxy J1 Ace Neo</item>
+    <item>
+        Galaxy J1 mini</item>
+    <item>
+        Galaxy J1 Mini Prime</item>
+    <item>
+        Galaxy J2</item>
+    <item>
+        Galaxy J2 (2016)</item>
+    <item>
+        Galaxy J2 Ace</item>
+    <item>
+        Galaxy J2 DTV</item>
+    <item>
+        Galaxy J2 Pro</item>
+    <item>
+        Galaxy J3 (6)</item>
+    <item>
+        Galaxy J3 Pro</item>
+    <item>
+        Galaxy J5</item>
+    <item>
+        Galaxy J5 (2016)</item>
+    <item>
+        Galaxy J5 Prime</item>
+    <item>
+        Galaxy J7</item>
+    <item>
+        Galaxy J7 (2016)</item>
+    <item>
+        Galaxy J7 Prime</item>
+    <item>
+        Galaxy K zoom</item>
+    <item>
+        Galaxy Mega 2</item>
+    <item>
+        Galaxy Mega 5.8</item>
+    <item>
+        Galaxy Mega 6.3</item>
+    <item>
+        Galaxy Mega Plus</item>
+    <item>
+        Galaxy Music</item>
+    <item>
+        Galaxy Note</item>
+    <item>
+        Galaxy Note 3</item>
+    <item>
+        Galaxy Note 3 Neo</item>
+    <item>
+        Galaxy Note 4</item>
+    <item>
+        Galaxy Note 4 Duos</item>
+    <item>
+        Galaxy Note 4 S-LTE</item>
+    <item>
+        Galaxy Note 5</item>
+    <item>
+        Galaxy Note 5 Dual SIM</item>
+    <item>
+        Galaxy Note Edge</item>
+    <item>
+        Galaxy Note II</item>
+    <item>
+        Galaxy Note7</item>
+    <item>
+        Galaxy On Nxt</item>
+    <item>
+        Galaxy On5</item>
+    <item>
+        Galaxy On5 Pro</item>
+    <item>
+        Galaxy On7</item>
+    <item>
+        Galaxy On7 (2016)</item>
+    <item>
+        Galaxy On7 Pro</item>
+    <item>
+        Galaxy On8</item>
+    <item>
+        Galaxy Pocket</item>
+    <item>
+        Galaxy Pocket Neo</item>
+    <item>
+        Galaxy Prevail LTE</item>
+    <item>
+        Galaxy Round</item>
+    <item>
+        Galaxy S</item>
+    <item>
+        Galaxy S Advance</item>
+    <item>
+        Galaxy S Duos</item>
+    <item>
+        Galaxy S Duos 2</item>
+    <item>
+        Galaxy S Duos 3</item>
+    <item>
+        Galaxy S Duos 3-VE</item>
+    <item>
+        Galaxy S II</item>
+    <item>
+        Galaxy S II Plus</item>
+    <item>
+        Galaxy S III</item>
+    <item>
+        Galaxy S III mini Value Edition</item>
+    <item>
+        Galaxy S III Neo</item>
+    <item>
+        Galaxy S3 Neo</item>
+    <item>
+        Galaxy S3 Slim</item>
+    <item>
+        Galaxy S4</item>
+    <item>
+        Galaxy S4 Active</item>
+    <item>
+        Galaxy S4 Mini</item>
+    <item>
+        Galaxy S4 mini plus</item>
+    <item>
+        Galaxy S4 Value Edition</item>
+    <item>
+        Galaxy S4 Zoom</item>
+    <item>
+        Galaxy S5</item>
+    <item>
+        Galaxy S5 Active</item>
+    <item>
+        Galaxy S5 LTE-A</item>
+    <item>
+        Galaxy S5 mini</item>
+    <item>
+        Galaxy S5 Mini Duos</item>
+    <item>
+        Galaxy S5 Neo</item>
+    <item>
+        Galaxy S5 Plus</item>
+    <item>
+        Galaxy S5 Sport</item>
+    <item>
+        Galaxy S5-LTE</item>
+    <item>
+        Galaxy S6</item>
+    <item>
+        Galaxy S6 Active</item>
+    <item>
+        Galaxy S6 Edge</item>
+    <item>
+        Galaxy S6 Edge+</item>
+    <item>
+        Galaxy S7</item>
+    <item>
+        Galaxy S7 Active</item>
+    <item>
+        Galaxy S7 Edge</item>
+    <item>
+        Galaxy S8</item>
+    <item>
+        Galaxy S8+</item>
+    <item>
+        Galaxy Star</item>
+    <item>
+        Galaxy Star 2</item>
+    <item>
+        Galaxy Star Advance</item>
+    <item>
+        Galaxy Star Pro</item>
+    <item>
+        Galaxy Star Trios</item>
+    <item>
+        Galaxy Tab 3 10.1 3G</item>
+    <item>
+        Galaxy Trend</item>
+    <item>
+        Galaxy Trend 3</item>
+    <item>
+        Galaxy Trend Lite</item>
+    <item>
+        Galaxy Wide</item>
+    <item>
+        Galaxy Win</item>
+    <item>
+        Galaxy Win 2 Duos</item>
+    <item>
+        Galaxy Win Duos</item>
+    <item>
+        Galaxy Win Pro</item>
+    <item>
+        Galaxy Xcover 3</item>
+    <item>
+        Galaxy Xcover 3 Value Edition</item>
+    <item>
+        Galaxy Xcover 4</item>
+    <item>
+        Galaxy Y</item>
+    <item>
+        Galaxy Y CDMA</item>
+    <item>
+        Galaxy Y Duos</item>
+    <item>
+        Galaxy Y Duos Lite</item>
+    <item>
+        Galaxy Y Plus</item>
+    <item>
+        Galaxy Y Pro Duos</item>
+    <item>
+        Galaxy Young</item>
+    <item>
+        Galaxy Young 2</item>
+    </string-array>
+
+
+    <string-array name="sam_guru">
+    <item>
+        Guru 1200</item>
+    <item>
+        Guru 1205</item>
+    <item>
+        Guru Music 2</item>
+    </string-array>
+
+    <string-array name="sam_hero">
+    <item>
+        Hero</item>
+    <item>
+        Hero Plus B159</item>
+    </string-array>
+
+    <string-array name="sam_metro">
+    <item>
+        Metro 2252</item>
+    <item>
+        Metro 312</item>
+    <item>
+        Metro B350E</item>
+    <item>
+        Metro Duos</item>
+    </string-array>
+
+    <string-array name="sam_mpower">
+    <item>
+        Mpower Muzik 219</item>
+    <item>
+        Mpower TV S239</item>
+    </string-array>
+
+
+    <string-array name="sam_primo">
+<item>
+Primo</item>
+        <item>
+Primo Duos</item>
+    </string-array>
+
+    <string-array name="sam_rex">
+<item>
+Rex 60</item>
+        <item>
+Rex 70</item>
+        <item>
+Rex 80</item>
+        <item>
+Rex 90</item>
+        </string-array>
+
+
+    <string-array name="sam_w">
+<item>
+W2014</item>
+        <item>
+W2016</item>
+        <item>
+W2017</item>
+        <item>
+W789</item>
+    </string-array>
+
+    <string-array name="sam_wave">
+    <item>
+        Wave 3</item>
+    <item>
+        Wave M</item>
+    <item>
+        Wave Y</item>
+    </string-array>
+
+    <string-array name="sam_z">
+<item>
+Z</item>
+        <item>Z1</item>
+        <item>Z2</item>
+        <item>
+Z3</item>
+    </string-array>
+
+
+    <string-array name="sam_champ">
+  <item>
+  Champ 2</item>
+        <item>
+  Champ Deluxe Duos</item>
+        <item>
+  Champ Neo Duos</item>
+    </string-array>
+
+
 </resources>

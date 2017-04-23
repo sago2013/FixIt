@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fixit.fixit.model_huawei_p"
+    tools:showIn="@layout/activity_model_huawei_p"
+    android:background="@drawable/newbackgroun">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="0.74"
+        android:elevation="5dp"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="25dp"
+        android:paddingBottom="40dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_ascend"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/backgroundforcards"
+                android:text="Ascend"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_honorp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/backgroundforcards"
+                android:text="Honor"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/backgroundforcards"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_ideos"
+                android:padding="10dp"
+                android:text="Ideos"
+                android:textSize="40sp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_m"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/backgroundforcards"
+                android:text="M"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_maimang"
+                android:background="@drawable/backgroundforcards"
+                android:text="Maimang 5"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_mate"
+                android:background="@drawable/backgroundforcards"
+                android:text="Mate"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_nova"
+                android:background="@drawable/backgroundforcards"
+                android:text="Nova"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_p"
+                android:background="@drawable/backgroundforcards"
+                android:text="P"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_snapto"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/backgroundforcards"
+                android:text="Snapto"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_sonic"
+                android:background="@drawable/backgroundforcards"
+                android:text="Sonic"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_y"
+                android:background="@drawable/backgroundforcards"
+                android:text="Y"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_u"
+                android:background="@drawable/backgroundforcards"
+                android:text="U"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_c1"
+                android:background="@drawable/backgroundforcards"
+                android:text="B199"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_b1"
+                android:background="@drawable/backgroundforcards"
+                android:text="C199S"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

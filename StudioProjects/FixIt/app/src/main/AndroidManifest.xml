@@ -51,7 +51,52 @@
         <activity
             android:name=".model_apple"
             android:label="@string/title_activity_model_apple"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_samsung_p"
+            android:label="@string/title_activity_model_samsung_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_htc_p"
+            android:label="@string/title_activity_model_htc_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_google_p"
+            android:label="@string/title_activity_model_google_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_oppo_p"
+            android:label="@string/title_activity_model_oppo_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_lg_p"
+            android:label="@string/title_activity_model_lg_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_nokia_p"
+            android:label="@string/title_activity_model_nokia_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_motolenovo_p"
+            android:label="@string/title_activity_model_motolenovo_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_microsoft_p"
+            android:label="@string/title_activity_model_microsoft_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_zte_p"
+            android:label="@string/title_activity_model_zte_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_xiaomi_p"
+            android:label="@string/title_activity_model_xiaomi_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_huawei_p"
+            android:label="@string/title_activity_model_huawei_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".model_specific_list"></activity>
     </application>
 
 </manifest>

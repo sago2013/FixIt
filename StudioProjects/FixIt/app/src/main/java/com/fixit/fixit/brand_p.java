@@ -23,8 +23,20 @@ public class brand_p extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent i = new Intent(brand_p.this,MainActivity.class);
+                startActivity(i);
+                /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();*/
+            }
+        });
+        FloatingActionButton fab_return = (FloatingActionButton) findViewById(R.id.fab_return);
+        fab_return.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(brand_p.this,device.class);
+                startActivity(i);
+                /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();*/
             }
         });
     }
@@ -43,8 +55,9 @@ public class brand_p extends AppCompatActivity {
         SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
         SharedPreferences.Editor editor = mPrefs.edit();
         editor.putString("os", "apple");
+        editor.putString("brand", "apple");
         editor.apply();
-        Toast.makeText(this, "os: Apple ", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "os: Apple \n brand: Apple"  , Toast.LENGTH_SHORT).show();
         Intent i = new Intent(brand_p.this,model_apple.class);
         startActivity(i);
     }

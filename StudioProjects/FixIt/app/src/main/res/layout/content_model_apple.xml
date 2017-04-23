@@ -7,18 +7,100 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.fixit.fixit.model_apple"
     tools:showIn="@layout/activity_model_apple"
-    android:background="@drawable/newbackgroun">
+    android:background="@drawable/newbackgroun"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="0.74"
+        android:elevation="5dp"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="25dp"
+        android:paddingBottom="40dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_i7"
+                android:background="@drawable/bg_i7"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_i6p"
+                android:background="@drawable/bg_i6p"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_i6s"
+                android:background="@drawable/bg_i6s"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_i5c"
+                android:background="@drawable/bg_5c"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_i5"
+                android:background="@drawable/bg_i5"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_i4s"
+                android:background="@drawable/bg_i4s"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_i4"
+                android:background="@drawable/bg_i4"
+                android:padding="10dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
     <!--
     1st gen: June 29, 2007
 3G: July 11, 2008
 3GS: June 19, 2009
-4: June 24, 2010
-4S: October 14, 2011
-5: September 21, 2012
-5C, 5S: September 20, 2013
-6 / 6 Plus: September 19, 2014
+6 / 6s Plus: September 19, 2014
 SE: March 31, 2016
-7 / 7 Plus: September 16, 2016
+ 7 Plus: September 16, 2016
 -->
 
 </LinearLayout>

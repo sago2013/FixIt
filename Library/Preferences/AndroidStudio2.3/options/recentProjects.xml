@@ -6,11 +6,6 @@
         <option value="$USER_HOME$/StudioProjects/Team-53" />
       </list>
     </option>
-    <option name="openPaths">
-      <list>
-        <option value="$USER_HOME$/StudioProjects/FixIt" />
-      </list>
-    </option>
     <option name="lastPath" value="$USER_HOME$/StudioProjects/FixIt" />
     <option name="additionalInfo">
       <map>
@@ -20,7 +15,7 @@
               <option name="build" value="AI-162.3871768" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1492842725420" />
+              <option name="projectOpenTimestamp" value="1492903544777" />
               <option name="buildTimestamp" value="1491019200000" />
             </RecentProjectMetaInfo>
           </value>
@@ -31,7 +26,7 @@
               <option name="build" value="AI-162.3871768" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1492841142053" />
+              <option name="projectOpenTimestamp" value="1492895165653" />
               <option name="buildTimestamp" value="1491019200000" />
             </RecentProjectMetaInfo>
           </value>
