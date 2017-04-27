@@ -14,10 +14,10 @@
         android:id="@+id/fabcomputer"
         android:layout_width="300dp"
         android:layout_height="250dp"
+        android:layout_gravity="center"
         android:onClick="ch_computer"
         app:backgroundTint="@color/fab"
-        app:srcCompat="@drawable/computer"
-        android:layout_gravity="center"/>
+        app:srcCompat="@drawable/brandless_computer" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabphone"

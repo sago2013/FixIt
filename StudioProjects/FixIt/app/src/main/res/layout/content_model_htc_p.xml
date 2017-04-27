@@ -31,8 +31,33 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_i7"
-                android:background="@drawable/bg_i7"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_htc_bfly"
+                android:background="@drawable/backgroundforcards"
+                android:text="Butterfly"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_htc_bolt"
+                android:background="@drawable/backgroundforcards"
+                android:text="Bolt"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_htc_desire"
+                android:background="@drawable/backgroundforcards"
+                android:text="Desire"
+                android:textSize="40sp"
                 android:padding="10dp" />
 
             <Button
@@ -40,8 +65,11 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_i6p"
-                android:background="@drawable/bg_i6p"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_htc_one"
+                android:background="@drawable/backgroundforcards"
+                android:text="One"
+                android:textSize="40sp"
                 android:padding="10dp" />
 
             <Button
@@ -49,44 +77,44 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_i6s"
-                android:background="@drawable/bg_i6s"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_htc_u"
+                android:background="@drawable/backgroundforcards"
+                android:text="U"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_i5c"
-                android:background="@drawable/bg_5c"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_htc_10"
+                android:background="@drawable/backgroundforcards"
+                android:text="10"
+                android:textSize="40sp"
                 android:padding="10dp" />
-
             <Button
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_i5"
-                android:background="@drawable/bg_i5"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_htc_8s"
+                android:background="@drawable/backgroundforcards"
+                android:text="8S"
+                android:textSize="40sp"
                 android:padding="10dp" />
-
             <Button
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_i4s"
-                android:background="@drawable/bg_i4s"
-                android:padding="10dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_i4"
-                android:background="@drawable/bg_i4"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_htc_8x"
+                android:background="@drawable/backgroundforcards"
+                android:text="8X"
+                android:textSize="40sp"
                 android:padding="10dp" />
         </LinearLayout>
 

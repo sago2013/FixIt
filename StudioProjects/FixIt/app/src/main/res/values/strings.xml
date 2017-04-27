@@ -38,6 +38,8 @@
     <string name="title_activity_model_zte_p">What Model is Your ZTE Phone?</string>
     <string name="title_activity_model_xiaomi_p">What Model is Your Xiaomi Phone?</string>
     <string name="title_activity_model_huawei_p">What Model is Your Huawei Phone?</string>
+    <string name="title_activity_model_tcl_p">What Model is Your TCL/Alcatel Phone?</string>
+    <string name="title_activity_model_lenovo_p">What Model is your L Phone?</string>
 
 
     ///Arrays for models, to save time. and space in the users phone
@@ -114,7 +116,8 @@
         <item>Ascend Y320</item>
         <item>Ascend Y511</item>
         <item>Ascend Y530</item>
-        <item>Ascend Y600</item></string-array>
+        <item>Ascend Y600</item>
+    </string-array>
     <string-array name="huaw_enjoy">
         <item>Enjoy 5</item>
         <item>Enjoy 5S</item>
@@ -277,7 +280,7 @@
     <string-array name="sam_B2">
     <item>
         B209</item>
-    <item>
+        <item>
         B229</item>
     </string-array>
 
@@ -285,7 +288,7 @@
     <string-array name="sam_E2">
     <item>
         E1207T</item>
-    <item>
+        <item>
         E1282T</item>
     </string-array>
 
@@ -293,357 +296,357 @@
     <string-array name="sam_galaxy">
     <item>
         Galaxy A3</item>
-    <item>
+        <item>
         Galaxy A3 (2016)</item>
-    <item>
+        <item>
         Galaxy A3 (2017)</item>
-    <item>
+        <item>
         Galaxy A3 Duos</item>
-    <item>
+        <item>
         Galaxy A5</item>
-    <item>
+        <item>
         Galaxy A5 (2016)</item>
-    <item>
+        <item>
         Galaxy A5 (2017)</item>
-    <item>
+        <item>
         Galaxy A5 Duosv</item>
-    <item>
+        <item>
         Galaxy A7</item>
-    <item>
+        <item>
         Galaxy A7 (2016)</item>
-    <item>
+        <item>
         Galaxy A7 (2017)</item>
-    <item>
+        <item>
         Galaxy A7 Duos</item>
-    <item>
+        <item>
         Galaxy A8</item>
-    <item>
+        <item>
         Galaxy A8 (2016)</item>
-    <item>
+        <item>
         Galaxy A9</item>
-    <item>
+        <item>
         Galaxy A9 Pro</item>
-    <item>
+        <item>
         Galaxy Ace</item>
-    <item>
+        <item>
         Galaxy Ace 3</item>
-    <item>
+        <item>
         Galaxy Ace 4</item>
-    <item>
+        <item>
         Galaxy Ace 4 LT</item>
-    <item>
+        <item>
         Galaxy Ace Duos</item>
-    <item>
+        <item>
         Galaxy Ace NXT</item>
-    <item>
+        <item>
         Galaxy Ace Plus</item>
-    <item>
+        <item>
         Galaxy Ace Style</item>
-    <item>
+        <item>
         Galaxy Ace Style LTE</item>
-    <item>
+        <item>
         Galaxy Active Neo</item>
-    <item>
+        <item>
         Galaxy Alpha</item>
-    <item>
+        <item>
         Galaxy Amp Prime</item>
-    <item>
+        <item>
         Galaxy Avant</item>
-    <item>
+        <item>
         Galaxy Beam</item>
-    <item>
+        <item>
         Galaxy Beam 2</item>
-    <item>
+        <item>
         Galaxy C5</item>
-    <item>
+        <item>
         Galaxy C5 Pro</item>
-    <item>
+        <item>
         Galaxy C7</item>
-    <item>
+        <item>
         Galaxy C7 Pro</item>
-    <item>
+        <item>
         Galaxy C9 Pro</item>
-    <item>
+        <item>
         Galaxy Ch@t</item>
-    <item>
+        <item>
         Galaxy Core</item>
-    <item>
+        <item>
         Galaxy Core 2</item>
-    <item>
+        <item>
         Galaxy Core 4G</item>
-    <item>
+        <item>
         Galaxy Core Advance</item>
-    <item>
+        <item>
         Galaxy Core Lite</item>
-    <item>
+        <item>
         Galaxy Core Max</item>
-    <item>
+        <item>
         Galaxy Core Mini 4G</item>
-    <item>
+        <item>
         Galaxy Core Plus</item>
-    <item>
+        <item>
         Galaxy Core Prime</item>
-    <item>
+        <item>
         Galaxy Core Prime 4G</item>
-    <item>
+        <item>
         Galaxy Core Prime VE</item>
-    <item>
+        <item>
         Galaxy E5</item>
-    <item>
+        <item>
         Galaxy E7</item>
-    <item>
+        <item>
         Galaxy Express 2</item>
-    <item>
+        <item>
         Galaxy Fame</item>
-    <item>
+        <item>
         Galaxy Fame Lite</item>
-    <item>
+        <item>
         Galaxy Folder</item>
-    <item>
+        <item>
         Galaxy Folder 2</item>
-    <item>
+        <item>
         Galaxy Golden</item>
-    <item>
+        <item>
         Galaxy Grand 2</item>
-    <item>
+        <item>
         Galaxy Grand Duos</item>
-    <item>
+        <item>
         Galaxy Grand Max</item>
-    <item>
+        <item>
         Galaxy Grand Neo</item>
-    <item>
+        <item>
         Galaxy Grand Neo Plus</item>
-    <item>
+        <item>
         Galaxy Grand Prime</item>
-    <item>
+        <item>
         Galaxy Grand Prime 4G</item>
-    <item>
+        <item>
         Galaxy Grand Quattro</item>
-    <item>
+        <item>
         Galaxy i7500</item>
-    <item>
+        <item>
         Galaxy J</item>
-    <item>
+        <item>
         Galaxy J1</item>
-    <item>
+        <item>
         Galaxy J1 (2016)</item>
-    <item>
+        <item>
         Galaxy J1 (4G)</item>
-    <item>
+        <item>
         Galaxy J1 4G</item>
-    <item>
+        <item>
         Galaxy J1 Ace</item>
-    <item>
+        <item>
         Galaxy J1 Ace Neo</item>
-    <item>
+        <item>
         Galaxy J1 mini</item>
-    <item>
+        <item>
         Galaxy J1 Mini Prime</item>
-    <item>
+        <item>
         Galaxy J2</item>
-    <item>
+        <item>
         Galaxy J2 (2016)</item>
-    <item>
+        <item>
         Galaxy J2 Ace</item>
-    <item>
+        <item>
         Galaxy J2 DTV</item>
-    <item>
+        <item>
         Galaxy J2 Pro</item>
-    <item>
+        <item>
         Galaxy J3 (6)</item>
-    <item>
+        <item>
         Galaxy J3 Pro</item>
-    <item>
+        <item>
         Galaxy J5</item>
-    <item>
+        <item>
         Galaxy J5 (2016)</item>
-    <item>
+        <item>
         Galaxy J5 Prime</item>
-    <item>
+        <item>
         Galaxy J7</item>
-    <item>
+        <item>
         Galaxy J7 (2016)</item>
-    <item>
+        <item>
         Galaxy J7 Prime</item>
-    <item>
+        <item>
         Galaxy K zoom</item>
-    <item>
+        <item>
         Galaxy Mega 2</item>
-    <item>
+        <item>
         Galaxy Mega 5.8</item>
-    <item>
+        <item>
         Galaxy Mega 6.3</item>
-    <item>
+        <item>
         Galaxy Mega Plus</item>
-    <item>
+        <item>
         Galaxy Music</item>
-    <item>
+        <item>
         Galaxy Note</item>
-    <item>
+        <item>
         Galaxy Note 3</item>
-    <item>
+        <item>
         Galaxy Note 3 Neo</item>
-    <item>
+        <item>
         Galaxy Note 4</item>
-    <item>
+        <item>
         Galaxy Note 4 Duos</item>
-    <item>
+        <item>
         Galaxy Note 4 S-LTE</item>
-    <item>
+        <item>
         Galaxy Note 5</item>
-    <item>
+        <item>
         Galaxy Note 5 Dual SIM</item>
-    <item>
+        <item>
         Galaxy Note Edge</item>
-    <item>
+        <item>
         Galaxy Note II</item>
-    <item>
+        <item>
         Galaxy Note7</item>
-    <item>
+        <item>
         Galaxy On Nxt</item>
-    <item>
+        <item>
         Galaxy On5</item>
-    <item>
+        <item>
         Galaxy On5 Pro</item>
-    <item>
+        <item>
         Galaxy On7</item>
-    <item>
+        <item>
         Galaxy On7 (2016)</item>
-    <item>
+        <item>
         Galaxy On7 Pro</item>
-    <item>
+        <item>
         Galaxy On8</item>
-    <item>
+        <item>
         Galaxy Pocket</item>
-    <item>
+        <item>
         Galaxy Pocket Neo</item>
-    <item>
+        <item>
         Galaxy Prevail LTE</item>
-    <item>
+        <item>
         Galaxy Round</item>
-    <item>
+        <item>
         Galaxy S</item>
-    <item>
+        <item>
         Galaxy S Advance</item>
-    <item>
+        <item>
         Galaxy S Duos</item>
-    <item>
+        <item>
         Galaxy S Duos 2</item>
-    <item>
+        <item>
         Galaxy S Duos 3</item>
-    <item>
+        <item>
         Galaxy S Duos 3-VE</item>
-    <item>
+        <item>
         Galaxy S II</item>
-    <item>
+        <item>
         Galaxy S II Plus</item>
-    <item>
+        <item>
         Galaxy S III</item>
-    <item>
+        <item>
         Galaxy S III mini Value Edition</item>
-    <item>
+        <item>
         Galaxy S III Neo</item>
-    <item>
+        <item>
         Galaxy S3 Neo</item>
-    <item>
+        <item>
         Galaxy S3 Slim</item>
-    <item>
+        <item>
         Galaxy S4</item>
-    <item>
+        <item>
         Galaxy S4 Active</item>
-    <item>
+        <item>
         Galaxy S4 Mini</item>
-    <item>
+        <item>
         Galaxy S4 mini plus</item>
-    <item>
+        <item>
         Galaxy S4 Value Edition</item>
-    <item>
+        <item>
         Galaxy S4 Zoom</item>
-    <item>
+        <item>
         Galaxy S5</item>
-    <item>
+        <item>
         Galaxy S5 Active</item>
-    <item>
+        <item>
         Galaxy S5 LTE-A</item>
-    <item>
+        <item>
         Galaxy S5 mini</item>
-    <item>
+        <item>
         Galaxy S5 Mini Duos</item>
-    <item>
+        <item>
         Galaxy S5 Neo</item>
-    <item>
+        <item>
         Galaxy S5 Plus</item>
-    <item>
+        <item>
         Galaxy S5 Sport</item>
-    <item>
+        <item>
         Galaxy S5-LTE</item>
-    <item>
+        <item>
         Galaxy S6</item>
-    <item>
+        <item>
         Galaxy S6 Active</item>
-    <item>
+        <item>
         Galaxy S6 Edge</item>
-    <item>
+        <item>
         Galaxy S6 Edge+</item>
-    <item>
+        <item>
         Galaxy S7</item>
-    <item>
+        <item>
         Galaxy S7 Active</item>
-    <item>
+        <item>
         Galaxy S7 Edge</item>
-    <item>
+        <item>
         Galaxy S8</item>
-    <item>
+        <item>
         Galaxy S8+</item>
-    <item>
+        <item>
         Galaxy Star</item>
-    <item>
+        <item>
         Galaxy Star 2</item>
-    <item>
+        <item>
         Galaxy Star Advance</item>
-    <item>
+        <item>
         Galaxy Star Pro</item>
-    <item>
+        <item>
         Galaxy Star Trios</item>
-    <item>
+        <item>
         Galaxy Tab 3 10.1 3G</item>
-    <item>
+        <item>
         Galaxy Trend</item>
-    <item>
+        <item>
         Galaxy Trend 3</item>
-    <item>
+        <item>
         Galaxy Trend Lite</item>
-    <item>
+        <item>
         Galaxy Wide</item>
-    <item>
+        <item>
         Galaxy Win</item>
-    <item>
+        <item>
         Galaxy Win 2 Duos</item>
-    <item>
+        <item>
         Galaxy Win Duos</item>
-    <item>
+        <item>
         Galaxy Win Pro</item>
-    <item>
+        <item>
         Galaxy Xcover 3</item>
-    <item>
+        <item>
         Galaxy Xcover 3 Value Edition</item>
-    <item>
+        <item>
         Galaxy Xcover 4</item>
-    <item>
+        <item>
         Galaxy Y</item>
-    <item>
+        <item>
         Galaxy Y CDMA</item>
-    <item>
+        <item>
         Galaxy Y Duos</item>
-    <item>
+        <item>
         Galaxy Y Duos Lite</item>
-    <item>
+        <item>
         Galaxy Y Plus</item>
-    <item>
+        <item>
         Galaxy Y Pro Duos</item>
-    <item>
+        <item>
         Galaxy Young</item>
-    <item>
+        <item>
         Galaxy Young 2</item>
     </string-array>
 
@@ -651,34 +654,34 @@
     <string-array name="sam_guru">
     <item>
         Guru 1200</item>
-    <item>
+        <item>
         Guru 1205</item>
-    <item>
+        <item>
         Guru Music 2</item>
     </string-array>
 
     <string-array name="sam_hero">
     <item>
         Hero</item>
-    <item>
+        <item>
         Hero Plus B159</item>
     </string-array>
 
     <string-array name="sam_metro">
     <item>
         Metro 2252</item>
-    <item>
+        <item>
         Metro 312</item>
-    <item>
+        <item>
         Metro B350E</item>
-    <item>
+        <item>
         Metro Duos</item>
     </string-array>
 
     <string-array name="sam_mpower">
     <item>
         Mpower Muzik 219</item>
-    <item>
+        <item>
         Mpower TV S239</item>
     </string-array>
 
@@ -699,7 +702,7 @@ Rex 70</item>
 Rex 80</item>
         <item>
 Rex 90</item>
-        </string-array>
+    </string-array>
 
 
     <string-array name="sam_w">
@@ -716,9 +719,9 @@ W789</item>
     <string-array name="sam_wave">
     <item>
         Wave 3</item>
-    <item>
+        <item>
         Wave M</item>
-    <item>
+        <item>
         Wave Y</item>
     </string-array>
 
@@ -740,6 +743,1061 @@ Z3</item>
         <item>
   Champ Neo Duos</item>
     </string-array>
+    <string-array name="nokia_other">
+        <item>N8-00</item>
+        <item>P1</item>
+        <item>100</item>
+        <item>101</item>
+        <item>105</item>
+        <item>105 (2015) Dual SIM</item>
+        <item>106</item>
+        <item>
+107</item>
+        <item>
+107 Dual SIM</item>
+        <item>
+108</item>
+        <item>
+108 Dual SIM</item>
+        <item>110</item>
+        <item>
+112</item>
+        <item>114</item>
+        <item>1280</item>
+        <item>130</item>
+        <item>130Dual SIM</item>
+        <item>15 (2015)</item>
+        <item>150</item>
+        <item>150 Dual SIM</item>
+        <item>206</item>
+        <item>206 Dual SIM</item>
+        <item>207</item>
+        <item>208</item>
+        <item>208 dual-SIM</item>
+        <item>215</item>
+        <item>215 Dual SIM</item>
+        <item>216 Dual SIM</item>
+        <item>220 Dual SIM</item>
+        <item>222</item>
+        <item>222 Dual SIM</item>
+        <item>225</item>
+        <item>225 Dual SIM</item>
+        <item>230</item>
+        <item>230 Dual SIM</item>
+        <item>3</item>
+        <item>301 Dual SIM</item>
+        <item>3310</item>
+        <item>3310 (2017)</item>
+        <item>5</item>
+        <item>500</item>
+        <item>515</item>
+        <item>6</item>
+        <item>603</item>
+        <item>700</item>
+        <item>701</item>
+        <item>8</item>
+        <item>808 PureView</item>
+        <item>9</item>
+    </string-array>
+
+
+    <string-array name="nokia_asha">
+        <item>Asha 200</item>
+        <item>Asha 201</item>
+        <item>Asha 202</item>
+        <item>Asha 205 Dual SIM</item>
+        <item>Asha 210</item>
+        <item>Asha 230 Dual SIM</item>
+        <item>Asha 300</item>
+        <item>Asha 302</item>
+        <item>Asha 303</item>
+        <item>Asha 305</item>
+        <item>Asha 306</item>
+        <item>Asha 308</item>
+        <item>Asha 309</item>
+        <item>Asha 310</item>
+        <item>Asha 311</item>
+        <item>Asha 500</item>
+        <item>Asha 501</item>
+        <item>Asha 502</item>
+        <item>Asha 503</item>
+    </string-array>
+
+
+    <string-array name="nokia_c">
+        <item>C1–01</item>
+        <item>C2–00</item>
+        <item>C2–01</item>
+        <item>C2–02</item>
+        <item>C2–03</item>
+        <item>C2–06</item>
+        <item>C3–00</item>
+        <item>C3–01</item>
+        <item>C5–00</item>
+        <item>C5–03</item>
+        <item>C5–05</item>
+        <item>C6–00</item>
+        <item>C6–01</item>
+    </string-array>
+
+    <string-array name="nokia_e">
+        <item>E1</item>
+        <item>E5–00</item>
+        <item>E6–00</item>
+        <item>E7–00</item>
+    </string-array>
+
+    <string-array name="nokia_lumina">
+        <item>Lumia 1020</item>
+        <item>Lumia 1320</item>
+        <item>Lumia 1520</item>
+        <item>Lumia 510</item>
+        <item>Lumia 520</item>
+        <item>Lumia 521</item>
+        <item>Lumia 525</item>
+        <item>Lumia 530</item>
+        <item>Lumia 530 Dual SIM</item>
+        <item>Lumia 610</item>
+        <item>Lumia 620</item>
+        <item>Lumia 625</item>
+        <item>Lumia 630</item>
+        <item>Lumia 630 Dual SIM</item>
+        <item>Lumia 635</item>
+        <item>Lumia 636</item>
+        <item>Lumia 638</item>
+        <item>Lumia 710</item>
+        <item>Lumia 720</item>
+        <item>Lumia 730 Dual SIM</item>
+        <item>Lumia 735</item>
+        <item>Lumia 800</item>
+        <item>Lumia 820</item>
+        <item>Lumia 830</item>
+        <item>Lumia 900</item>
+        <item>Lumia 920</item>
+        <item>Lumia 925</item>
+        <item>Lumia 930</item>
+        <item>Lumia Icon</item>
+    </string-array>
+
+
+    <string-array name="nokia_x">
+        <item>X Dual SIM</item>
+        <item>X+ Dual SIM</item>
+        <item>X1-01</item>
+        <item>X2 Dual SIM</item>
+        <item>X2-00</item>
+        <item>X2-01</item>
+        <item>X2-02</item>
+        <item>X3-02</item>
+        <item>X7-00</item>
+        <item>XL 4G</item>
+        <item>XL Dual SIM</item>
+    </string-array>
+
+    <string-array name="micro_lumia_dual">
+
+    <item>
+    Lumia 650 Dual SIM</item>
+        <item>
+    Lumia 950 XL Dual SIM</item>
+        <item>
+    Lumia 950 Dual SIM</item>
+        <item>
+    Lumia 430 Dual SIM</item>
+        <item>
+    Lumia 640 XL LTE Dual SIM</item>
+        <item>
+    Lumia 640 XL Dual SIM</item>
+        <item>
+    Lumia 640 Dual SIM</item>
+        <item>
+    Lumia 532 Dual SIM</item>
+        <item>
+    Lumia 540 Dual SIM</item>
+        <item>Lumia 535 Dual SIM</item>
+        <item>
+        Lumia 435 Dual SIM</item>
+
+    </string-array>
+    <string-array name="moto_defy">
+        <item>Defy Mini </item>
+        <item>Defy Plus </item>
+        <item>Defy XT </item>
+    </string-array>
+    <string-array name="moto_droid">
+    <item>
+Droid Maxx </item>
+        <item>
+Droid Maxx 2 </item>
+        <item>Droid Mini </item>
+        <item>Droid Turbo </item>
+        <item>Droid Turbo 2 </item>
+        <item>Droid Ultra </item>
+    </string-array>
+    <string-array name="moto_ex">
+        <item>EX109</item>
+        <item>EX119</item>
+        <item>EX212</item>
+        <item>EX226</item>
+    </string-array>
+
+    <string-array name="moto_e">
+        <item>Moto E </item>
+        <item>Moto E (Gen 2) </item>
+        <item>Moto E (Gen 2) 4G</item>
+        <item>Moto E3 </item>
+        <item>Moto E3 Power </item>
+        <item>Moto E4 </item>
+    </string-array>
+
+    <string-array name="moto_g">
+        <item>Moto G </item>
+        <item>Moto G (CDMA) </item>
+        <item> Moto G (Gen 2) </item>
+        <item>Moto G (Gen 2) LTE </item>
+        <item>Moto G (Gen 3) </item>
+        <item>Moto G 4G </item>
+        <item>Moto G Forte </item>
+        <item>Moto G Turbo Edition</item>
+        <item>Moto G4 </item>
+        <item>Moto G4 Play </item>
+        <item>Moto G4 Plus </item>
+        <item>Moto G5 </item>
+        <item>Moto G5 Plus</item>
+    </string-array>
+
+
+    <string-array name="moto_x">
+        <item>Moto X </item>
+        <item>Moto X (Gen 2)</item>
+        <item>Moto X Force</item>
+        <item>Moto X Play </item>
+        <item>Moto X Pro </item>
+        <item>Moto X Style </item>
+    </string-array>
+    <string-array name="moto_z">
+        <item>Moto Z </item>
+        <item>Moto Z</item>
+        <item> Moto Z Force</item>
+        <item>Moto Z Play </item>
+    </string-array>
+    <string-array name="moto_razr">
+        <item>Razr Maxx </item>
+        <item>Razr XT910 </item>
+    </string-array>
+
+
+    <string-array name="micro_lumia">
+<item>
+      Lumia 650</item>
+        <item>
+      Lumia 550</item>
+        <item>
+      Lumia 640 XL LTE</item>
+        <item>
+      Lumia 640 XL</item>
+        <item>
+      Lumia 640</item>
+        <item>
+      Lumia 532</item>
+        <item>
+      Lumia 950</item>
+        <item>
+      Lumia 950 XL</item>
+        <item>Lumia 535</item>
+
+    </string-array>
+
+    <string-array name="htc_10">
+        <item>  10 </item>
+        <item>10 evo </item>
+        <item>10 Lifestyle </item>
+    </string-array>
+
+
+    <string-array name="htc_bfly">
+        <item>Butterfly </item>
+        <item>Butterfly 2 </item>
+        <item>vButterfly 3 </item>
+        <item>Butterfly S </item>
+        <item>J Butterfly </item>
+        <item>J Butterfly (HTV31) </item>
+    </string-array>
+
+    <string-array name="htc_desire">
+        <item>Desire 10 Lifestyle </item>
+        <item>Desire 10 Pro </item>
+        <item>Desire 200 </item>
+        <item>Desire 210 Dual SIM </item>
+        <item>Desire 300 </item>
+        <item>Desire 310 </item>
+        <item>Desire 316 </item>
+        <item>Desire 320 </item>
+        <item>Desire 326G Dual SIM </item>
+        <item>Desire 400 dual-SIM </item>
+        <item>Desire 500 </item>
+        <item>Desire 501 dual-sim </item>
+        <item>Desire 510 </item>
+        <item>Desire 516 Dual SIM </item>
+        <item>Desire 516C </item>
+        <item>Desire 520 </item>
+        <item>Desire 526 </item>
+        <item>Desire 526G+ Dual SIM </item>
+        <item>Desire 530 </item>
+        <item>Desire 600 </item>
+        <item>Desire 600 C </item>
+        <item>Desire 601 </item>
+        <item>Desire 601 dual-SIM </item>
+        <item>Desire 610 </item>
+        <item>Desire 616 Dual SIM </item>
+        <item>Desire 620 Dual SIM </item>
+        <item>Desire 620G Dual SIM </item>
+        <item>Desire 626 </item>
+        <item>Desire 626 (US) </item>
+        <item>Desire 626 Dual SIM </item>
+        <item>Desire 626G+ Dual SIM </item>
+        <item>Desire 626s </item>
+        <item>Desire 628 Dual SIM </item>
+        <item>Desire 630 </item>
+        <item>Desire 650 </item>
+        <item>Desire 700 dual-SIM </item>
+        <item>Desire 7060 </item>
+        <item>Desire 7088 </item>
+        <item>Desire 709d </item>
+        <item>Desire 728 Dual SIM </item>
+        <item>Desire 728G Dual SIM </item>
+        <item>Desire 816 </item>
+        <item>Desire 816G </item>
+        <item>Desire 816G (205) </item>
+        <item>Desire 820 </item>
+        <item>Desire 820G+ Dual SIM </item>
+        <item>Desire 820q </item>
+        <item>Desire 820s </item>
+        <item>Desire 825 </item>
+        <item>Desire 826 </item>
+        <item>Desire 826 Dual SIM </item>
+        <item>Desire 828 Dual SIM </item>
+        <item>Desire 830 </item>
+        <item>Desire C </item>
+        <item>Desire Eye </item>
+        <item>Desire L </item>
+        <item>Desire P </item>
+        <item>Desire Q </item>
+        <item>Desire SV </item>
+        <item>Desire U </item>
+        <item>Desire V </item>
+        <item>Desire VC </item>
+        <item>Desire X </item>
+        <item>Desire XC </item>
+        <item>Desire XDS </item>
+    </string-array>
+
+    <string-array name="htc_one">
+        <item>One </item>
+        <item>One (E8) </item>
+        <item>One (E8) Dual SIM </item>
+        <item>One (M8 Eye) </item>
+        <item>One (M8) </item>
+        <item>One (M8) Dual SIM </item>
+        <item>One (M8) for Windows </item>
+        <item>One A9 </item>
+        <item>One A9s </item>
+        <item>One dual SIM </item>
+        <item>One E9 </item>
+        <item>One E9+ </item>
+        <item>One E9+ Dual SIM </item>
+        <item>One E9s Dual SIM </item>
+        <item>One M8s </item>
+        <item>One M9 </item>
+        <item>One M9 Prime Camera Edition </item>
+        <item>One M9+ </item>
+        <item>One M9+ Prime Camera Edition </item>
+        <item>One M9+ SupremeCamera </item>
+        <item>One M9e </item>
+        <item>One M9s </item>
+        <item>One Max </item>
+        <item>One ME Dual SIM </item>
+        <item>One mini </item>
+        <item>One mini 2 </item>
+        <item>One S </item>
+        <item>One S9 </item>
+        <item>One V </item>
+        <item>One X </item>
+        <item>One X+ </item>
+        <item>One X10 </item>
+        <item>One X9 </item>
+    </string-array>
+    <string-array name="htc_u">
+        <item>U Play </item>
+        <item>U Ultra </item>
+    </string-array>
+
+
+    <string-array name="google_p">
+        <item>Pixel </item>
+        <item>Pixel XL </item>
+    </string-array>
+
+    Xiaomi:
+
+
+    <string-array name="xia_mi">
+        <item>Mi 3 </item>
+        <item>Mi 4 </item>
+        <item>Mi 4c </item>
+        <item>Mi 4i </item>
+        <item>Mi 4S </item>
+        <item>Mi 5 </item>
+        <item>Mi 5c </item>
+        <item>Mi 5s </item>
+        <item>Mi 5s Plus </item>
+        <item>Mi 6 </item>
+        <item>Mi 6 Plus </item>
+        <item>Mi Max </item>
+        <item>Mi Max Prime </item>
+        <item>Mi MIX </item>
+        <item>Mi Note </item>
+        <item>Mi Note 2 </item>
+        <item>Mi Note Natural Bamboo Edition </item>
+        <item>Mi Note Pro </item>
+        <item>MI-1s </item>
+        <item>MI-2 </item>
+        <item>MI2A </item>
+        <item>MI2S </item>
+    </string-array>
+
+    <string-array name="xia_redmi">
+        <item>Redmi 1S </item>
+        <item>Redmi 2 </item>
+        <item>Redmi 2 Prime </item>
+        <item>Redmi 2A </item>
+        <item>Redmi 3 </item>
+        <item>Redmi 3S </item>
+        <item>Redmi 3S Plus </item>
+        <item>Redmi 3S Prime </item>
+        <item>Redmi 3X </item>
+        <item>Redmi 4 </item>
+        <item>Redmi 4 Prime </item>
+        <item>Redmi 4A </item>
+        <item>Redmi 4X </item>
+        <item>Redmi Note </item>
+        <item>Redmi Note 2 </item>
+        <item>Redmi Note 2 Prime </item>
+        <item>Redmi Note 3 </item>
+        <item>Redmi Note 4 </item>
+        <item>Redmi Note 4G </item>
+        <item>Redmi Note 4X </item>
+        <item>Redmi Note Prime </item>
+        <item>Redmi Pro </item>
+    </string-array>
+    <string-array name="zte_axon">
+        <item>Axon </item>
+        <item>Axon 7 </item>
+        <item>Axon 7 Max </item>
+        <item>Axon 7 mini </item>
+        <item>Axon Elite </item>
+        <item>Axon Lux </item>
+        <item>Axon Max </item>
+        <item>Axon Mini </item>
+    </string-array>
+
+    <string-array name="zte_blade">
+        <item>Blade A1 </item>
+        <item>Blade A2 </item>
+        <item>Blade A2 Plus </item>
+        <item>Blade A910 </item>
+        <item>Blade C </item>
+        <item>Blade D Lux </item>
+        <item>Blade D2 </item>
+        <item>Blade D6 </item>
+        <item>Blade E </item>
+        <item>Blade G2 </item>
+        <item>Blade L </item>
+        <item>Blade L3 </item>
+        <item>Blade L5 Plus </item>
+        <item>Blade Q </item>
+        <item>Blade Q Maxi </item>
+        <item>Blade Q Mini </item>
+        <item>Blade Qlux 4G </item>
+        <item>Blade S6 </item>
+        <item>Blade S6 Lux </item>
+        <item>Blade S6 Plus </item>
+        <item>Blade S7 </item>
+        <item>Blade V580 </item>
+        <item>Blade V6 </item>
+        <item>Blade V7 </item>
+        <item>Blade V7 Lite </item>
+        <item>Blade V7 Max </item>
+        <item>Blade V8 </item>
+        <item>Blade V8 Lite </item>
+        <item>Blade V8 Mini </item>
+        <item>Blade V8 Pro </item>
+        <item>Blade Vec 3G </item>
+        <item>Blade Vec 4G </item>
+        <item>Blade X3 </item>
+        <item>Blade X5 </item>
+        <item>Blade X9 </item>
+    </string-array>
+
+    <string-array name="zte_grand">
+        <item>Grand Memo II LTE </item>
+        <item>Grand S Flex </item>
+        <item>Grand S II </item>
+        <item>Grand S3 </item>
+        <item>Grand X 3 </item>
+        <item>Grand X Max+ </item>
+        <item>Grand X Quad Lite </item>
+        <item>Grand XMax </item>
+    </string-array>
+
+
+    <string-array name="zte_kis">
+        <item>Kis 3 Maxv </item>
+        <item>Kis Flexv</item>
+    </string-array>
+
+    <string-array name="zte_nubia">
+        <item>Nubia M2 </item>
+        <item>Nubia M2 Lite </item>
+        <item>Nubia My Prague </item>
+        <item>Nubia N1 </item>
+        <item>Nubia N1 lite </item>
+        <item>Nubia N2 </item>
+        <item>Nubia Prague S </item>
+        <item>Nubia X6 </item>
+        <item>Nubia Z11 </item>
+        <item>Nubia Z11 Max </item>
+        <item>Nubia Z11 mini </item>
+        <item>Nubia Z11 mini S </item>
+        <item>Nubia Z17 mini </item>
+        <item>Nubia Z7 </item>
+        <item>Nubia Z7 Max </item>
+        <item>Nubia Z7 mini </item>
+        <item>Nubia Z9 Classic </item>
+        <item>Nubia Z9 Elite </item>
+        <item>Nubia Z9 Exclusive </item>
+        <item>Nubia Z9 Max </item>
+        <item>Nubia Z9 min </item>
+    </string-array>
+
+    <string-array name="zte_open">
+        <item>Open </item>
+        <item>Open C </item>
+        <item>Open II </item>
+    </string-array>
+
+    <string-array name="zte_star">
+        <item>Star 1 </item>
+        <item>Star 2 </item>
+    </string-array>
+
+    <string-array name="zte_v">
+        <item>V3 Energy Edition </item>
+        <item>V3 Extreme Edition </item>
+        <item>V3 Youth Edition </item>
+        <item>V5 </item>
+    </string-array>
+
+    <string-array name="zte_zmax">
+        <item>ZMax </item>
+        <item>Zmax 2 </item>
+        <item>ZMax Pro </item>
+    </string-array>
+
+    <string-array name="tcl_a">
+        <item>A3 </item>
+        <item>A3 XL </item>
+        <item>A5 LED </item>
+    </string-array>
+
+    <string-array name="tcl_flash">
+        <item>Flash </item>
+        <item>Flash 2 </item>
+    </string-array>
+
+    <string-array name="tcl_idol">
+        <item>Idol 4 </item>
+        <item>Idol 4S </item>
+        <item>Idol 4S (Windows 10) </item>
+        <item>One Touch Idol </item>
+        <item>One Touch Idol 2 </item>
+        <item>One Touch Idol 2 Mini </item>
+        <item>One Touch Idol 3 (4.7) </item>
+        <item>One Touch Idol 3 (5.5) </item>
+        <item>One Touch Idol 3C </item>
+        <item>One Touch Idol ALPHA </item>
+        <item>One Touch Idol Mini </item>
+        <item>One Touch Idol S </item>
+        <item>One Touch Idol Ultra </item>
+        <item>One Touch Idol X </item>
+        <item>One Touch Idol X+ </item>
+    </string-array>
+
+    <string-array name="tcl_fire">
+        <item>One Touch Fire C </item>
+        <item>One Touch Fire E </item>
+        <item>One Touch Fire S </item>
+    </string-array>
+
+
+    <string-array name="tcl_hero">
+        <item>One Touch Hero </item>
+        <item>One Touch Hero 2 </item>
+        <item>One Touch Hero 2+ </item>
+        <item>One Touch Hero 2C </item>
+    </string-array>
+
+
+    <string-array name="tcl_pixi">
+        <item>Pixi 4 (5) </item>
+        <item>Pixi 4 Plus Power </item>
+        <item>One Touch Pixi 3 (5.5) 3G </item>
+        <item>One Touch Pixi 3 (5.5) 4G </item>
+        <item>One Touch Pixi 4 (3.5) </item>
+        <item>One Touch Pixi 4 (4) </item>
+        <item>One Touch Pixi 4 (6) </item>
+        <item>One Touch Pixi First </item>
+    </string-array>
+
+    <string-array name="tcl_pop">
+        <item>Pop 4 </item>
+        <item>Pop 4+ </item>
+        <item>Pop 4S </item>
+        <item>Pop Star</item>
+        <item>One Touch Pop 2 (4.5) </item>
+        <item>One Touch Pop 2 (4) </item>
+        <item>One Touch Pop 2 (4) Dual-SIM </item>
+        <item>One Touch Pop 2 (5) </item>
+        <item>One Touch Pop 2 (5) Dual-SIM </item>
+        <item>One Touch Pop 2 (5) NFC </item>
+        <item>One Touch Pop 2 (5) Premium Edition </item>
+        <item>One Touch Pop Astro </item>
+        <item>One Touch Pop C1 </item>
+        <item>One Touch Pop C3 </item>
+        <item>One Touch Pop C5 </item>
+        <item>One Touch Pop C7 </item>
+        <item>One Touch POP C9 </item>
+        <item>One Touch Pop Fit </item>
+        <item>One Touch Pop S3 </item>
+        <item>One Touch Pop S7 </item>
+        <item>One Touch Pop S9 </item>
+        <item>One Touch Pop Star </item>
+        <item>One Touch Pop Star LTE </item>
+        <item>One Touch Pop Up </item>
+    </string-array>
+
+    <string-array name="tcl_ot">
+        <item>One Touch 20.05 </item>
+        <item>One Touch Fierce XL </item>
+        <item>One Touch Fire C </item>
+        <item>One Touch Fire E </item>
+        <item>One Touch Fire S </item>
+        <item>One Touch Flash </item>
+        <item>One Touch Go Play </item>
+        <item>One Touch Hero </item>
+        <item>One Touch Hero 2 </item>
+        <item>One Touch Hero 2+ </item>
+        <item>One Touch Hero 2C </item>
+        <item>One Touch Idol </item>
+        <item>One Touch Idol 2 </item>
+        <item>One Touch Idol 2 Mini </item>
+        <item>One Touch Idol 3 (4.7) </item>
+        <item>One Touch Idol 3 (5.5) </item>
+        <item>One Touch Idol 3C </item>
+        <item>One Touch Idol ALPHA </item>
+        <item>One Touch Idol Mini </item>
+        <item>One Touch Idol S </item>
+        <item>One Touch Idol Ultra </item>
+        <item>One Touch Idol X </item>
+        <item>One Touch Idol X+ </item>
+        <item>One Touch Pixi 3 (5.5) 3G </item>
+        <item>One Touch Pixi 3 (5.5) 4G </item>
+        <item>One Touch Pixi 4 (3.5) </item>
+        <item>One Touch Pixi 4 (4) </item>
+        <item>One Touch Pixi 4 (6) </item>
+        <item>One Touch Pixi First </item>
+        <item>One Touch Pop 2 (4.5) </item>
+        <item>One Touch Pop 2 (4) </item>
+        <item>One Touch Pop 2 (4) Dual-SIM </item>
+        <item>One Touch Pop 2 (5) </item>
+        <item>One Touch Pop 2 (5) Dual-SIM </item>
+        <item>One Touch Pop 2 (5) NFC </item>
+        <item>One Touch Pop 2 (5) Premium Edition </item>
+        <item>One Touch Pop Astro </item>
+        <item>One Touch Pop C1 </item>
+        <item>One Touch Pop C3 </item>
+        <item>One Touch Pop C5 </item>
+        <item>One Touch Pop C7 </item>
+        <item>One Touch POP C9 </item>
+        <item>One Touch Pop Fit </item>
+        <item>One Touch Pop S3 </item>
+        <item>One Touch Pop S7 </item>
+        <item>One Touch Pop S9 </item>
+        <item>One Touch Pop Star </item>
+        <item>One Touch Pop Star LTE </item>
+        <item>One Touch Tribe 3040 </item>
+        <item>One Touch Pop Up </item>
+    </string-array>
+
+
+    <string-array name="lg_cookie">
+        <item>Cookie </item>
+        <item>Cookie Tweet C375 </item>
+    </string-array>
+
+    <string-array name="lg_e">
+        <item>E510 </item>
+        <item>E730 </item>
+    </string-array>
+
+    <string-array name="lg_f">
+        <item>F60 </item>
+        <item>F70 </item>
+        <item>Fx0 </item>
+    </string-array>
+
+    <string-array name="lg_g">
+        <item>G Flex </item>
+        <item>G Flex2 </item>
+        <item>G Pro 2 </item>
+        <item>G Pro Lite </item>
+        <item>G Stylo </item>
+        <item>G Vista </item>
+        <item>G Vista 2 </item>
+        <item>G2 </item>
+        <item>G2 Lite </item>
+        <item>G2 mini </item>
+        <item>G3 </item>
+        <item>G3 A </item>
+        <item>G3 Beat </item>
+        <item>G3 Cat.6 </item>
+        <item>G3 D858 </item>
+        <item>G3 Dual-LTE </item>
+        <item>G3 Screen </item>
+        <item>G3 Stylus </item>
+        <item>G4 </item>
+        <item>G4 Beat </item>
+        <item>G4 Dual SIM (Dual LTE) </item>
+        <item>G4 Stylus </item>
+        <item>G4 Stylus 3G </item>
+        <item>G4c </item>
+        <item>G5 </item>
+        <item>G5 SE </item>
+        <item>G6 </item>
+        <item>Gx </item>
+        <item>Gx2 </item>
+    </string-array>
+
+
+    <string-array name="lg_nexus">
+        <item>Google Nexus 5 </item>
+        <item>Google Nexus 5X </item>
+        <item>Nexus 4 </item>
+    </string-array>
+
+
+    <string-array name="lg_isai">
+        <item>isai FL </item>
+        <item>isai VL </item>
+    </string-array>
+
+    <string-array name="lg_joy">
+        <item>Joy </item>
+        <item>Joy LTE </item>
+    </string-array>
+
+    <string-array name="lg_k">
+        <item>K10 </item>
+        <item>K10 (2017) </item>
+        <item>K10 LTE </item>
+        <item>K3 </item>
+        <item>K3 (2017) </item>
+        <item>K4 </item>
+        <item>K4 (2017) </item>
+        <item>K5 </item>
+        <item>K7 </item>
+        <item>K7 LTE </item>
+        <item>K8 </item>
+        <item>K8 (2017) </item>
+    </string-array>
+
+    <string-array name="lg_l">
+        <item>L Bello </item>
+        <item>L Fino </item>
+        <item>L Prime </item>
+        <item>L35 </item>
+        <item>L40 </item>
+        <item>L45 Dual </item>
+        <item>L60 Dual </item>
+        <item>L65 Dual </item>
+        <item>L70 </item>
+        <item>L70 Dual </item>
+        <item>L80 </item>
+        <item>L80 Dual </item>
+        <item>L90 </item>
+        <item>L90 Dual </item>
+    </string-array>
+
+
+    <string-array name="lg_leon">
+        <item>Leon </item>
+        <item>Leon LTE </item>
+    </string-array>
+
+    <string-array name="lg_lucid">
+        <item>Lucid 2 </item>
+        <item>Lucid 3 </item>
+    </string-array>
+
+    <string-array name="lg_magna">
+        <item>Magna </item>
+        <item>Magna LTE </item>
+    </string-array>
+
+    <string-array name="lg_optimus">
+        <item>Optimus 3D </item>
+        <item>Optimus 4X HD </item>
+        <item>Optimus G </item>
+        <item>Optimus G Pro </item>
+        <item>Optimus it </item>
+        <item>Optimus L1 II </item>
+        <item>Optimus L1 II Dual </item>
+        <item>Optimus L1 II TRI </item>
+        <item>Optimus L3 </item>
+        <item>Optimus L3 Dual </item>
+        <item>Optimus L3 II Dual </item>
+        <item>Optimus L3II </item>
+        <item>Optimus L4 II </item>
+        <item>Optimus L4 II Dual </item>
+        <item>Optimus L5 </item>
+        <item>Optimus L5 Dual </item>
+        <item>Optimus L5II </item>
+        <item>Optimus L5II Dual </item>
+        <item>Optimus L7 </item>
+        <item>Optimus L7 II </item>
+        <item>Optimus L7 II Dual </item>
+        <item>Optimus L9 </item>
+        <item>Optimus L9 II </item>
+        <item>Optimus Link Dual </item>
+        <item>Optimus Net P690 </item>
+        <item>Optimus Vu </item>
+    </string-array>
+
+
+    <string-array name="lg_spirit">
+        <item>Spirit </item>
+        <item>Spirit LTE </item>
+    </string-array>
+
+    <string-array name="lg_stylus">
+        <item>Stylus 2 </item>
+        <item>Stylus 2 Plus </item>
+        <item>Stylus 3 </item>
+    </string-array>
+
+    <string-array name="lg_t">
+        <item>T375 </item>
+        <item>T500 </item>
+    </string-array>
+
+
+    <string-array name="lg_v">
+        <item>V10 </item>
+        <item>V20 </item>
+        <item>V34 </item>
+    </string-array>
+
+
+    <string-array name="lg_wine">
+        <item>Wine Smart </item>
+        <item>Wine Smart (2015) </item>
+    </string-array>
+
+    <string-array name="lg_x">
+        <item>X cam </item>
+        <item>X Power </item>
+        <item>X power2 </item>
+        <item>X screen </item>
+        <item>X Skin </item>
+        <item>X Style </item>
+        <item>X View </item>
+        <item>X300 </item>
+        <item>X400 </item>
+        <item>X5 </item>
+    </string-array>
+
+
+    <string-array name="lenovo_a">
+        <item>A Plus </item>
+        <item>A1000 </item>
+        <item>A1900 </item>
+        <item>A2010 </item>
+        <item>A269i </item>
+        <item>A328 </item>
+        <item>A369i </item>
+        <item>A390 </item>
+        <item>A3900 </item>
+        <item>A5000 </item>
+        <item>A516 </item>
+        <item>A526 </item>
+        <item>A536 </item>
+        <item>A60 </item>
+        <item>A6000 </item>
+        <item>A6000 Plus </item>
+        <item>A6000 Shot </item>
+        <item>A628T </item>
+        <item>A6600 </item>
+        <item>A6600 Plus </item>
+        <item>A690 </item>
+        <item>A7000 </item>
+        <item>A7000 Plus </item>
+        <item>A7000 Turbo </item>
+        <item>A706 </item>
+        <item>A7700 </item>
+        <item>A800 </item>
+        <item>A805e </item>
+        <item>A850 </item>
+        <item>A859 </item>
+    </string-array>
+
+    <string-array name="lenovo_k">
+        <item>K3 </item>
+        <item>K3 Note </item>
+        <item>K3 Note Music </item>
+        <item>K5 Note </item>
+        <item>K6 </item>
+        <item>K6 Note </item>
+        <item>K6 Power </item>
+        <item>K80 </item>
+        <item>K860 </item>
+        <item>K900 </item>
+    </string-array>
+
+
+    <string-array name="lenovo_p">
+        <item>P2 </item>
+        <item>P70 </item>
+        <item>P700i </item>
+        <item>P770 </item>
+        <item>P780 </item>
+        <item>P90 </item>
+    </string-array>
+
+    <string-array name="lenovo_phab">
+        <item>Phab </item>
+        <item>Phab 2 </item>
+        <item>Phab 2 Plus </item>
+        <item>Phab 2 Pro </item>
+        <item>Phab Plus </item>
+    </string-array>
+
+
+    <string-array name="lenovo_s">
+        <item>S560 </item>
+        <item>S580 </item>
+        <item>S60 </item>
+        <item>S650 </item>
+        <item>S660 </item>
+        <item>S720 </item>
+        <item>S820 </item>
+        <item>S850 </item>
+        <item>S860 </item>
+        <item>S880 </item>
+        <item>S890 </item>
+        <item>S920 </item>
+        <item>S930 </item>
+    </string-array>
+
+    <string-array name="lenovo_vibe">
+        <item>Vibe A </item>
+        <item>Vibe B </item>
+        <item>Vibe C </item>
+        <item>Vibe C2 </item>
+        <item>Vibe C2 Power </item>
+        <item>Vibe K4 Note </item>
+        <item>Vibe K5 </item>
+        <item>Vibe K5 Note </item>
+        <item>Vibe K5 Plus </item>
+        <item>Vibe P1 </item>
+        <item>Vibe P1 Turbo </item>
+        <item>Vibe P1m </item>
+        <item>Vibe S1 </item>
+        <item>Vibe S1 Lite </item>
+        <item>Vibe Shot </item>
+        <item>Vibe X </item>
+        <item>Vibe X2 </item>
+        <item>Vibe X2 Pro </item>
+        <item>Vibe X3 </item>
+        <item>Vibe X3 (Youth) </item>
+        <item>Vibe Z </item>
+        <item>Vibe Z2 </item>
+        <item>Vibe Z2 Pro </item>
+    </string-array>
+
+
+    <string-array name="lenovo_zuk">
+        <item>Zuk Z1 </item>
+        <item>Zuk Z2 </item>
+    </string-array>
+    <string-array name="tcl_ot_fire">
+        <item>One Touch Fire C </item>
+        <item>One Touch Fire E </item>
+        <item>One Touch Fire S </item>
+    </string-array>
+
+
+    <string-array name="tcl_ot_hero">
+        <item>One Touch Hero </item>
+        <item>One Touch Hero 2 </item>
+        <item>One Touch Hero 2+ </item>
+        <item>One Touch Hero 2C </item>
+    </string-array>
+    <string-array name="tcl_ot_idol">
+        <item>One Touch Idol </item>
+        <item>One Touch Idol 2 </item>
+        <item>One Touch Idol 2 Mini </item>
+        <item>One Touch Idol 3 (4.7) </item>
+        <item>One Touch Idol 3 (5.5) </item>
+        <item>One Touch Idol 3C </item>
+        <item>One Touch Idol ALPHA </item>
+        <item>One Touch Idol Mini </item>
+        <item>One Touch Idol S </item>
+        <item>One Touch Idol Ultra </item>
+        <item>One Touch Idol X </item>
+        <item>One Touch Idol X+ </item>
+    </string-array>
+    <string-array name="tcl_ot_pixi">
+        <item>One Touch Pixi 3 (5.5) 3G </item>
+        <item>One Touch Pixi 3 (5.5) 4G </item>
+        <item>One Touch Pixi 4 (3.5) </item>
+        <item>One Touch Pixi 4 (4) </item>
+        <item>One Touch Pixi 4 (6) </item>
+        <item>One Touch Pixi First </item>
+    </string-array>
+    <string-array name="tcl_ot_pop">
+        <item>One Touch Pop 2 (4.5) </item>
+        <item>One Touch Pop 2 (4) </item>
+        <item>One Touch Pop 2 (4) Dual-SIM </item>
+        <item>One Touch Pop 2 (5) </item>
+        <item>One Touch Pop 2 (5) Dual-SIM </item>
+        <item>One Touch Pop 2 (5) NFC </item>
+        <item>One Touch Pop 2 (5) Premium Edition </item>
+        <item>One Touch Pop Astro </item>
+        <item>One Touch Pop C1 </item>
+        <item>One Touch Pop C3 </item>
+        <item>One Touch Pop C5 </item>
+        <item>One Touch Pop C7 </item>
+        <item>One Touch POP C9 </item>
+        <item>One Touch Pop Fit </item>
+        <item>One Touch Pop S3 </item>
+        <item>One Touch Pop S7 </item>
+        <item>One Touch Pop S9 </item>
+    </string-array>
+    <string-array name="tcl_ot_star">
+        <item>One Touch Pop Star </item>
+        <item>One Touch Pop Star LTE </item>
+    </string-array>
+    <string name="title_activity_model_tcl_pp">model_tcl_pp</string>
 
 
 </resources>

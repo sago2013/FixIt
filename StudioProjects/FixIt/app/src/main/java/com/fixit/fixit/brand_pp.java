@@ -150,6 +150,24 @@ public class brand_pp extends AppCompatActivity {
         Intent i = new Intent(brand_pp.this,model_huawei_p.class);
         startActivity(i);
     }
+    public void ch_tcl(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "tcl");
+        editor.apply();
+        Toast.makeText(this, "Brand: TCL ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_tcl_p.class);
+        startActivity(i);
+    }
 
 
+    public void ch_lenovo_p(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Lenovo");
+        editor.apply();
+        Toast.makeText(this, "Brand: Lenovo ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_lenovo_p.class);
+        startActivity(i);
+    }
 }

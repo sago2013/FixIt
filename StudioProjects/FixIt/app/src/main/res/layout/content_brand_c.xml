@@ -52,7 +52,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/bg_acer"
                 android:padding="10dp" />
-            w
+
             <Button
                 android:layout_width="300dp"
                 android:layout_height="80dp"

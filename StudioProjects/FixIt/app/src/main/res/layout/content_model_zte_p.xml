@@ -31,8 +31,176 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_i7"
-                android:background="@drawable/bg_i7"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_avid"
+                android:background="@drawable/backgroundforcards"
+                android:text="Avid Plus"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_axon"
+                android:background="@drawable/backgroundforcards"
+                android:text="Axon"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_blade"
+                android:background="@drawable/backgroundforcards"
+                android:text="Blade"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_t"
+                android:background="@drawable/backgroundforcards"
+                android:text="CYMBAL-T"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_geek"
+                android:background="@drawable/backgroundforcards"
+                android:text="Geek"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_grand"
+                android:background="@drawable/backgroundforcards"
+                android:text="Grand"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_hawkeye"
+                android:background="@drawable/backgroundforcards"
+                android:text="Hawkeye"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_kis"
+                android:background="@drawable/backgroundforcards"
+                android:text="Kis"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_nubia"
+                android:background="@drawable/backgroundforcards"
+                android:text="Nubia"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_n"
+                android:background="@drawable/backgroundforcards"
+                android:text="N919D"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_open"
+                android:background="@drawable/backgroundforcards"
+                android:text="Open"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_q"
+                android:background="@drawable/backgroundforcards"
+                android:text="Q519T"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_small"
+                android:background="@drawable/backgroundforcards"
+                android:text="Small Fresh 4 "
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_speed"
+                android:background="@drawable/backgroundforcards"
+                android:text="Speed"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_star"
+                android:background="@drawable/backgroundforcards"
+                android:text="Star"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_v"
+                android:background="@drawable/backgroundforcards"
+                android:text="V"
+                android:textSize="40sp"
                 android:padding="10dp" />
 
             <Button
@@ -40,53 +208,22 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_i6p"
-                android:background="@drawable/bg_i6p"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_i6s"
-                android:background="@drawable/bg_i6s"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_zinger"
+                android:background="@drawable/backgroundforcards"
+                android:text="Zinger"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_i5c"
-                android:background="@drawable/bg_5c"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_i5"
-                android:background="@drawable/bg_i5"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_i4s"
-                android:background="@drawable/bg_i4s"
-                android:padding="10dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_i4"
-                android:background="@drawable/bg_i4"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_zte_zmax"
+                android:background="@drawable/backgroundforcards"
+                android:text="Zmax"
+                android:textSize="40sp"
                 android:padding="10dp" />
         </LinearLayout>
 

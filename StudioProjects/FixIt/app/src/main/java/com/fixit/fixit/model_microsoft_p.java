@@ -1,12 +1,14 @@
 package com.fixit.fixit;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Toast;
 
 public class model_microsoft_p extends AppCompatActivity {
 
@@ -38,5 +40,26 @@ public class model_microsoft_p extends AppCompatActivity {
             }
         });
     }
+    public void ch_micro_lumia(View view){
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model_spec", "micro_lumia");
+        editor.apply();
+        Toast.makeText(this, "Lumia", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_microsoft_p.this,model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_micro_lumia_dual(View view){
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model_spec", "micro_lumia_dual");
+        editor.apply();
+        Toast.makeText(this, "Lumia duel", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_microsoft_p.this,model_specific_list.class);
+        startActivity(i);
+    }
+
+
 
 }
