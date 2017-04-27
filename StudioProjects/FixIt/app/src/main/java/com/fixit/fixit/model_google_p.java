@@ -39,4 +39,5 @@ public class model_google_p extends AppCompatActivity {
         });
     }
 
+
 }

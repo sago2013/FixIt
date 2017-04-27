@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.fixit.fixit.model_motolenovo_p"
-    tools:showIn="@layout/activity_model_motolenovo_p"
+    tools:context="com.fixit.fixit.model_lenovo_p"
+    tools:showIn="@layout/activity_model_lenovo_p"
     android:background="@drawable/newbackgroun">
     <ScrollView
         android:layout_width="match_parent"
@@ -25,28 +25,15 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="100dp"
             android:orientation="vertical">
-
             <Button
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
-                android:onClick="ch_moto_atrix"
+                android:onClick="ch_lenovo_a"
                 android:background="@drawable/backgroundforcards"
-                android:text="Atrix 2"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_moto_defy"
-                android:background="@drawable/backgroundforcards"
-                android:text="Defy"
-                android:fontFamily="sans-serif-smallcaps"
+                android:text="A"
                 android:textSize="40sp"
                 android:padding="10dp" />
 
@@ -56,10 +43,10 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_moto_droid"
                 android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_lenovo_k"
                 android:background="@drawable/backgroundforcards"
-                android:text="Droid"
+                android:text="K"
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
@@ -68,134 +55,9 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
-                android:onClick="ch_moto_ex"
+                android:onClick="ch_lenovo_lemon"
                 android:background="@drawable/backgroundforcards"
-                android:text="EX"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_moto_fire"
-                android:background="@drawable/backgroundforcards"
-                android:text="Fire XT "
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_moto_nexus"
-                android:fontFamily="sans-serif-smallcaps"
-                android:background="@drawable/backgroundforcards"
-                android:text="Google Nexus 6"
-                android:textSize="35sp"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:onClick="ch_moto_milestone"
-                android:background="@drawable/backgroundforcards"
-                android:text="Milestone XT800"
-                android:textSize="30sp"
-                android:padding="10dp" />
-
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_moto_c"
-                android:background="@drawable/backgroundforcards"
-                android:text="Moto C"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_moto_e"
-                android:background="@drawable/backgroundforcards"
-                android:text="Moto E"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_moto_g"
-                android:background="@drawable/backgroundforcards"
-                android:text="Moto G"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_moto_m"
-                android:fontFamily="sans-serif-smallcaps"
-                android:background="@drawable/backgroundforcards"
-                android:text="Moto M"
-                android:textSize="40sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_moto_max"
-                android:fontFamily="sans-serif-smallcaps"
-                android:background="@drawable/backgroundforcards"
-                android:text="Moto Maxx"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_moto_turbo"
-                android:background="@drawable/backgroundforcards"
-                android:text="Moto Turbo"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_moto_x"
-                android:fontFamily="sans-serif-smallcaps"
-                android:background="@drawable/backgroundforcards"
-                android:text="Moto X"
+                android:text="Lemon 3"
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
@@ -204,26 +66,89 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
-                android:onClick="ch_moto_z"
+                android:onClick="ch_lenovo_p"
                 android:background="@drawable/backgroundforcards"
-                android:text="Moto Z"
+                android:text="P"
                 android:textSize="40sp"
                 android:padding="10dp" />
-
             <Button
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_moto_razr"
-                android:background="@drawable/backgroundforcards"
-                android:text="Razr"
                 android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_lenovo_phab"
+                android:background="@drawable/backgroundforcards"
+                android:text="Phab"
                 android:textSize="40sp"
                 android:padding="10dp" />
-
-        </LinearLayout>
-
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_lenovo_r"
+                android:background="@drawable/backgroundforcards"
+                android:text="RocStar (A139)"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_lenovo_s"
+                android:background="@drawable/backgroundforcards"
+                android:text="S"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_lenovo_sis"
+                android:background="@drawable/backgroundforcards"
+                android:text="Sisley S90"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_lenovo_vibe"
+                android:background="@drawable/backgroundforcards"
+                android:text="Vibe"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_lenovo_zuk"
+                android:background="@drawable/backgroundforcards"
+                android:text="Zuk"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_lenovo_z"
+                android:background="@drawable/backgroundforcards"
+                android:text="Z2 Plus"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            </LinearLayout>
     </ScrollView>
 
 </LinearLayout>

@@ -32,63 +32,27 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_i7"
-                android:background="@drawable/bg_i7"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_moto_ex"
+                android:background="@drawable/backgroundforcards"
+                android:text="Pixel"
+                android:textSize="40sp"
                 android:padding="10dp" />
+
+
 
             <Button
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_i6p"
-                android:background="@drawable/bg_i6p"
+                android:onClick="ch_moto_fire"
+                android:background="@drawable/backgroundforcards"
+                android:text="Pixel XL"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
                 android:padding="10dp" />
 
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_i6s"
-                android:background="@drawable/bg_i6s"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_i5c"
-                android:background="@drawable/bg_5c"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_i5"
-                android:background="@drawable/bg_i5"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_i4s"
-                android:background="@drawable/bg_i4s"
-                android:padding="10dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_i4"
-                android:background="@drawable/bg_i4"
-                android:padding="10dp" />
         </LinearLayout>
 
     </ScrollView>

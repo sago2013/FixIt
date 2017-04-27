@@ -96,7 +96,19 @@
             android:name=".model_huawei_p"
             android:label="@string/title_activity_model_huawei_p"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".model_specific_list"></activity>
+        <activity android:name=".model_specific_list" />
+        <activity
+            android:name=".model_tcl_p"
+            android:label="@string/title_activity_model_tcl_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_lenovo_p"
+            android:label="@string/title_activity_model_lenovo_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_tcl_pp"
+            android:label="@string/title_activity_model_tcl_pp"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

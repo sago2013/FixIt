@@ -26,6 +26,7 @@
             android:orientation="vertical"
             android:layout_marginBottom="100dp">
 
+
             <Button
                 android:layout_width="300dp"
                 android:layout_height="80dp"
@@ -135,17 +136,9 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_alcatel"
-                android:onClick="ch_alcatel"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_lg"
-                android:background="@drawable/lg"
-                android:padding="10dp" />
+                android:background="@drawable/bg_lenovo"
+                android:padding="10dp"
+                android:onClick="ch_lenovo_p"/>
         </LinearLayout>
 
     </ScrollView>
