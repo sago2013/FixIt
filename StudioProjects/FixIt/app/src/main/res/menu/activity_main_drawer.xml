@@ -11,6 +11,10 @@
             android:id="@+id/sign_out"
             android:icon="@android:drawable/ic_lock_idle_lock"
             android:title="Sign Out" />
+        <item
+            android:id="@+id/my_devices"
+            android:icon="@drawable/my_devices"
+            android:title="My Devices"/>
     </menu>
 </item>
 
@@ -32,6 +36,10 @@
 
     <item android:title="About FixIt">
         <menu>
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/help"
+                android:title="Help" />
 
             <item
                 android:id="@+id/becomefixit"

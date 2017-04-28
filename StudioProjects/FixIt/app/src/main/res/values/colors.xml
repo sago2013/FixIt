@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3498DB</color>
-    <color name="colorPrimaryDark">#1A5276</color>
+    <color name="colorPrimaryDark">#1a5276</color>
     <color name="colorAccent">#a569bd</color>
-    <color name="fab">#addbfa</color>
+    <color name="fab">#b0d6ef</color>
     <color name="fab_background">#c9b9df</color>
     <color name="backgrond">#a0a19a97</color>
+    <color name="plain">#99b6bd</color>
+    <color name="nice_plain">#e1f5f9</color>
+    <color name="plandepth">#00acff</color>
 </resources>
