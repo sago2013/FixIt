@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FixIt</string>
+    <string name="app_name">FixIT</string>
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
@@ -20,12 +20,12 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="title_activity_main">FixIt</string>
+    <string name="title_activity_main">FixIT</string>
     <string name="title_activity_user_profile">Your Profile</string>
     <string name="title_activity_device">What device are we Fixing today?</string>
     <string name="title_activity_brand">What Brand is Your Computer/Laptop?</string>
     <string name="title_activity_brand_p">Is it an Android or Apple Phone?</string>
-    <string name="title_activity_brand_pp">What Brand is Your Phone?</string>
+    <string name="title_activity_brand_pp">What Brand is Your Android Phone?</string>
     <string name="title_activity_model_apple">What Model is Your Iphone?</string>
     <string name="title_activity_model_samsung_p">What Model is Your Samsung Phone?</string>
     <string name="title_activity_model_htc_p">What Model is Your HTC Phone?</string>
