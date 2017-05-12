@@ -24,10 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity
+       <!--<activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar"/>-->
+            android:theme="@style/AppTheme.NoActionBar" />-->
         <activity
             android:name=".login"
             android:label="@string/title_activity_login"
@@ -112,7 +112,32 @@
         <activity
             android:name=".model_tcl_pp"
             android:label="@string/title_activity_model_tcl_pp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".options_fix_p"
+            android:label="@string/title_activity_options_fix_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".options_fix_lptp"
+            android:label="@string/title_activity_options_fix_lptp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".options_fix_desktp"
+            android:label="@string/title_activity_options_fix_desktp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fixtypeListActivity"
+            android:label="@string/title_fixtype_list"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".fixtypeDetailActivity"
+            android:label="@string/title_fixtype_detail"
+            android:parentActivityName=".fixtypeListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fixit.fixit.fixtypeListActivity" />
+        </activity>
     </application>
 
 </manifest>

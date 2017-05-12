@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.fixit.fixit.model_specific_list"
     android:orientation="vertical"
-    android:background="@drawable/newbackgroun">
+    android:background="@color/nice_plain">
 
 
     <android.support.v7.widget.RecyclerView
@@ -14,10 +14,11 @@
         android:layout_width="match_parent"
         android:layout_height="439dp"
         android:layout_centerInParent="true"
-        android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin" />
+        android:paddingTop="@dimen/activity_vertical_margin"
+       android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay" />
 
 
 

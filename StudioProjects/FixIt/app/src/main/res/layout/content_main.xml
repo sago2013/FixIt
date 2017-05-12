@@ -15,6 +15,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/phone_fixcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textColor="@android:color/background_dark"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="  Laptops Succesfully Fixed         "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:orientation="horizontal">
 
@@ -36,55 +61,40 @@
             android:textSize="20sp" />
 
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/phone_fixcount"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="20"
-            android:textColor="@android:color/background_dark"
-            android:textSize="35sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="20sp"
-            android:textColor="@color/colorPrimaryDark"
-            android:text="  Laptops Succesfully Fixed         " />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center">
         <TextView
             android:id="@+id/desktop_fixcount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="10"
             android:textColor="@android:color/background_dark"
-            android:textSize="35sp"/>
+            android:textSize="35sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed"
-            android:textSize="20sp"
+            android:text="  Phones Succesfully Repaired     "
             android:textColor="@color/colorPrimaryDark"
-            android:text="  Phones Succesfully Repaired     " />
+            android:textSize="20sp" />
 
     </LinearLayout>
 
 
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="0.07"
+        android:text="mater_deatail_flow"
+        android:onClick="master"/>
 
 
 </LinearLayout>

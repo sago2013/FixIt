@@ -42,7 +42,7 @@ public class model_specific_list extends AppCompatActivity {
         fab_return.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(model_specific_list.this,model_lg_p.class);
+                Intent i = new Intent(model_specific_list.this,device.class);
                 startActivity(i);
                 /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();*/

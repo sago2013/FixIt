@@ -24,7 +24,7 @@
     <string name="title_activity_user_profile">Your Profile</string>
     <string name="title_activity_device">What device are we Fixing today?</string>
     <string name="title_activity_brand">What Brand is Your Computer/Laptop?</string>
-    <string name="title_activity_brand_p">Is it an Android or Apple Phone?</string>
+    <string name="title_activity_brand_p">Pick Your Phone\'s Operating System?</string>
     <string name="title_activity_brand_pp">What Brand is Your Android Phone?</string>
     <string name="title_activity_model_apple">What Model is Your Iphone?</string>
     <string name="title_activity_model_samsung_p">What Model is Your Samsung Phone?</string>
@@ -1798,6 +1798,11 @@ Droid Maxx 2 </item>
         <item>One Touch Pop Star LTE </item>
     </string-array>
     <string name="title_activity_model_tcl_pp">model_tcl_pp</string>
+    <string name="title_activity_options_fix_p">options_fix_p</string>
+    <string name="title_activity_options_fix_lptp">options_fix_lptp</string>
+    <string name="title_activity_options_fix_desktp">options_fix_desktp</string>
+    <string name="title_fixtype_list">fix_types</string>
+    <string name="title_fixtype_detail">fix_type Detail</string>
 
 
 </resources>
