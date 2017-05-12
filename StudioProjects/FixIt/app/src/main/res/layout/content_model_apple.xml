@@ -12,21 +12,17 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:layout_weight="0.74"
+        android:layout_height="match_parent"
         android:elevation="5dp"
         android:fadingEdge="horizontal|vertical"
         android:fadingEdgeLength="25dp"
-        android:paddingBottom="40dp"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:paddingTop="10dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="100dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
 
             <Button
                 android:layout_width="300dp"
@@ -90,7 +86,12 @@
                 android:onClick="ch_i4"
                 android:background="@drawable/bg_i4"
                 android:padding="10dp" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text=""/>
         </LinearLayout>
+
 
     </ScrollView>
 

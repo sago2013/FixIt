@@ -11,22 +11,51 @@
     android:background="@color/nice_plain"
     android:orientation="vertical">
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_android"
-        android:layout_width="300dp"
-        android:layout_height="250dp"
-        android:onClick="ch_android"
-        app:backgroundTint="@color/fab"
-        app:srcCompat="@drawable/android"
-        android:layout_gravity="center"/>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_apple"
-        android:layout_width="300dp"
-        android:layout_height="250dp"
-        android:layout_gravity="center"
-        android:onClick="ch_apple"
-        app:backgroundTint="@color/fab"
-        app:srcCompat="@drawable/appple" />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="40dp">
+
+       <Button
+           android:layout_width="165dp"
+           android:layout_height="165dp"
+           android:layout_margin="4dp"
+           android:background="@drawable/apple_p"
+           android:onClick="ch_apple"/>
+       <Button
+           android:layout_width="165dp"
+           android:layout_height="165dp"
+           android:layout_margin="4dp"
+           android:background="@drawable/android"
+           android:onClick="ch_android"/>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/windows_p"
+            android:onClick="ch_apple"/>
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/bb_p"
+            android:onClick="ch_apple"/>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/plain"
+    android:background="@color/nice_plain"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.fixit.fixit.brand_pp"
     tools:showIn="@layout/activity_brand_pp">
@@ -22,7 +22,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/plandepth"
             android:orientation="vertical">
 
 
@@ -48,16 +47,6 @@
                 android:onClick="ch_htc"
                 android:padding="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_samsung"
-                android:onClick="ch_samsung"
-                android:padding="10dp" />
 
             <Button
                 android:layout_width="match_parent"
@@ -158,6 +147,17 @@
                 android:onClick="ch_tcl"
                 android:padding="10dp" />
 
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_samsung"
+                android:onClick="ch_samsung"
+                android:padding="10dp" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
@@ -167,7 +167,8 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bg_lenovo"
                 android:onClick="ch_lenovo_p"
-                android:padding="10dp" />
+                android:padding="10dp"
+                android:layout_marginBottom="35dp"/>
         </LinearLayout>
 
     </ScrollView>

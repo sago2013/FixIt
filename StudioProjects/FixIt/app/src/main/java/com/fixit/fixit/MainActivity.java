@@ -114,4 +114,8 @@ public class MainActivity extends AppCompatActivity
     }
 
 
+    public void master(View view) {
+        Intent i = new Intent(MainActivity.this, fixtypeListActivity.class);
+        startActivity(i);
+    }
 }

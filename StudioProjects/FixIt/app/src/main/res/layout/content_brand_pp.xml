@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/plain"
+    android:background="@color/nice_plain"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.fixit.fixit.brand_pp"
     tools:showIn="@layout/activity_brand_pp">
@@ -19,156 +19,157 @@
         android:paddingRight="20dp"
         android:paddingTop="10dp">
 
-        <LinearLayout
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/plandepth"
-            android:orientation="vertical">
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_google"
+            android:onClick="ch_google"
+            android:padding="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/bg_htc"
+            android:onClick="ch_htc"
+            android:padding="10dp" />
 
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_google"
-                android:onClick="ch_google"
-                android:padding="10dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_nokia"
+            android:onClick="ch_nokia"
+            android:padding="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:background="@drawable/bg_htc"
-                android:onClick="ch_htc"
-                android:padding="10dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_motolenovo"
+            android:onClick="ch_motolenovo"
+            android:padding="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_samsung"
-                android:onClick="ch_samsung"
-                android:padding="10dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_oppo"
+            android:onClick="ch_oppo"
+            android:padding="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_nokia"
-                android:onClick="ch_nokia"
-                android:padding="10dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_lg"
+            android:onClick="ch_lg"
+            android:padding="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_motolenovo"
-                android:onClick="ch_motolenovo"
-                android:padding="10dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_huawei"
+            android:onClick="ch_huawei"
+            android:padding="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_oppo"
-                android:onClick="ch_oppo"
-                android:padding="10dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_microsoft"
+            android:onClick="ch_microsoft"
+            android:padding="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_lg"
-                android:onClick="ch_lg"
-                android:padding="10dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_xiomi"
+            android:onClick="ch_xiomi"
+            android:padding="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_huawei"
-                android:onClick="ch_huawei"
-                android:padding="10dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_zte"
+            android:onClick="ch_zte"
+            android:padding="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_microsoft"
-                android:onClick="ch_microsoft"
-                android:padding="10dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_tcl"
+            android:onClick="ch_tcl"
+            android:padding="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_xiomi"
-                android:onClick="ch_xiomi"
-                android:padding="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_zte"
-                android:onClick="ch_zte"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_tcl"
-                android:onClick="ch_tcl"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="2dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_lenovo"
-                android:onClick="ch_lenovo_p"
-                android:padding="10dp" />
-        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_samsung"
+            android:onClick="ch_samsung"
+            android:padding="10dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_lenovo"
+            android:onClick="ch_lenovo_p"
+            android:padding="10dp"
+            android:layout_marginBottom="35dp"/>
+    </LinearLayout>
 
     </ScrollView>
 

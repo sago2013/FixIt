@@ -41,6 +41,6 @@
         app:rippleColor="@color/colorAccent"
         app:srcCompat="@drawable/goback" />
 
-    <include layout="@layout/content_brand_pp" />
+    <include layout="@layout/content_brand_pp2" />
 
 </android.support.design.widget.CoordinatorLayout>
