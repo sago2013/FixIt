@@ -24,10 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-       <!--<activity
+        <!--
+           <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" />-->
+            android:theme="@style/AppTheme.NoActionBar" />
+        -->
         <activity
             android:name=".login"
             android:label="@string/title_activity_login"
@@ -128,7 +130,7 @@
         <activity
             android:name=".fixtypeListActivity"
             android:label="@string/title_fixtype_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".fixtypeDetailActivity"
             android:label="@string/title_fixtype_detail"
@@ -138,6 +140,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.fixit.fixit.fixtypeListActivity" />
         </activity>
+        <activity
+            android:name=".brand_pw"
+            android:label="@string/title_activity_brand_pw"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_acer_p"
+            android:label="@string/title_activity_model_acer_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_archos_p"
+            android:label="@string/title_activity_model_archos_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_blu_p"
+            android:label="@string/title_activity_model_blu_p"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

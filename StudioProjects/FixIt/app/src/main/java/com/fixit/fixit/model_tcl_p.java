@@ -8,6 +8,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class model_tcl_p extends AppCompatActivity {
@@ -19,11 +20,14 @@ public class model_tcl_p extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        SharedPreferences mPrefs = getSharedPreferences("table", 0);
+        final String os = mPrefs.getString("os", "error");
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(model_tcl_p.this,MainActivity.class);
+                Intent i = new Intent(model_tcl_p.this, MainActivity.class);
                 startActivity(i);
                 /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();*/
@@ -33,12 +37,70 @@ public class model_tcl_p extends AppCompatActivity {
         fab_return.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(model_tcl_p.this,brand_pp.class);
-                startActivity(i);
+                if (os.equals("windows")) {
+                    Intent i = new Intent(model_tcl_p.this, brand_pw.class);
+                    startActivity(i);
+                } else {
+                    Intent i = new Intent(model_tcl_p.this, brand_pp.class);
+                    startActivity(i);
+                }
+
                 /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();*/
             }
         });
+
+        //instanciating buttons
+        Button a1 = (Button) findViewById(R.id.a1);
+        Button a2 = (Button) findViewById(R.id.a2);
+        Button a3 = (Button) findViewById(R.id.a3);
+        Button a4 = (Button) findViewById(R.id.a4);
+        Button a5 = (Button) findViewById(R.id.a5);
+        Button a6 = (Button) findViewById(R.id.a6);
+        Button a7 = (Button) findViewById(R.id.a7);
+        Button a8 = (Button) findViewById(R.id.a8);
+        Button a9 = (Button) findViewById(R.id.a9);
+        Button a10 = (Button) findViewById(R.id.a10);
+        Button a11 = (Button) findViewById(R.id.a11);
+        Button a12 = (Button) findViewById(R.id.a12);
+        Button a13 = (Button) findViewById(R.id.a13);
+        Button a14 = (Button) findViewById(R.id.a14);
+        Button a15 = (Button) findViewById(R.id.a15);
+        Button a16 = (Button) findViewById(R.id.a16);
+        Button a17 = (Button) findViewById(R.id.a17);
+        Button a18 = (Button) findViewById(R.id.a18);
+        Button a19 = (Button) findViewById(R.id.a19);
+        Button a20 = (Button) findViewById(R.id.a20);
+        Button w1 = (Button) findViewById(R.id.w1);
+        Button w2 = (Button) findViewById(R.id.w2);
+
+
+
+        if (os.equals("windows")) {
+            a1.setVisibility(View.GONE);
+            a2.setVisibility(View.GONE);
+            a3.setVisibility(View.GONE);
+            a4.setVisibility(View.GONE);
+            a5.setVisibility(View.GONE);
+            a6.setVisibility(View.GONE);
+            a7.setVisibility(View.GONE);
+            a8.setVisibility(View.GONE);
+            a9.setVisibility(View.GONE);
+            a10.setVisibility(View.GONE);
+            a11.setVisibility(View.GONE);
+            a12.setVisibility(View.GONE);
+            a13.setVisibility(View.GONE);
+            a14.setVisibility(View.GONE);
+            a15.setVisibility(View.GONE);
+            a16.setVisibility(View.GONE);
+            a17.setVisibility(View.GONE);
+            a18.setVisibility(View.GONE);
+            a19.setVisibility(View.GONE);
+            a20.setVisibility(View.GONE);
+        } else {
+            w1.setVisibility(View.GONE);
+            w2.setVisibility(View.GONE);
+        }
     }
 
     public void ch_tcl_ot(View view){

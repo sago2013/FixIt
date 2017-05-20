@@ -11,18 +11,22 @@
     android:orientation="vertical">
 
     <ScrollView
+        style="@style/scrollbar_shape_style"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:elevation="5dp"
         android:fadingEdge="horizontal|vertical"
         android:fadingEdgeLength="25dp"
-        android:paddingTop="10dp">
+        android:paddingTop="10dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="center_horizontal">
+
 
 
     <LinearLayout
@@ -42,8 +46,9 @@
             android:layout_width="165dp"
             android:layout_height="165dp"
             android:layout_margin="4dp"
-            android:background="@drawable/alcatel_p"
-            android:onClick="ch_tcl"/>
+            android:background="@drawable/adcom_p"
+            android:onClick="ch_adcom"/>
+
 
     </LinearLayout>
 
@@ -77,14 +82,34 @@
                     android:layout_width="165dp"
                     android:layout_height="165dp"
                     android:layout_margin="4dp"
+                    android:background="@drawable/bb_p"
+                    android:onClick="ch_bb_pa"/>
+                <Button
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_margin="4dp"
                     android:background="@drawable/blu_p"
-                    android:onClick="ch_apple"/>
+                    android:onClick="ch_blu"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
                 <Button
                     android:layout_width="165dp"
                     android:layout_height="165dp"
                     android:layout_margin="4dp"
                     android:background="@drawable/google_p"
                     android:onClick="ch_google"/>
+                <Button
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_margin="4dp"/>
+
 
             </LinearLayout>
             <LinearLayout
@@ -117,16 +142,17 @@
                     android:layout_width="165dp"
                     android:layout_height="165dp"
                     android:layout_margin="4dp"
-                    android:background="@drawable/lava_p"
-                    android:onClick="ch_lava"/>
+                    android:background="@drawable/kyocera"
+                    android:onClick="ch_kyocera"/>
                 <Button
                     android:layout_width="165dp"
                     android:layout_height="165dp"
                     android:layout_margin="4dp"
-                    android:background="@drawable/lenovo"
-                    android:onClick="ch_lenovo_p"/>
+                    android:background="@drawable/lava_p"
+                    android:onClick="ch_lava"/>
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -137,8 +163,22 @@
                     android:layout_width="165dp"
                     android:layout_height="165dp"
                     android:layout_margin="4dp"
+                    android:background="@drawable/lenovo"
+                    android:onClick="ch_lenovo_p"/>
+                <Button
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_margin="4dp"
                     android:background="@drawable/lg_p"
                     android:onClick="ch_lg"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
                 <Button
                     android:layout_width="165dp"
                     android:layout_height="165dp"
@@ -146,6 +186,14 @@
                     android:background="@drawable/meizu_p"
                     android:onClick="ch_meizu"/>
 
+                <Button
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/micromax_pp"
+                    android:onClick="ch_micromax"/>
+
+
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -153,12 +201,6 @@
                 android:orientation="horizontal"
                 android:layout_gravity="center_horizontal">
 
-                <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
-                    android:layout_margin="4dp"
-                    android:background="@drawable/micromax_pp"
-                    android:onClick="ch_micromax"/>
                 <Button
                     android:layout_width="165dp"
                     android:layout_height="165dp"
@@ -166,6 +208,13 @@
                     android:background="@drawable/motorola_p"
                     android:onClick="ch_motolenovo"/>
 
+                <Button
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/nokia_p"
+                    android:onClick="ch_nokia"/>
+
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -173,12 +222,6 @@
                 android:orientation="horizontal"
                 android:layout_gravity="center_horizontal">
 
-                <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
-                    android:layout_margin="4dp"
-                    android:background="@drawable/nokia_p"
-                    android:onClick="ch_nokia"/>
                 <Button
                     android:layout_width="165dp"
                     android:layout_height="165dp"
@@ -186,6 +229,14 @@
                     android:background="@drawable/oppo_p"
                     android:onClick="ch_oppo"/>
 
+                <Button
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/samsung_p"
+                    android:onClick="ch_samsung"/>
+
+
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -197,8 +248,9 @@
                     android:layout_width="165dp"
                     android:layout_height="165dp"
                     android:layout_margin="4dp"
-                    android:background="@drawable/samsung_p"
-                    android:onClick="ch_samsung"/>
+                    android:background="@drawable/sharp_p"
+                    android:onClick="ch_sharp"/>
+
                 <Button
                     android:layout_width="165dp"
                     android:layout_height="165dp"
@@ -227,6 +279,12 @@
                     android:onClick="ch_zte"/>
 
             </LinearLayout>
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/alcatel_p"
+                android:onClick="ch_tcl"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="100dp"

@@ -8,14 +8,15 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
-public class model_tcl_pp extends AppCompatActivity {
+public class model_archos_p extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_model_tcl_pp);
+        setContentView(R.layout.activity_model_archos_p);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -26,7 +27,7 @@ public class model_tcl_pp extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(model_tcl_pp.this, MainActivity.class);
+                Intent i = new Intent(model_archos_p.this, MainActivity.class);
                 startActivity(i);
                 /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();*/
@@ -37,99 +38,88 @@ public class model_tcl_pp extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (os.equals("windows")) {
-                    Intent i = new Intent(model_tcl_pp.this, brand_pw.class);
+                    Intent i = new Intent(model_archos_p.this, brand_pw.class);
                     startActivity(i);
                 } else {
-                    Intent i = new Intent(model_tcl_pp.this, brand_pp.class);
+                    Intent i = new Intent(model_archos_p.this, brand_pp.class);
                     startActivity(i);
                 }
-
-                /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();*/
             }
         });
     }
-    public void ch_tcl_ot_fire(View view){
+
+    public void ch_archos_platinum(View view) {
         SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
         SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_fire");
+        editor.putString("model_spec", "archos_platinum");
         editor.apply();
-        Toast.makeText(this, "OT Fire", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
+        Toast.makeText(this, "Platinum", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_archos_p.this, model_specific_list.class);
         startActivity(i);
-    }
-    public void ch_tcl_ot_hero(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_hero");
-        editor.apply();
-        Toast.makeText(this, "OT hero", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
-        startActivity(i);
-    }public void ch_tcl_ot_idol(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_idol");
-        editor.apply();
-        Toast.makeText(this, "OT Idol", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
-        startActivity(i);
-    }
-    public void ch_tcl_ot_pixi(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_pixi");
-        editor.apply();
-        Toast.makeText(this, "OT Pixi", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
-        startActivity(i);
-    }
-    public void ch_tcl_ot_pop(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_pop");
-        editor.apply();
-        Toast.makeText(this, "OT Pop Star", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
-        startActivity(i);
-    }
-    public void ch_tcl_ot_star(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_star");
-        editor.apply();
-        Toast.makeText(this, "OT Pop Star", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
-        startActivity(i);
-    }
-    public void ch_tcl_ot_tribe(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model", "One Touch Tribe 3040");
-        editor.apply();
-        Toast.makeText(this, "One Touch Tribe 3040", Toast.LENGTH_SHORT).show();
-    }
-    public void ch_tcl_ot_2(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model", "One Touch 20.05");
-        editor.apply();
-        Toast.makeText(this, "One Touch 20.05", Toast.LENGTH_SHORT).show();
-    }
-    public void ch_tcl_ot_fierce(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model", "One Touch Fierce XL");
-        editor.apply();
-        Toast.makeText(this, "One Touch Fierce XL", Toast.LENGTH_SHORT).show();
-    }
-    public void ch_tcl_ot_popup(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model", "One Touch Pop Up");
-        editor.apply();
-        Toast.makeText(this, "One Touch Pop Up", Toast.LENGTH_SHORT).show();
     }
 
+    public void ch_archos_diamond(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model_spec", "archos_diamond");
+        editor.apply();
+        Toast.makeText(this, "Diamond", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_archos_p.this, model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_archos_xenon(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model_spec", "archos_xenon");
+        editor.apply();
+        Toast.makeText(this, "Xenon", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_archos_p.this, model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_archos_helium(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model_spec", "archos_helium");
+        editor.apply();
+        Toast.makeText(this, "Helium", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_archos_p.this, model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_archos_oxygen(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model_spec", "archos_oxygen");
+        editor.apply();
+        Toast.makeText(this, "Oxygen", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_archos_p.this, model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_archos_graph(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model_spec", "archos_graph");
+        editor.apply();
+        Toast.makeText(this, "Graphite", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_archos_p.this, model_specific_list.class);
+        startActivity(i);
+    }
+    public void ch_archos_50saphir(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model", "50 Saphir");
+        editor.apply();
+        Toast.makeText(this, "50 Saphir", Toast.LENGTH_SHORT).show();
+    }
+    public void ch_archos_40btitanium(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model", "40b Titanium");
+        editor.apply();
+        Toast.makeText(this, "40b Titanium", Toast.LENGTH_SHORT).show();
+    }
 
 }

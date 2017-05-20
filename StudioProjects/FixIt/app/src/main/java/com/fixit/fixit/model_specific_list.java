@@ -28,6 +28,9 @@ public class model_specific_list extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_model_specific_list);
+        SharedPreferences mPrefs = getSharedPreferences("table", 0);
+        final String id = mPrefs.getString("model_spec", "error");
+        final String os = mPrefs.getString("os", "error");
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,8 +45,18 @@ public class model_specific_list extends AppCompatActivity {
         fab_return.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(model_specific_list.this,device.class);
-                startActivity(i);
+                if(os.equals("windows")) {
+                    Intent i = new Intent(model_specific_list.this, brand_pw.class);
+                    startActivity(i);
+                }
+                else if(os.equals("bb")){
+                    Intent i = new Intent(model_specific_list.this, brand_p.class);
+                    startActivity(i);
+                }
+                else{
+                    Intent i = new Intent(model_specific_list.this, brand_pp.class);
+                    startActivity(i);
+                }
                 /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();*/
             }
@@ -57,9 +70,10 @@ public class model_specific_list extends AppCompatActivity {
 
         specs = new ArrayList<>();
 
-        SharedPreferences mPrefs = getSharedPreferences("table", 0);
-        final String id = mPrefs.getString("model_spec", "error");
+
         populate(id);
+
+
 
 
 
@@ -919,8 +933,179 @@ public class model_specific_list extends AppCompatActivity {
                 specs.add(new model_spec(title[i]));
             }
         }
-
+        if (id.equals("apple")) {
+            String[] title = context.getResources().getStringArray(R.array.apple_p);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
         }
+        if (id.equals("acer_e")) {
+            String[] title = context.getResources().getStringArray(R.array.acer_e);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+
+        if (id.equals("acer_jade")) {
+            String[] title = context.getResources().getStringArray(R.array.acer_jade);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("acer_s")) {
+            String[] title = context.getResources().getStringArray(R.array.acer_s);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+
+        if (id.equals("acer_z")) {
+            String[] title = context.getResources().getStringArray(R.array.acer_z);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("acer_zest")) {
+            String[] title = context.getResources().getStringArray(R.array.acer_zest);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("adcom_p")) {
+            String[] title = context.getResources().getStringArray(R.array.adcom_p);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("archos_pw")) {
+            String[] title = context.getResources().getStringArray(R.array.archos_pw);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("archos_graph")) {
+            String[] title = context.getResources().getStringArray(R.array.archos_graph);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("archos_diamond")) {
+            String[] title = context.getResources().getStringArray(R.array.archos_diamond);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("archos_xenon")) {
+            String[] title = context.getResources().getStringArray(R.array.archos_xenon);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("archos_platinum")) {
+            String[] title = context.getResources().getStringArray(R.array.archos_platinum);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("archos_helium")) {
+            String[] title = context.getResources().getStringArray(R.array.archos_helium);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("archos_oxygen")) {
+            String[] title = context.getResources().getStringArray(R.array.archos_oxygen);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("bb_pa")) {
+            String[] title = context.getResources().getStringArray(R.array.bb_pa);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }if (id.equals("bb_pb")) {
+            String[] title = context.getResources().getStringArray(R.array.bb_pb);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("blu_life")) {
+            String[] title = context.getResources().getStringArray(R.array.blu_life);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+
+        if (id.equals("blu_vivo")) {
+            String[] title = context.getResources().getStringArray(R.array.blu_vivo);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("blu_energy")) {
+            String[] title = context.getResources().getStringArray(R.array.blu_energy);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("blu_pure")) {
+            String[] title = context.getResources().getStringArray(R.array.blu_pure);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+        if (id.equals("blu_pw")) {
+            String[] title = context.getResources().getStringArray(R.array.blu_pw);
+            int i = 0;
+            int length;
+            for (length =title.length; length >i; i++){
+                specs.add(new model_spec(title[i]));
+            }
+        }
+
+
+    }
 
 
     }

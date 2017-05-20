@@ -1099,7 +1099,6 @@ Droid Maxx 2 </item>
         <item>One (M8 Eye) </item>
         <item>One (M8) </item>
         <item>One (M8) Dual SIM </item>
-        <item>One (M8) for Windows </item>
         <item>One A9 </item>
         <item>One A9s </item>
         <item>One dual SIM </item>
@@ -1318,7 +1317,6 @@ Droid Maxx 2 </item>
     <string-array name="tcl_idol">
         <item>Idol 4 </item>
         <item>Idol 4S </item>
-        <item>Idol 4S (Windows 10) </item>
         <item>One Touch Idol </item>
         <item>One Touch Idol 2 </item>
         <item>One Touch Idol 2 Mini </item>
@@ -1797,12 +1795,5671 @@ Droid Maxx 2 </item>
         <item>One Touch Pop Star </item>
         <item>One Touch Pop Star LTE </item>
     </string-array>
+    <string-array name="apple_p">
+        <item>iPhone 7 Plus</item>
+
+        <item>iPhone 7</item>
+
+        <item>iPhone SE</item>
+
+        <item>iPhone 6s Plus</item>
+        <item>
+iPhone 6s</item>
+        <item>
+iPhone 6 Plus</item>
+        <item>
+iPhone 6</item>
+        <item>
+iPhone 5s</item>
+        <item>
+iPhone 5c</item>
+        <item>
+iPhone 5</item>
+        <item>
+iPhone 4S</item>
+        <item>
+iPhone 4</item>
+        <item>
+iPhone 3GS</item>
+        <item>
+iPhone 3G</item>
+        <item>
+iPhone</item>
+    </string-array>
+
+    <string-array name="acer_e">
+<item>
+Liquid E3</item>
+        <item>
+Liquid E600</item>
+        <item>
+Liquid E700</item>
+    </string-array>
+    <string-array name="acer_jade">
+<item>
+Liquid Jade</item>
+        <item>
+Liquid Jade 2</item>
+        <item>
+Liquid Jade Primo</item>
+        <item>
+Liquid Jade S</item>
+        <item>
+Liquid Jade Z</item>
+    </string-array>
+    <string-array name="acer_s">
+<item>
+Liquid S1</item>
+        <item>
+Liquid S2</item>
+    </string-array>
+
+    <string-array name="acer_z">
+<item>
+Liquid Z200</item>
+        <item>
+Liquid Z220</item>
+        <item>
+Liquid Z3</item>
+        <item>
+Liquid Z320</item>
+        <item>
+Liquid Z330</item>
+        <item>
+Liquid Z4</item>
+        <item>
+Liquid Z410</item>
+        <item>
+Liquid Z5</item>
+        <item>
+Liquid Z500</item>
+        <item>
+Liquid Z520</item>
+        <item>
+Liquid Z530</item>
+        <item>
+Liquid Z530S</item>
+        <item>
+Liquid Z6</item>
+        <item>
+Liquid Z6 Plus</item>
+        <item>
+Liquid Z630</item>
+        <item>
+Liquid Z630s</item>
+    </string-array>
+    <string-array name="acer_zest">
+<item>
+Liquid Zest</item>
+        <item>
+Liquid Zest 4G</item>
+        <item>
+Liquid Zest Plus</item>
+    </string-array>
+    <string-array name="adcom_p">
+<item>
+A-400i
+</item>
+        <item>
+A350
+</item>
+        <item>
+A400
+</item>
+        <item>
+A530
+</item>
+        <item>
+KitKat A35
+</item>
+        <item>
+KitKat A40
+</item>
+        <item>
+KitKat A54
+</item>
+        <item>
+Thunder A-350i
+</item>
+        <item>
+Thunder A-500
+</item>
+        <item>
+Thunder A430+
+</item>
+        <item>
+Thunder A440+
+</item>
+    </string-array>
+    <string-array name="archos_graph">
+<item>
+55 Graphite
+</item>
+        <item>
+50 Graphite
+</item>
+    </string-array>
+    <string-array name="archos_diamond">
+<item>
+55 Diamond Selfie
+</item>
+        <item>
+Diamond 2 Plus
+</item>
+        <item>
+Diamond 2 Note
+</item>
+        <item>
+50 Diamond
+</item>
+    </string-array>
+
+    <string-array name="archos_xenon">
+<item>
+59 Xenon
+</item>
+        <item>
+  62 Xenon
+</item>
+        <item>
+64 Xenon
+</item>
+    </string-array>
+    <string-array name="archos_platinum">
+<item>
+52 Platinum
+</item>
+        <item>
+50b Platinum
+</item>
+        <item>
+45c Platinum
+</item>
+    </string-array>
+    <string-array name="archos_helium">
+  <item>
+  55 Helium 4 Seasons
+  </item>
+        <item>
+  55 Helium Ultra
+  </item>
+        <item>
+  55 Helium
+  </item>
+        <item>
+  50f Helium Lite
+  </item>
+        <item>
+  50f Helium
+  </item>
+        <item>
+  50c Helium 4G
+  </item>
+        <item>
+  50b Helium 4G
+  </item>
+        <item>
+  45b Helium 4G
+  </item>
+        <item>
+  50 Helium 4G
+  </item>
+        <item>
+  45 Helium 4G
+  </item>
+    </string-array>
+    <string-array name="archos_oxygen">
+  <item>
+  50d Oxygen
+  </item>
+        <item>
+  50c Oxygen
+  </item>
+        <item>
+50 Oxygen +
+</item>
+    </string-array>
+
+    <string-array name="archos_pw">
+<item>
+40 Cesium
+</item>
+    </string-array>
+    <string-array name="bb_pb">
+  <item>
+  Porsche P9983 Graphite
+</item>
+        <item>
+  Leap
+</item>
+        <item>
+  Classic Non Camera
+</item>
+        <item>
+  Classic
+</item>
+        <item>
+  Passport
+</item>
+        <item>
+  Porsche Design P9983
+</item>
+        <item>
+  Z3
+</item>
+        <item>
+  Porsche Design P9982
+</item>
+        <item>
+  Z30
+</item>
+        <item>
+  9720
+</item>
+        <item>
+  Q5
+</item>
+        <item>
+  Q10
+</item>
+        <item>
+  Z10
+</item>
+        <item>
+  Porsche Design P9981
+</item>
+        <item>
+  Curve 9320
+</item>
+        <item>
+  Curve 9220
+</item>
+        <item>
+  Curve 9380
+</item>
+        <item>
+  Bold 9790
+</item>
+        <item>
+  Torch 9860
+</item>
+        <item>
+  Torch 9810
+</item>
+        <item>
+  Curve 9360
+</item>
+        <item>
+  Curve 9350
+</item>
+        <item>
+  Bold 9900
+</item>
+        <item>
+  Style 9670
+</item>
+        <item>
+  Bold 9780
+</item>
+        <item>
+  Torch 9800
+</item>
+        <item>
+  Curve 3G 9330
+</item>
+        <item>
+  Curve 3G 9300
+</item>
+        <item>
+  Bold 9650
+</item>
+        <item>
+  Curve 8530
+</item>
+        <item>
+  Bold 9700
+</item>
+        <item>
+  Curve 8520
+</item>
+        <item>
+  Curve 8900
+ </item>
+        <item>
+  Bold 9000
+  </item>
+    </string-array>
+
+    <string-array name="bb_pa">
+  <item>
+  Aurora
+  </item>
+        <item>
+  KEYone
+  </item>
+        <item>
+  DTEK60
+  </item>
+        <item>
+  DTEK50
+  </item>
+        <item>
+  Priv
+  </item>
+    </string-array>
+
+
+    <string-array name="blu_life">
+    <item>
+        Life Max
+    </item>
+        <item>
+    Life One X2
+</item>
+        <item>
+        Life Mark
+    </item>
+    </string-array>
+    <string-array name="blu_vivo">
+    <item>
+        Vivo 5R
+    </item>
+        <item>
+        Vivo XL
+    </item>
+        <item>
+    Vivo 5
+</item>
+        <item>
+        Vivo Air LTE
+    </item>
+    </string-array>
+    <string-array name="blu_energy">
+    <item>
+        Energy XL
+    </item>
+        <item>
+        Energy X
+    </item>
+    </string-array>
+
+    <string-array name="blu_pure">
+    <item>
+        Pure XR
+    </item>
+        <item>
+        Pure XL
+    </item>
+    </string-array>
+    <string-array name="blu_pw">
+    <item>
+        Win JR LTE
+    </item>
+        <item>
+    Win HD LTE
+</item>
+    </string-array>
+    <string-array name="celkon_p">
+<item>
+Millennia Ufeel
+</item>
+        <item>
+Diamond 4G Plus
+</item>
+        <item>
+Millennia Everest
+</item>
+        <item>
+Millennia 2GB Xpress
+</item>
+        <item>
+Millennia Xplore
+</item>
+        <item>
+Campus A35K Remote
+</item>
+        <item>
+Millennia ME Q54+
+</item>
+        <item>
+Millennia Q5K Power
+</item>
+        <item>
+Campus A402
+</item>
+        <item>
+Campus A407
+</item>
+        <item>
+Millennia Q452
+</item>
+        <item>
+Campus A355
+</item>
+        <item>
+Millennia Q519
+</item>
+        <item>
+Campus Q405
+</item>
+        <item>
+Campus A359
+</item>
+        <item>
+Campus A518
+</item>
+        <item>
+Millennia Q450
+</item>
+        <item>
+Millennia ME Q54
+</item>
+        <item>
+Millennia Octa510
+</item>
+        <item>
+Campus A400
+</item>
+        <item>
+Win 400
+</item>
+        <item>
+Millennia Epic Q550
+</item>
+        <item>
+Campus Whizz Q42
+</item>
+        <item>
+Colt A401
+</item>
+        <item>
+XION S CT695
+</item>
+        <item>
+Q40+
+</item>
+        <item>
+Campus One A354C
+</item>
+        <item>
+Campus Nova A352E
+</item>
+        <item>
+Millennium Ultra Q500
+</item>
+        <item>
+Millennium Glory Q5
+</item>
+        <item>
+Campus A15K
+</item>
+        <item>
+Campus Mini A350
+</item>
+        <item>
+Millennium Dazzle Q44
+</item>
+        <item>
+Signature Two A500
+</item>
+        <item>
+Millennium Vogue Q455
+</item>
+        <item>
+Millennium Elite Q470
+</item>
+        <item>
+Millenium Power Q3000
+</item>
+        <item>
+Campus A35K
+</item>
+        <item>
+Campus A125
+</item>
+        <item>
+S1
+</item>
+        <item>
+RahmanIshq AR40
+</item>
+        <item>
+Campus A15
+</item>
+        <item>
+RahmanIshq AR45
+</item>
+        <item>
+Monalisa ML-5
+</item>
+        <item>
+Campus A10
+</item>
+        <item>
+Signature Swift A112
+</item>
+        <item>
+Campus A20
+</item>
+        <item>
+Signature One A107+
+</item>
+        <item>
+Campus A63
+</item>
+        <item>
+A119Q
+</item>
+        <item>
+Signature One A107
+</item>
+    </string-array>
+    <string-array name="coolpad_p">
+<item>
+Note 5 Lite
+</item>
+        <item>
+Conjr
+</item>
+        <item>
+Cool S1
+</item>
+        <item>
+Note 3S
+</item>
+        <item>
+Mega 3
+</item>
+        <item>
+Cool Changer 1C
+</item>
+        <item>
+Note 5
+</item>
+        <item>
+Mega 2.5D
+</item>
+        <item>
+Note 3 Plus
+</item>
+        <item>
+Max
+</item>
+        <item>
+Note 3 Lite
+</item>
+        <item>
+Note 3
+</item>
+        <item>
+Rogue
+</item>
+        <item>
+Dazen X7
+</item>
+        <item>
+Dazen 1
+</item>
+        <item>
+Cool 1 Dual
+</item>
+    </string-array>
+    <string-array name="datawind_p">
+<item>
+MoreGMax 3G6
+</item>
+        <item>
+PocketSurfer 3G4Z
+</item>
+        <item>
+PocketSurfer 2G4X
+</item>
+        <item>
+Pocket Surfer 3G4
+</item>
+        <item>
+Pocket Surfer 2G4
+</item>
+        <item>
+PocketSurfer3G5
+</item>
+        <item>
+PocketSurfer5
+</item>
+        <item>
+PocketSurfer5x
+</item>
+    </string-array>
+
+    <string-array name="fly_p">
+
+<item>Snap
+</item>
+        <item>
+Qik
+</item>
+        <item>
+Qik+
+</item>
+        <item>
+F50 Q
+</item>
+        <item>
+F40+
+</item>
+        <item>
+F53s
+</item>
+        <item>
+F351
+</item>
+        <item>
+F51
+</item>
+        <item>
+F45s
+</item>
+        <item>
+F40
+</item>
+    </string-array>
+
+    <string-array name="gionee_p">
+<item>
+M6S Plus
+</item>
+        <item>
+A1
+</item>
+        <item>
+A1 Plus
+</item>
+        <item>
+F5
+</item>
+        <item>
+Steel 2
+</item>
+        <item>
+M2017
+</item>
+        <item>
+P7
+</item>
+        <item>
+S9
+</item>
+        <item>
+P7 Max
+</item>
+        <item>
+S6s
+</item>
+        <item>
+S6 Pro
+</item>
+        <item>
+Pioneer P5W
+</item>
+        <item>
+Pioneer P5L (2016)
+</item>
+        <item>
+Pioneer P5 mini
+</item>
+        <item>
+W909
+</item>
+        <item>
+S8
+</item>
+        <item>
+Marathon M5 Mini
+</item>
+        <item>
+Marathon M5 Enjoy
+</item>
+        <item>
+Marathon M5 Plus
+</item>
+        <item>
+Marathon M5 Lite
+</item>
+        <item>
+P5W
+</item>
+        <item>
+S6
+</item>
+        <item>
+S Plus
+</item>
+        <item>
+Pioneer P3S
+</item>
+        <item>
+S5.1 Pro
+</item>
+        <item>
+F103
+</item>
+        <item>
+Marathon M4
+</item>
+        <item>
+Pioneer P2M
+</item>
+        <item>
+Marathon M5
+</item>
+        <item>
+Elife E8
+</item>
+        <item>
+Pioneer P4S
+</item>
+        <item>
+Elife S7
+</item>
+        <item>
+Pioneer P6
+</item>
+        <item>
+CTRL V6L
+</item>
+        <item>
+Pioneer P5L
+</item>
+        <item>
+Marathon M3
+</item>
+        <item>
+Elife S5.1
+</item>
+        <item>
+GN715
+</item>
+        <item>
+CTRL V4S
+</item>
+        <item>
+Gpad G5
+</item>
+        <item>
+P2S
+</item>
+        <item>
+CTRL V5
+</item>
+        <item>
+Pioneer P4
+</item>
+        <item>
+Elife S5.5
+</item>
+        <item>
+M2
+</item>
+        <item>
+Gpad G4
+</item>
+        <item>
+Elife E7 Mini
+</item>
+        <item>
+Pioneer P3
+</item>
+        <item>
+Elife E7
+</item>
+        <item>
+GPad G3
+</item>
+        <item>
+Pioneer P2
+</item>
+        <item>
+Elife E6
+</item>
+        <item>
+Elife E5
+</item>
+        <item>
+CTRL V4
+</item>
+        <item>
+Elife E3
+</item>
+        <item>
+Gpad G2
+</item>
+        <item>
+L 800
+</item>
+        <item>
+S80
+</item>
+        <item>
+CTRL V2
+</item>
+        <item>
+CTRL V3
+</item>
+        <item>
+P1
+</item>
+        <item>
+L 700
+</item>
+        <item>
+Dream D1
+</item>
+        <item>
+Gpad G1
+</item>
+        <item>
+M6 Plus
+</item>
+        <item>
+M6
+</item>
+        <item>
+F103 Pro
+</item>
+        <item>
+T 520
+</item>
+    </string-array>
+
+
+    <string-array name="iball_p">
+
+<item>
+Andi Wink 4G
+</item>
+        <item>
+Andi F2F 5.5U
+</item>
+        <item>
+Andi 5L Rider
+</item>
+        <item>
+Andi 5G Blink 4G
+</item>
+        <item>
+Andi 5N Dude
+</item>
+        <item>
+Andi Blink 4G
+</item>
+        <item>
+Andi 5Q Gold 4G
+</item>
+        <item>
+Andi 5.5H Weber 4G
+</item>
+        <item>
+Cobalt 5.5F Youva
+</item>
+        <item>
+Andi 5.5H Weber
+</item>
+        <item>
+Andi Sprinter 4G
+</item>
+        <item>
+Cobalt Solus 4G
+</item>
+        <item>
+Andi 4.5 O\'Buddy
+</item>
+        <item>
+Andi 5U Platino
+</item>
+        <item>
+Cobalt 6
+</item>
+        <item>
+Cobalt Solus2
+</item>
+        <item>
+Andi 3.5V Genius2
+</item>
+        <item>
+Andi4 B20
+</item>
+        <item>
+Andi Avonte 5
+</item>
+        <item>
+Andi Class X
+</item>
+        <item>
+mSLR Cobalt 4
+</item>
+        <item>
+Cobalt Oomph 4.7D
+</item>
+        <item>
+Andi5 Stallion+
+</item>
+        <item>
+Andi Uddaan Quadcore
+</item>
+        <item>
+Andi 5F Infinito
+</item>
+        <item>
+Andi 5M Xotic
+</item>
+        <item>
+Andi 5Q Cobalt Solus
+</item>
+        <item>
+Andi4L Pulse
+</item>
+        <item>
+Andi4 Arc
+</item>
+        <item>
+Andi4P IPS Gem
+</item>
+        <item>
+Andi 4.5V Baby Panther
+</item>
+        <item>
+Andi 4h Tiger+
+</item>
+        <item>
+Andi 4F Waves
+</item>
+        <item>
+Andi 3.5F Grabit
+</item>
+        <item>
+Andi Uddaan Mini
+</item>
+        <item>
+Andi4-B2 IPS
+</item>
+        <item>
+Andi5 Stallion
+</item>
+        <item>
+Andi 4U Frisbee
+</item>
+        <item>
+Andi 3.5KKe Winner+
+</item>
+        <item>
+Andi 4.5M Enigma
+</item>
+        <item>
+Andi5S Cobalt3
+</item>
+        <item>
+Andi 5K Panther
+</item>
+        <item>
+Andi 4 IPS Tiger
+</item>
+        <item>
+Andi4 IPS Velvet
+</item>
+        <item>
+Andi4 IPS Gem
+</item>
+        <item>
+Andi 3.5 KKe Winner
+</item>
+        <item>
+Andi 3.5 KKe Genius
+</item>
+        <item>
+Andi 4.5D Royale
+</item>
+        <item>
+Andi 4.5P Glitter
+</item>
+        <item>
+i135+
+</item>
+        <item>
+Aura 2.8c
+</item>
+        <item>
+Andi5T Cobalt2
+</item>
+        <item>
+Andi 3.5 Classique
+</item>
+        <item>
+Andi 5K Sparkle
+</item>
+        <item>
+Andi 4.5 Ripple 3G
+</item>
+        <item>
+Andi 4.5 Ripple 2G
+</item>
+        <item>
+Andi 4-B2
+</item>
+        <item>
+Andi4.5-K6
+</item>
+        <item>
+Aasaan2
+</item>
+        <item>
+Andi 5.5N2
+</item>
+        <item>
+Andi 5-M8
+</item>
+        <item>
+Andi 5-E7
+</item>
+        <item>
+Andi 4.5z
+</item>
+        <item>
+Andi 4Di Plus
+</item>
+        <item>
+Macho 5
+</item>
+        <item>
+i324
+</item>
+        <item>
+i216
+</item>
+        <item>
+i180
+</item>
+        <item>
+i153
+</item>
+        <item>
+Andi4a Projector
+</item>
+        <item>
+Andi 4a Radium
+</item>
+        <item>
+Andi 5h Quadro
+</item>
+        <item>
+Andi 4Di
+</item>
+        <item>
+Andi 3.5KKe
+</item>
+        <item>
+Andi 4.7G Cobalt
+</item>
+        <item>
+Fab 2.6a
+</item>
+        <item>
+Aspire QE 45
+</item>
+        <item>
+Andi 5Li
+</item>
+        <item>
+Andi 5L
+</item>
+        <item>
+Andi 4.5d Quadro
+</item>
+        <item>
+Andi 4v
+</item>
+        <item>
+Andi 3.5i
+</item>
+        <item>
+Vogue 2.6c
+</item>
+        <item>
+Andi 3.5
+</item>
+        <item>
+Glam 3
+</item>
+        <item>
+Fab 18r
+</item>
+        <item>
+Fab 18i
+</item>
+        <item>
+Andi 4.5q
+</item>
+        <item>
+Vibe 3.2b
+</item>
+        <item>
+Andi 4.5h
+</item>
+        <item>
+Fab 9
+</item>
+        <item>
+Fab 22e
+</item>
+        <item>
+Vogue 2
+</item>
+        <item>
+Andi 4.3J+
+</item>
+        <item>
+Andi 4.3J
+</item>
+        <item>
+Vibe 2e
+</item>
+        <item>
+Glame 4e
+</item>
+        <item>
+Andi 5c
+</item>
+        <item>
+Andi 107
+</item>
+        <item>
+Splash 2D
+</item>
+        <item>
+Aura 2k
+</item>
+        <item>
+Aura 2b
+</item>
+        <item>
+Fab 9+
+</item>
+        <item>
+Trio 01
+</item>
+        <item>
+Gracia 6
+</item>
+        <item>
+Aasaan
+</item>
+        <item>
+Andi 4.5C Magnifico
+</item>
+        <item>
+Andi HD6
+</item>
+        <item>
+Fab 15c
+</item>
+        <item>
+Aura 3
+</item>
+        <item>
+Andi 3n
+</item>
+    </string-array>
+    <string-array name="iberry_p">
+<item>
+Auxus 4X
+</item>
+        <item>
+Auxus Stunner
+</item>
+        <item>
+Auxus Beast
+</item>
+        <item>
+Auxus One
+</item>
+        <item>
+Auxus Aura A1
+</item>
+        <item>
+Auxus Note 5.5
+</item>
+        <item>
+Auxus Linea L1
+</item>
+        <item>
+Auxus Handy H01
+</item>
+        <item>
+Auxus Nuclea X
+</item>
+        <item>
+Auxus Nuclea N2
+</item>
+        <item>
+Auxus Xenea X1
+</item>
+        <item>
+Auxus Nuclea N1
+</item>
+        <item>
+Auxus Prime P8000
+</item>
+    </string-array>
+    <string-array name="idea_p">
+<item>
+Magna L
+</item>
+        <item>
+Magna
+</item>
+        <item>
+Ultra+
+</item>
+        <item>
+Fab
+</item>
+        <item>
+ID 4000
+</item>
+        <item>
+!d 1000
+</item>
+        <item>
+Ultra II
+</item>
+        <item>
+Aurus IV
+</item>
+        <item>
+Ultra
+</item>
+        <item>
+Aurus III
+</item>
+        <item>
+Aurus II
+</item>
+        <item>
+ID 918
+</item>
+        <item>
+ID 280
+</item>
+        <item>
+Blade
+</item>
+    </string-array>
+    <string-array name="infocus_p">
+<item>
+Epic 1
+</item>
+        <item>
+M535+
+</item>
+        <item>
+Bingo 10
+</item>
+        <item>
+Bingo 50
+</item>
+        <item>
+Bingo 20 (M425)
+</item>
+        <item>
+Bingo 21
+</item>
+        <item>
+M680
+</item>
+        <item>
+M260
+</item>
+        <item>
+M535
+</item>
+        <item>
+M812
+</item>
+        <item>
+M2 4G
+</item>
+        <item>
+M370
+</item>
+        <item>
+M808
+</item>
+        <item>
+M550-3D
+</item>
+        <item>
+M530
+</item>
+        <item>
+M350
+</item>
+        <item>
+M330
+</item>
+        <item>
+M2
+</item>
+        <item>
+M810
+</item>
+        <item>
+Bingo 50+
+</item>
+    </string-array>
+    <string-array name="intex_p">
+  <item>
+Aqua A4
+</item>
+        <item>
+ELYT-e1
+</item>
+        <item>
+Aqua Prime 4G
+</item>
+        <item>
+Aqua 4G Mini
+</item>
+        <item>
+Aqua Trend Lite
+</item>
+        <item>
+Aqua Strong 5.1+
+</item>
+        <item>
+Ultra 4000i
+</item>
+        <item>
+Turbo Selfie+
+</item>
+        <item>
+Aqua Lions 4G
+</item>
+        <item>
+Aqua 4.0
+</item>
+        <item>
+Aqua Supreme+
+</item>
+        <item>
+Aqua Crystal
+</item>
+        <item>
+Aqua Amaze+
+</item>
+        <item>
+Cloud Q11 4G
+</item>
+        <item>
+Cloud Style 4G
+</item>
+        <item>
+Aqua Classic 2
+</item>
+        <item>
+Aqua E4
+</item>
+        <item>
+Aqua Power M
+</item>
+        <item>
+Cloud Scan FP
+</item>
+        <item>
+Cloud S9
+</item>
+        <item>
+Aqua Q8
+</item>
+        <item>
+Aqua Craze II
+</item>
+        <item>
+Aqua 5.5 VR
+</item>
+        <item>
+Aqua S2
+</item>
+        <item>
+Aqua Eco 3G
+</item>
+        <item>
+Aqua Strong 5.2
+</item>
+        <item>
+Aqua Pro 4G
+</item>
+        <item>
+Aqua Raze II
+</item>
+        <item>
+Cloud Q11
+</item>
+        <item>
+Aqua HD 5.5
+</item>
+        <item>
+Aqua S7
+</item>
+        <item>
+Aqua 4.5 3G
+</item>
+        <item>
+Aqua Costa
+</item>
+        <item>
+Aqua Q7N Pro
+</item>
+        <item>
+Cloud Tread
+</item>
+        <item>
+Aqua Music
+</item>
+        <item>
+Aqua Power HD 4G
+</item>
+        <item>
+Aqua Ring
+</item>
+        <item>
+Aqua Q7N
+</item>
+        <item>
+Aqua Pride
+</item>
+        <item>
+Aqua Power 4G
+</item>
+        <item>
+Aqua 3G Pro Q
+</item>
+        <item>
+Aqua Classic
+</item>
+        <item>
+Aqua Sense 5.1
+</item>
+        <item>
+Aqua View
+</item>
+        <item>
+Cloud Glory 4G
+</item>
+        <item>
+Aqua Shine 4G
+</item>
+        <item>
+Cloud String HD
+</item>
+        <item>
+Aqua Secure
+</item>
+        <item>
+Cloud Fame
+</item>
+        <item>
+Aqua Joy
+</item>
+        <item>
+Aqua Lions 3G
+</item>
+        <item>
+Aqua 4.5 Pro
+</item>
+        <item>
+Aqua G2
+</item>
+        <item>
+Cloud Gem+
+</item>
+        <item>
+Cloud Jewel
+</item>
+        <item>
+Cloud Force
+</item>
+        <item>
+Aqua 4G Strong
+</item>
+        <item>
+Aqua Twist
+</item>
+        <item>
+Cloud Breeze
+</item>
+        <item>
+Aqua Fish
+</item>
+        <item>
+Aqua Ace Mini
+</item>
+        <item>
+Aqua Freedom
+</item>
+        <item>
+Aqua Craze
+</item>
+        <item>
+Aqua Lite
+</item>
+        <item>
+Aqua Wing
+</item>
+        <item>
+Aqua Raze
+</item>
+        <item>
+Aqua Ace II
+</item>
+        <item>
+Cloud Crystal 2.5D
+</item>
+        <item>
+Aqua Air II
+</item>
+        <item>
+Cloud 4G Smart
+</item>
+        <item>
+Cloud 3G Gem
+</item>
+        <item>
+Cloud 3G Candy
+</item>
+        <item>
+Cloud Champ
+</item>
+        <item>
+Aqua Q7 Pro
+</item>
+        <item>
+Aqua Star 4G
+</item>
+        <item>
+Aqua GenX
+</item>
+        <item>
+Cloud Cube
+</item>
+        <item>
+Cloud Flash
+</item>
+        <item>
+Cloud Zest
+</item>
+        <item>
+Aqua Air
+</item>
+        <item>
+Aqua Super
+</item>
+        <item>
+Aqua Wave
+</item>
+        <item>
+Aqua 3G NS
+</item>
+        <item>
+Aqua Q7
+</item>
+        <item>
+Aqua Young
+</item>
+        <item>
+Aqua Play
+</item>
+        <item>
+Aqua Life III
+</item>
+        <item>
+Cloud Swift
+</item>
+        <item>
+Aqua Ace
+</item>
+        <item>
+Aqua Power II
+</item>
+        <item>
+Aqua Glam
+</item>
+        <item>
+Aqua Slice II
+</item>
+        <item>
+Cloud V
+</item>
+        <item>
+Aqua V5
+</item>
+        <item>
+Aqua Turbo 4G
+</item>
+        <item>
+Aqua 3G Neo
+</item>
+        <item>
+Aqua Sense 5.0
+</item>
+        <item>
+Cloud Pace
+</item>
+        <item>
+Aqua Q1+
+</item>
+        <item>
+Aqua Dream II
+</item>
+        <item>
+Cloud 4G Star
+</item>
+        <item>
+Aqua Trend</item>
+        <item>
+Cloud Q5</item>
+        <item>
+Aqua Y2 Power</item>
+        <item>
+Aqua Y2 Ultra</item>
+        <item>
+Aqua A2</item>
+        <item>
+Aqua Q5</item>
+        <item>
+Aqua Y4</item>
+        <item>
+Cloud N IPS</item>
+        <item>
+Aqua Xtreme II</item>
+        <item>
+Aqua Q4</item>
+        <item>
+Aqua 4G+</item>
+        <item>
+Aqua 3G Strong</item>
+        <item>
+Aqua 3G Pro</item>
+        <item>
+Cloud Power+</item>
+        <item>
+Cloud M5 II</item>
+        <item>
+Cloud N</item>
+        <item>
+Aqua Life II</item>
+        <item>
+Aqua Life</item>
+        <item>
+Aqua Star II HD</item>
+        <item>
+Aqua Power+</item>
+        <item>
+Cloud M6</item>
+        <item>
+Aqua Y2+</item>
+        <item>
+Aqua Speed HD</item>
+        <item>
+Aqua Dream</item>
+        <item>
+Aqua M5</item>
+        <item>
+Aqua Desire HD</item>
+        <item>
+Aqua Y2</item>
+        <item>
+Aqua HD 5.0</item>
+        <item>
+Aqua Xtreme V</item>
+        <item>
+Aqua Amoled</item>
+        <item>
+Aqua N7</item>
+        <item>
+Aqua Speed</item>
+        <item>
+Aqua Y2 Remote</item>
+        <item>
+Aqua Star II</item>
+        <item>
+Aqua Star L
+</item>
+        <item>
+Aqua X15
+</item>
+        <item>
+Aqua Q3
+</item>
+        <item>
+Aqua X
+</item>
+        <item>
+Aqua 3G Star
+</item>
+        <item>
+Aqua 5X
+</item>
+        <item>
+Aqua Power HD
+</item>
+        <item>
+Aqua Desire
+</item>
+        <item>
+Aqua Y3
+</item>
+        <item>
+Aqua Eco
+</item>
+        <item>
+Aqua V 3G
+</item>
+        <item>
+Aqua 3G+
+</item>
+        <item>
+Aqua A1
+</item>
+        <item>
+Aqua 4.5E
+</item>
+        <item>
+Aqua Q1
+</item>
+        <item>
+Aqua V2
+</item>
+        <item>
+Aqua V3
+</item>
+        <item>
+Aqua R3
+</item>
+        <item>
+Aqua Xtreme
+</item>
+        <item>
+Aqua KAT
+</item>
+        <item>
+Aqua i5 Octa
+</item>
+        <item>
+Aqua Power
+</item>
+        <item>
+Aqua V4
+</item>
+        <item>
+Aqua 3G Mini
+</item>
+        <item>
+Aqua T5
+</item>
+        <item>
+Aqua T4
+</item>
+        <item>
+Aqua Amaze
+</item>
+        <item>
+Aqua Style X
+</item>
+        <item>
+Aqua Slice
+</item>
+        <item>
+Aqua Y2 Pro
+</item>
+        <item>
+Aqua Star Power
+</item>
+        <item>
+Aqua Star HD
+</item>
+        <item>
+Aqua Star
+</item>
+        <item>
+Aqua T2
+</item>
+        <item>
+Aqua 4X
+</item>
+        <item>
+Aqua Style Mini
+</item>
+        <item>
+Cloud FX
+</item>
+        <item>
+Aqua Style Pro
+</item>
+        <item>
+Aqua Style
+</item>
+        <item>
+Killer
+</item>
+        <item>
+Aqua Curve Mini
+</item>
+        <item>
+Aqua N15
+</item>
+        <item>
+Aqua i14
+</item>
+        <item>
+Aqua 3G
+</item>
+        <item>
+Aqua i5 Mini
+</item>
+        <item>
+Aqua i5 HD
+</item>
+        <item>
+Aqua N4
+</item>
+        <item>
+Aqua Qwerty
+</item>
+        <item>
+Cloud Y4+
+</item>
+        <item>
+Cloud X12
+</item>
+        <item>
+Aqua N8
+</item>
+        <item>
+Cloud X1+
+</item>
+        <item>
+Cloud X11
+</item>
+        <item>
+Cloud Y12
+</item>
+        <item>
+Cloud Y11
+</item>
+        <item>
+Aqua i15
+</item>
+        <item>
+Aqua Curve
+</item>
+        <item>
+Aqua Octa
+</item>
+        <item>
+aqua i2
+</item>
+        <item>
+Aqua i4+
+</item>
+        <item>
+Slimzz
+</item>
+        <item>
+Aqua i6
+</item>
+        <item>
+Aqua N2
+</item>
+        <item>
+Aqua HD
+</item>
+        <item>
+Aqua i7
+</item>
+        <item>
+Cloud Y5
+</item>
+        <item>
+Aqua i-4
+</item>
+        <item>
+Cloud X4
+</item>
+        <item>
+Cloud Y2
+</item>
+        <item>
+Cloud X3
+</item>
+        <item>
+Cloud XI
+</item>
+        <item>
+Aqua i-5
+</item>
+        <item>
+Cloud Z5
+</item>
+        <item>
+Aqua Superb
+</item>
+        <item>
+4470 Ace
+</item>
+        <item>
+Spark
+</item>
+        <item>
+Player
+</item>
+        <item>
+Aqua Active
+</item>
+        <item>
+Aqua Marvel Plus
+</item>
+        <item>
+Aqua Glow
+</item>
+        <item>
+Aqua Wonder
+</item>
+        <item>
+Aqua wonder Quad Core
+</item>
+        <item>
+Aura Plus
+</item>
+        <item>
+IN 50 plus
+</item>
+        <item>
+Turbo 3.5
+</item>
+        <item>
+Aqua Flash
+</item>
+        <item>
+Neo Vi
+</item>
+        <item>
+Neo Smart
+</item>
+        <item>
+Force
+</item>
+        <item>
+Yuvi Plus
+</item>
+        <item>
+U AA Power
+</item>
+        <item>
+Aqua Marvel
+</item>
+        <item>
+Aqua Style 2013
+</item>
+        <item>
+Eagle
+</item>
+        <item>
+Boss 5.1
+</item>
+        <item>
+Avatar 3D 2.0
+</item>
+        <item>
+Aqua Eco 4G
+</item>
+        <item>
+Aqua Viturbo
+</item>
+        <item>
+Aqua Strong 5.1
+</item>
+        <item>
+Cloud String v2.0
+</item>
+        <item>
+GC 5050
+</item>
+        <item>
+Aqua Star (2013)
+</item>
+    </string-array>
+    <string-array name="karbonn_p">
+
+<item>
+Aura Sleek 4G
+</item>
+        <item>
+Aura Note 4G
+</item>
+        <item>
+K9 Viraat 4G
+</item>
+        <item>
+Titanium Vista 4G
+</item>
+        <item>
+K9 Smart 4G
+</item>
+        <item>
+Titanium 3-D Plex
+</item>
+        <item>
+Titanium Vista
+</item>
+        <item>
+Quattro L55 HD
+</item>
+        <item>
+Aura Power
+</item>
+        <item>
+A91 Storm
+</item>
+        <item>
+Titanium Mach Six
+</item>
+        <item>
+Quattro L52
+</item>
+        <item>
+Quattro L50 HD
+</item>
+        <item>
+K9 Smart
+</item>
+        <item>
+Titanium Moghul
+</item>
+        <item>
+K-Touch M105
+</item>
+        <item>
+K18 Jumbo
+</item>
+        <item>
+Alfa 112
+</item>
+        <item>
+Alfa A91 Power
+</item>
+        <item>
+Alfa A93 Pop
+</item>
+        <item>
+Titanium S205 2GB
+</item>
+        <item>
+Titanium S200 HD
+</item>
+        <item>
+Aura 9
+</item>
+        <item>
+Titanium Mach Five
+</item>
+        <item>
+Titanium Mach One Plus
+</item>
+        <item>
+Aura
+</item>
+        <item>
+Alfa A120
+</item>
+        <item>
+Titanium Mach Two S360
+</item>
+        <item>
+Titanium Dazzle
+</item>
+        <item>
+Platinum P9
+</item>
+        <item>
+S15
+</item>
+        <item>
+Machone Titanium S310
+</item>
+        <item>
+Titanium S25 Klick
+</item>
+        <item>
+Titanium S8
+</item>
+        <item>
+Titanium S6
+</item>
+        <item>
+Titanium S4 Plus
+</item>
+        <item>
+Titanium S12 Delite
+</item>
+        <item>
+Titanium S20
+</item>
+        <item>
+Titanium Wind W4
+</item>
+        <item>
+Titanium S10
+</item>
+        <item>
+Titanium S5 Ultra
+</item>
+        <item>
+Sparkle V
+</item>
+        <item>
+A5 Turbo
+</item>
+        <item>
+A1+ Super
+</item>
+        <item>
+Titanium S19
+</item>
+        <item>
+Opium N9
+</item>
+        <item>
+Opium N7
+</item>
+        <item>
+Smart A12 Star
+</item>
+        <item>
+Smart A11 Star
+</item>
+        <item>
+Smart A52 Plus
+</item>
+        <item>
+Titanium S99
+</item>
+        <item>
+A99i
+</item>
+        <item>
+Titanium S9 Lite
+</item>
+        <item>
+Smart A50s
+</item>
+        <item>
+A25+
+</item>
+        <item>
+Titanium S1 Plus
+</item>
+        <item>
+Titanium Octane Plus
+</item>
+        <item>
+Titanium Octane
+</item>
+        <item>
+Titanium Hexa
+</item>
+        <item>
+Legend 2.4
+</item>
+        <item>
+Legend 2.8
+</item>
+        <item>
+A6+
+</item>
+        <item>
+A36
+</item>
+        <item>
+A91
+</item>
+        <item>
+Titanium S5i
+</item>
+        <item>
+Titanium S4
+</item>
+        <item>
+Titanium X
+</item>
+        <item>
+Titanium S5 Plus
+</item>
+        <item>
+A1+ Duple
+</item>
+        <item>
+A15+
+</item>
+        <item>
+Titanium S7
+</item>
+        <item>
+A 18+
+</item>
+        <item>
+A 12+
+</item>
+        <item>
+A99
+</item>
+        <item>
+A16
+</item>
+        <item>
+smart A51
+</item>
+        <item>
+A8
+</item>
+        <item>
+A11+
+</item>
+        <item>
+Smart A1 Star
+</item>
+        <item>
+Smart A5 Star
+</item>
+        <item>
+A29
+</item>
+        <item>
+A27 plus
+</item>
+        <item>
+Titanium S9
+</item>
+        <item>
+A5
+</item>
+        <item>
+K46+
+</item>
+        <item>
+S2 Titanium
+</item>
+        <item>
+A7 Star
+</item>
+        <item>
+KC110
+</item>
+        <item>
+K62
+</item>
+        <item>
+K202+
+</item>
+        <item>
+A2
+</item>
+        <item>
+S5 Titanium
+</item>
+        <item>
+A6
+</item>
+        <item>
+A4
+</item>
+        <item>
+A3
+</item>
+        <item>
+A27 Retina
+</item>
+        <item>
+A111
+</item>
+        <item>
+K75
+</item>
+        <item>
+K3 Star
+</item>
+        <item>
+A12
+</item>
+        <item>
+S1 Titanium
+</item>
+        <item>
+A7
+</item>
+        <item>
+K777*
+</item>
+        <item>
+K15+
+</item>
+        <item>
+A30
+</item>
+        <item>
+A21
+</item>
+        <item>
+K1+
+</item>
+        <item>
+KC620
+</item>
+        <item>
+K21+
+</item>
+        <item>
+K102+
+</item>
+        <item>
+K101 Star
+</item>
+        <item>
+K34
+</item>
+        <item>
+K309
+</item>
+        <item>
+A50
+</item>
+    </string-array>
+    <string-array name="lava_p">
+
+<item>
+Z25
+</item>
+        <item>
+Z10
+</item>
+        <item>
+4G Connect M1
+</item>
+        <item>
+X41+
+</item>
+        <item>
+A55
+</item>
+        <item>
+A50
+</item>
+        <item>
+A76+
+</item>
+        <item>
+Metal 24
+</item>
+        <item>
+X50+
+</item>
+        <item>
+A97
+</item>
+        <item>
+A56
+</item>
+        <item>
+X28
+</item>
+        <item>
+P7+
+</item>
+        <item>
+X38
+</item>
+        <item>
+A32
+</item>
+        <item>
+A68
+</item>
+        <item>
+X50
+</item>
+        <item>
+X17
+</item>
+        <item>
+X81
+</item>
+        <item>
+X46
+</item>
+        <item>
+A82
+</item>
+        <item>
+A59
+</item>
+        <item>
+A67
+</item>
+        <item>
+A89
+</item>
+        <item>
+A76
+</item>
+        <item>
+A72
+</item>
+        <item>
+KKT Ultra+ Union
+</item>
+        <item>
+V2s
+</item>
+        <item>
+A52
+</item>
+        <item>
+Flair S1
+</item>
+        <item>
+A71
+</item>
+        <item>
+X3
+</item>
+        <item>
+Iris Fuel F2
+</item>
+        <item>
+V5
+</item>
+        <item>
+P7
+</item>
+        <item>
+Iris Atom
+</item>
+        <item>
+Iris Atom 3
+</item>
+        <item>
+X10
+</item>
+        <item>
+Iris Atom 2X
+</item>
+        <item>
+Iris Fuel F1
+</item>
+        <item>
+Flair E2
+</item>
+        <item>
+Iris Fuel F1 Mini
+</item>
+        <item>
+Pixel V2
+</item>
+        <item>
+Flair P1i
+</item>
+        <item>
+Iris Atom 2
+</item>
+        <item>
+Iris X5 4G
+</item>
+        <item>
+Iris X1 Selfie
+</item>
+        <item>
+Pixel V1
+</item>
+        <item>
+Flair Z1
+</item>
+        <item>
+Iris X1 Atom S
+</item>
+        <item>
+Flair P1
+</item>
+        <item>
+Iris 100 Lite
+</item>
+        <item>
+Iris 349 Sleek
+</item>
+        <item>
+Iris 348
+</item>
+        <item>
+Iris 370
+</item>
+        <item>
+Iris X1 Atom
+</item>
+        <item>
+Icon
+</item>
+        <item>
+Iris 444
+</item>
+        <item>
+Iris 414
+</item>
+        <item>
+Iris Fuel 25
+</item>
+        <item>
+Iris Fuel 10
+</item>
+        <item>
+Iris 325 Style
+</item>
+        <item>
+Iris X1 Beats
+</item>
+        <item>
+Iris Fuel 20
+</item>
+        <item>
+Iris 465
+</item>
+        <item>
+Iris X8
+</item>
+        <item>
+Iris X1 Grand
+</item>
+        <item>
+Iris X1 Mini
+</item>
+        <item>
+Iris Alfa L
+</item>
+        <item>
+Iris 470
+</item>
+        <item>
+Iris 350
+</item>
+        <item>
+Iris Alfa
+</item>
+        <item>
+Iris 310 Style
+</item>
+        <item>
+Iris Fuel 60
+</item>
+        <item>
+Iris Win1
+</item>
+        <item>
+Iris 401
+</item>
+        <item>
+Iris Selfie 50
+</item>
+        <item>
+Iris 500
+</item>
+        <item>
+Iris Fuel 50
+</item>
+        <item>
+Iris 404e
+</item>
+        <item>
+Iris 349i
+</item>
+        <item>
+Iris 410
+</item>
+        <item>
+Iris 250
+</item>
+        <item>
+Iris 400 Colours
+</item>
+        <item>
+Iris 400s
+</item>
+        <item>
+Iris 404 Flair
+</item>
+        <item>
+Iris 352 Flair
+</item>
+        <item>
+Iris 400Q
+</item>
+        <item>
+Iris X5
+</item>
+        <item>
+Iris Pro 30+
+</item>
+        <item>
+Iris 310
+</item>
+        <item>
+Iris 360 Music
+</item>
+        <item>
+Iris 460
+</item>
+        <item>
+Magnum X604
+</item>
+        <item>
+Iris 350M
+</item>
+        <item>
+Iris 300 Style
+</item>
+        <item>
+3G 412
+</item>
+        <item>
+3G 415
+</item>
+        <item>
+3G 354
+</item>
+        <item>
+Iris X1
+</item>
+        <item>
+Iris 504Q+
+</item>
+        <item>
+Iris 406Q
+</item>
+        <item>
+Iris 450 Colour
+</item>
+        <item>
+Iris Pro 20
+</item>
+        <item>
+Iris 550Q
+</item>
+        <item>
+Iris 503e
+</item>
+        <item>
+Iris 408e
+</item>
+        <item>
+Iris 402e
+</item>
+        <item>
+Iris Pro 30
+</item>
+        <item>
+Iris 405+
+</item>
+        <item>
+Iris 354e
+</item>
+        <item>
+3G 402+
+</item>
+        <item>
+Iris 456
+</item>
+        <item>
+Iris 503
+</item>
+        <item>
+Iris 352e
+</item>
+        <item>
+Iris 505
+</item>
+        <item>
+Iris 506q
+</item>
+        <item>
+3G 402
+</item>
+        <item>
+3G 356
+</item>
+        <item>
+Iris 349+
+</item>
+        <item>
+KKT 40S
+</item>
+        <item>
+ARC1 +
+</item>
+        <item>
+Iris 349
+</item>
+        <item>
+Iris 504q
+</item>
+        <item>
+Iris 401e
+</item>
+        <item>
+Iris 458q
+</item>
+        <item>
+Iris 455
+</item>
+        <item>
+Iris 405
+</item>
+        <item>
+Iris 430
+</item>
+        <item>
+Iris 355
+</item>
+        <item>
+Iris 502
+</item>
+        <item>
+Iris 454
+</item>
+        <item>
+Iris 351
+</item>
+        <item>
+Discover 135
+</item>
+        <item>
+Discover 132
+</item>
+        <item>
+ARC9i
+</item>
+        <item>
+KKT 38
+</item>
+        <item>
+Discover 128
+</item>
+        <item>
+C21
+</item>
+        <item>
+Iris N400
+</item>
+        <item>
+C41
+</item>
+        <item>
+C12
+</item>
+        <item>
+C11
+</item>
+        <item>
+Iris N320
+</item>
+        <item>
+Iris
+</item>
+        <item>
+KKT 51
+</item>
+        <item>
+C81
+</item>
+        <item>
+KKT 22i
+</item>
+        <item>
+C71
+</item>
+        <item>
+C51
+</item>
+        <item>
+C31
+</item>
+        <item>
+KKT 36
+</item>
+        <item>
+KKT 18
+</item>
+        <item>
+A11
+</item>
+        <item>
+M9
+</item>
+        <item>
+A16
+</item>
+        <item>
+M70
+</item>
+        <item>
+KKT 16
+</item>
+        <item>
+KKT 50
+</item>
+        <item>
+KKT 39
+</item>
+        <item>
+S12
+</item>
+        <item>
+KKT 34i
+</item>
+        <item>
+ARC 09
+</item>
+        <item>
+KKT 34
+</item>
+        <item>
+KKT 11+
+</item>
+        <item>
+M20
+</item>
+        <item>
+B6
+</item>
+        <item>
+ARC 21
+</item>
+        <item>
+ARC 05
+</item>
+        <item>
+ARC 03 Plus
+</item>
+        <item>
+KKT 34 Plus
+</item>
+        <item>
+KKT 28
+</item>
+        <item>
+C30
+</item>
+        <item>
+M30
+</item>
+        <item>
+KKT 35
+</item>
+        <item>
+ARC 04
+</item>
+        <item>
+ARC 01
+</item>
+        <item>
+B8
+</item>
+        <item>
+A10
+</item>
+        <item>
+KKT 22 Plus
+</item>
+        <item>
+Flair E1
+</item>
+        <item>
+A48
+</item>
+        <item>
+A79
+</item>
+        <item>
+X11
+</item>
+        <item>
+A88
+</item>
+        <item>
+ARC2
+</item>
+    </string-array>
+    <string-array name="leeco_p">
+
+<item>
+Le Pro 3 AI Edition
+</item>
+        <item>
+Le Pro 3 Elite
+</item>
+        <item>
+Le Pro 3
+</item>
+        <item>
+Le 1s Eco
+</item>
+        <item>
+Le 2 Pro
+</item>
+        <item>
+Le 2
+</item>
+        <item>
+Le Max 2
+</item>
+        <item>
+Le Max Pro
+</item>
+        <item>
+Le 1s
+</item>
+        <item>
+Le Max
+</item>
+        <item>
+Le 1 Pro
+</item>
+        <item>
+Le 1
+</item>
+        <item>
+LeS3
+</item>
+    </string-array>
+    <string-array name="lyf_p">
+
+<item>
+Water 3
+</item>
+        <item>
+F1S
+</item>
+        <item>
+Wind 7S
+</item>
+        <item>
+Water 9
+</item>
+        <item>
+Wind 7i
+</item>
+        <item>
+F8
+</item>
+        <item>
+F1 Plus
+</item>
+        <item>
+F1
+</item>
+        <item>
+Wind 4S
+</item>
+        <item>
+Flame 7s
+</item>
+        <item>
+Water 11
+</item>
+        <item>
+Water 10
+</item>
+        <item>
+Wind 7
+</item>
+        <item>
+Flame 7
+</item>
+        <item>
+Flame 8
+</item>
+        <item>
+Wind 3
+</item>
+        <item>
+Wind 2
+</item>
+        <item>
+Water 8
+</item>
+        <item>
+Water 6
+</item>
+        <item>
+Water 4
+</item>
+        <item>
+Flame 5
+</item>
+        <item>
+Water 7
+</item>
+        <item>
+Wind 1
+</item>
+        <item>
+Wind 5
+</item>
+        <item>
+Flame 6
+</item>
+        <item>
+Flame 4
+</item>
+        <item>
+Flame 3
+</item>
+        <item>
+Wind 4
+</item>
+        <item>
+Flame 2
+</item>
+        <item>
+Water 5
+</item>
+        <item>
+Wind 6
+</item>
+        <item>
+Flame 1
+</item>
+        <item>
+Water 2
+</item>
+        <item>
+Water 1
+</item>
+        <item>
+Earth 1
+</item>
+        <item>
+Earth 2
+</item>
+    </string-array>
+    <string-array name="maxx_p">
+<item>
+GenxDroid7 AXD11
+</item>
+        <item>
+MX200
+</item>
+        <item>
+AXD21 MSD7 Smarty
+</item>
+        <item>
+GenxDroid7 AX356
+</item>
+        <item>
+AX411 Duo
+</item>
+        <item>
+MX100 Leader
+</item>
+        <item>
+MSD 7 3G
+</item>
+        <item>
+AX40
+</item>
+        <item>
+Ax5 Plus
+</item>
+        <item>
+Genx Droid 7
+</item>
+        <item>
+AX9z
+</item>
+        <item>
+AX8
+</item>
+    </string-array>
+
+    <string-array name="meizu_p">
+<item>
+E2
+</item>
+        <item>
+M5s
+</item>
+        <item>
+M5 Note
+</item>
+        <item>
+Pro 6 Plus
+</item>
+        <item>
+M3X
+</item>
+        <item>
+Pro 6s
+</item>
+        <item>
+M5
+</item>
+        <item>
+M3 Max
+</item>
+        <item>
+M3E
+</item>
+        <item>
+MX6
+</item>
+        <item>
+m3s
+</item>
+        <item>
+Pro 6
+</item>
+        <item>
+m3 note
+</item>
+        <item>
+MX5e
+</item>
+        <item>
+Pro 5 Ubuntu Edition
+</item>
+        <item>
+metal
+</item>
+        <item>
+m2
+</item>
+        <item>
+Pro 5
+</item>
+        <item>
+MX5
+</item>
+        <item>
+MX4 Ubuntu Edition
+</item>
+        <item>
+m2 note
+</item>
+        <item>
+m1 note
+</item>
+        <item>
+m1
+</item>
+        <item>
+U20
+</item>
+        <item>
+U10
+</item>
+        <item>
+m3
+</item>
+    </string-array>
+    <string-array name="micromax_p">
+<item>
+Evok Power
+</item>
+        <item>
+Evok Note
+</item>
+        <item>
+Bharat 2
+</item>
+        <item>
+Dual 5
+</item>
+        <item>
+Spark Vdeo
+</item>
+        <item>
+Vdeo 3
+</item>
+        <item>
+Vdeo 4
+</item>
+        <item>
+Vdeo 2
+</item>
+        <item>
+Vdeo 1
+</item>
+        <item>
+Canvas Spark 4G
+</item>
+        <item>
+Canvas 5 Lite
+</item>
+        <item>
+Bolt Q326+
+</item>
+        <item>
+Canvas 5 Lite Special Edition
+</item>
+        <item>
+Unite 4 Plus
+</item>
+        <item>
+Bolt Supreme 4
+</item>
+        <item>
+Unite 4 Pro
+</item>
+        <item>
+Unite 4
+</item>
+        <item>
+Canvas Fire 5
+</item>
+        <item>
+Canvas Amaze 2
+</item>
+        <item>
+Canvas Selfie 4
+</item>
+        <item>
+Bolt Selfie
+</item>
+        <item>
+Bolt Supreme 2
+</item>
+        <item>
+Bolt Supreme
+</item>
+        <item>
+Canvas Evok
+</item>
+        <item>
+Canvas Mega 2
+</item>
+        <item>
+Canvas Spark 2 Plus
+</item>
+        <item>
+Canvas 6
+</item>
+        <item>
+Canvas 6 Pro
+</item>
+        <item>
+Canvas Spark 3
+</item>
+        <item>
+Canvas Amaze 4G
+</item>
+        <item>
+Canvas Juice 4G
+</item>
+        <item>
+Canvas Juice 4
+</item>
+        <item>
+Canvas Fantabulet
+</item>
+        <item>
+Canvas Pulse 4G
+</item>
+        <item>
+Canvas Mega 4G
+</item>
+        <item>
+Canvas Fire 4G+
+</item>
+        <item>
+Canvas Pace 4G
+</item>
+        <item>
+Canvas Nitro 3
+</item>
+        <item>
+Canvas Xpress 4G
+</item>
+        <item>
+Canvas Blaze 4G+
+</item>
+        <item>
+Canvas Amaze
+</item>
+        <item>
+Canvas Mega
+</item>
+        <item>
+Canvas 5
+</item>
+        <item>
+Bolt Q332
+</item>
+        <item>
+Bolt S302
+</item>
+        <item>
+Bolt Q331
+</item>
+        <item>
+Bolt Q339
+</item>
+        <item>
+Canvas Play 4G
+</item>
+        <item>
+Canvas Blaze 4G
+</item>
+        <item>
+Canvas Spark 2
+</item>
+        <item>
+Bolt Q338
+</item>
+        <item>
+Canvas Juice 3+
+</item>
+        <item>
+Canvas Juice 3
+</item>
+        <item>
+Canvas Fire 4G
+</item>
+        <item>
+Canvas Nitro 4G
+</item>
+        <item>
+Canvas Selfie 3
+</item>
+        <item>
+Canvas Selfie 2
+</item>
+        <item>
+Canvas Xpress 2
+</item>
+        <item>
+Bolt S301
+</item>
+        <item>
+Bolt D303
+</item>
+        <item>
+Canvas Selfie Lens
+</item>
+        <item>
+Canvas Sliver 5
+</item>
+        <item>
+Canvas Hue 2
+</item>
+        <item>
+Canvas Fire 3
+</item>
+        <item>
+Canvas Knight 2
+</item>
+        <item>
+Canvas A1 AQ4502
+</item>
+        <item>
+Canvas Doodle 4
+</item>
+        <item>
+Bolt Q335
+</item>
+        <item>
+Canvas Nitro 2
+</item>
+        <item>
+Unite 3
+</item>
+        <item>
+Canvas Play
+</item>
+        <item>
+Canvas Spark
+</item>
+        <item>
+Bolt D320
+</item>
+        <item>
+Bolt S300
+</item>
+        <item>
+Canvas Juice 2
+</item>
+        <item>
+Bolt Q324
+</item>
+        <item>
+Canvas Fire 4
+</item>
+        <item>
+Bolt D321
+</item>
+        <item>
+Canvas Pep
+</item>
+        <item>
+Bolt A82
+</item>
+        <item>
+Joy X1850
+</item>
+        <item>
+Joy X1800
+</item>
+        <item>
+Bolt A067
+</item>
+        <item>
+Bolt A066
+</item>
+        <item>
+Canvas A82
+</item>
+        <item>
+Canvas Hue
+</item>
+        <item>
+Bolt AD3520
+</item>
+        <item>
+Canvas Selfie
+</item>
+        <item>
+Canvas Nitro A311
+</item>
+        <item>
+Canvas Xpress
+</item>
+        <item>
+Bolt AD4500
+</item>
+        <item>
+Bolt A089
+</item>
+        <item>
+Bolt A064
+</item>
+        <item>
+Canvas 4 Plus
+</item>
+        <item>
+Canvas A1
+</item>
+        <item>
+Canvas Nitro
+</item>
+        <item>
+Bolt A082
+</item>
+        <item>
+Bolt A065
+</item>
+        <item>
+Canvas XL 2
+</item>
+        <item>
+Canvas Knight Cameo
+</item>
+        <item>
+Canvas L
+</item>
+        <item>
+Canvas Fire A104
+</item>
+        <item>
+Canvas HD Plus
+</item>
+        <item>
+Canvas Fire
+</item>
+        <item>
+Bolt A069
+</item>
+        <item>
+Canvas Duet AE90
+</item>
+        <item>
+Canvas Gold A300
+</item>
+        <item>
+Canvas Win W092
+</item>
+        <item>
+Canvas Win W121
+</item>
+        <item>
+Unite
+</item>
+        <item>
+Canvas Entice
+</item>
+        <item>
+Canvas Engage
+</item>
+        <item>
+Unite 2
+</item>
+        <item>
+Canvas Elanza 2
+</item>
+        <item>
+Bolt A69
+</item>
+        <item>
+Canvas 2 Colours
+</item>
+        <item>
+Canvas Doodle 3
+</item>
+        <item>
+A177 Canvas Juice
+</item>
+        <item>
+Canvas Knight
+</item>
+        <item>
+Bolt A075
+</item>
+        <item>
+Canvas Blaze HD
+</item>
+        <item>
+Canvas Duet II
+</item>
+        <item>
+Canvas Power
+</item>
+        <item>
+Canvas Elanza
+</item>
+        <item>
+Bolt A37
+</item>
+        <item>
+Bolt A46
+</item>
+        <item>
+Bolt A37B
+</item>
+        <item>
+Bolt A068
+</item>
+        <item>
+Canvas Turbo Mini
+</item>
+        <item>
+Canvas Social
+</item>
+        <item>
+Canvas Beat
+</item>
+        <item>
+Bolt A24
+</item>
+        <item>
+Canvas XL
+</item>
+        <item>
+Canvas MAd A94
+</item>
+        <item>
+Bolt A71
+</item>
+        <item>
+Bolt A66
+</item>
+        <item>
+Bolt A59
+</item>
+        <item>
+Bolt A28
+</item>
+        <item>
+Canvas Blaze MT500
+</item>
+        <item>
+A114 Canvas 2.2
+</item>
+        <item>
+Bolt A61
+</item>
+        <item>
+A116i Canvas HD
+</item>
+        <item>
+A77 Canvas Juice
+</item>
+        <item>
+Canvas Turbo
+</item>
+        <item>
+Canvas Magnus
+</item>
+        <item>
+Bolt A58
+</item>
+        <item>
+C260
+</item>
+        <item>
+Bolt A34
+</item>
+        <item>
+Bolt A40
+</item>
+        <item>
+Canvas Ego A113
+</item>
+        <item>
+Canvas Fun A63
+</item>
+        <item>
+Canvas Fun A74
+</item>
+        <item>
+Canvas Fun
+</item>
+        <item>
+Canvas Doodle 2
+</item>
+        <item>
+A34
+</item>
+        <item>
+Bling 3
+</item>
+        <item>
+Canvas 4
+</item>
+        <item>
+Canvas Lite
+</item>
+        <item>
+X104C
+</item>
+        <item>
+C190
+</item>
+        <item>
+Ninja 4.0 A87
+</item>
+        <item>
+A68 Smarty 4.0
+</item>
+        <item>
+A65 Smarty 4.3
+</item>
+        <item>
+A57
+</item>
+        <item>
+A30 Smarty 3.0
+</item>
+        <item>
+Canvas Music
+</item>
+        <item>
+Canvas Doodle
+</item>
+        <item>
+Canvas 2 Plus
+</item>
+        <item>
+X446
+</item>
+        <item>
+X321
+</item>
+        <item>
+X295
+</item>
+        <item>
+Bolt X287
+</item>
+        <item>
+Ninja A91
+</item>
+        <item>
+Bolt A51
+</item>
+        <item>
+A72 Canvas Viva
+</item>
+        <item>
+Canvas 3D
+</item>
+        <item>
+X322
+</item>
+        <item>
+A90S Superfone Pixel
+</item>
+        <item>
+A90 Superfone Pixel
+</item>
+        <item>
+A27 Ninja
+</item>
+        <item>
+GC222
+</item>
+        <item>
+X396
+</item>
+        <item>
+X340
+</item>
+        <item>
+X327
+</item>
+        <item>
+X325
+</item>
+        <item>
+X286
+</item>
+        <item>
+X272
+</item>
+        <item>
+X268
+</item>
+        <item>
+X099
+</item>
+        <item>
+Q76
+</item>
+        <item>
+Bolt A35
+</item>
+        <item>
+Ninja
+</item>
+        <item>
+Canvas HD
+</item>
+        <item>
+BOLT A 26
+</item>
+        <item>
+GC333
+</item>
+        <item>
+A54 Smarty 3.5
+</item>
+        <item>
+X455
+</item>
+        <item>
+X234C
+</item>
+        <item>
+Canvas 2 A110
+</item>
+        <item>
+X456
+</item>
+    </string-array>
+    <string-array name="mts_p">
+
+<item>
+Blaze 5.0
+</item>
+        <item>
+Blaze 4.5
+</item>
+        <item>
+Duet 2
+</item>
+        <item>
+Duet
+</item>
+        <item>
+Striker C121
+</item>
+        <item>
+Mtag 3.1
+</item>
+        <item>
+Alive
+</item>
+        <item>
+Slider
+</item>
+        <item>
+Silver
+</item>
+        <item>
+Rockstar
+</item>
+        <item>
+Turbo B121
+</item>
+        <item>
+Striker F121
+</item>
+        <item>
+Striker C122
+</item>
+        <item>
+C5100
+</item>
+    </string-array>
+    <string-array name="obi_p">
+<item>
+Boa S503
+</item>
+        <item>
+    Alligator S454
+</item>
+        <item>
+Hornbill S551
+</item>
+        <item>
+Racoon S401
+</item>
+        <item>
+Fox S453
+</item>
+        <item>
+Falcon S451
+</item>
+        <item>
+Leopard S502
+</item>
+        <item>
+Crane S550
+</item>
+        <item>
+Wolverine S501
+</item>
+        <item>
+S400
+</item>
+        <item>
+500
+</item>
+        <item>
+S450
+</item>
+        <item>
+Python S452
+</item>
+        <item>
+Octopus S520
+</item>
+    </string-array>
+    <string-array name="panasonic_p">
+<item>
+Eluga Ray X
+</item>
+        <item>
+Eluga Ray Max
+</item>
+        <item>
+Eluga Pure
+</item>
+        <item>
+Eluga Pulse X
+</item>
+        <item>
+Eluga Pulse
+</item>
+        <item>
+P88
+</item>
+        <item>
+Eluga Prim
+</item>
+        <item>
+Eluga Mark 2
+</item>
+        <item>
+P71
+</item>
+        <item>
+Eluga Tapp
+</item>
+        <item>
+P77
+</item>
+        <item>
+Eluga Arc 2
+</item>
+        <item>
+Eluga Note
+</item>
+        <item>
+P75
+</item>
+        <item>
+T44
+</item>
+        <item>
+T30
+</item>
+        <item>
+Eluga I3
+</item>
+        <item>
+Eluga Arc
+</item>
+        <item>
+T50
+</item>
+        <item>
+Toughpad FZ-F1
+</item>
+        <item>
+Toughpad FZ-N1
+</item>
+        <item>
+P66 Mega
+</item>
+        <item>
+Eluga Turbo
+</item>
+        <item>
+Eluga Mark
+</item>
+        <item>
+P65 Flash
+</item>
+        <item>
+P50 Idol
+</item>
+        <item>
+Eluga Switch
+</item>
+        <item>
+T45 4G
+</item>
+        <item>
+Eluga I2
+</item>
+        <item>
+Eluga L2
+</item>
+        <item>
+Eluga Icon
+</item>
+        <item>
+Love T10
+</item>
+        <item>
+T33
+</item>
+        <item>
+Eluga Z
+</item>
+        <item>
+P55 Novo
+</item>
+        <item>
+Eluga S Mini
+</item>
+        <item>
+Eluga L 4G
+</item>
+        <item>
+Eluga U2
+</item>
+        <item>
+Eluga I
+</item>
+        <item>
+Eluga S
+</item>
+        <item>
+P55
+</item>
+        <item>
+T9
+</item>
+        <item>
+T40
+</item>
+        <item>
+Lumix DMC-CM1
+</item>
+        <item>
+Eluga A
+</item>
+        <item>
+Eluga U
+</item>
+        <item>
+P61
+</item>
+        <item>
+P41
+</item>
+        <item>
+T41
+</item>
+        <item>
+GD21
+</item>
+        <item>
+GD31
+</item>
+        <item>
+Toughpad FZ-X1
+</item>
+        <item>
+Toughpad FZ-E1
+</item>
+        <item>
+P81
+</item>
+        <item>
+P31
+</item>
+        <item>
+EZ240
+</item>
+        <item>
+EZ180
+</item>
+        <item>
+T31
+</item>
+        <item>
+T21
+</item>
+        <item>
+T11
+</item>
+        <item>
+P11
+</item>
+        <item>
+P51
+</item>
+        <item>
+T44 Lite
+</item>
+        <item>
+Eluga A2
+</item>
+    </string-array>
+    <string-array name="philips_p">
+
+<item>
+Sapphire Life V787
+</item>
+        <item>
+Sapphire S616
+</item>
+        <item>
+Xenium S309
+</item>
+        <item>
+Xenium I908
+</item>
+        <item>
+S398
+</item>
+        <item>
+i966 Aurora
+</item>
+        <item>
+Xenium X2566
+</item>
+        <item>
+S388
+</item>
+        <item>
+I928
+</item>
+        <item>
+Xenium W6610
+</item>
+        <item>
+W3500
+</item>
+        <item>
+S308
+</item>
+    </string-array>
+    <string-array name="rbells_p">
+<item>
+Raja
+</item>
+        <item>
+Boss
+</item>
+        <item>
+King
+</item>
+        <item>
+Hit
+</item>
+        <item>
+Elegant
+</item>
+        <item>
+Elegance
+</item>
+        <item>
+Freedom 251
+</item>
+        <item>
+Smart 101
+</item>
+    </string-array>
+
+    <string-array name="sony_p">
+<item>
+Xperia L1
+</item>
+        <item>
+Xperia XA1
+</item>
+        <item>
+Xperia XA1 Ultra
+</item>
+        <item>
+Xperia XZs
+</item>
+        <item>
+Xperia XZ Premium
+</item>
+        <item>
+Xperia X Compact
+</item>
+        <item>
+Xperia XZ
+</item>
+        <item>
+Xperia E5 Dual
+</item>
+        <item>
+Xperia E5
+</item>
+        <item>
+Xperia XA Ultra
+</item>
+        <item>
+Xperia X Dual
+</item>
+        <item>
+Xperia X
+</item>
+        <item>
+Xperia X Performance Dual
+</item>
+        <item>
+Xperia X Performance
+</item>
+        <item>
+Xperia XA Dual
+</item>
+        <item>
+Xperia XA
+</item>
+        <item>
+Xperia Z5 Dual
+</item>
+        <item>
+Xperia Z5 Compact
+</item>
+        <item>
+Xperia Z5 Premium Dual
+</item>
+        <item>
+Xperia M5 Dual
+</item>
+        <item>
+Xperia C5 Ultra Dual
+</item>
+        <item>
+Xperia M5
+</item>
+        <item>
+Xperia C5 Ultra
+</item>
+        <item>
+Xperia Z4v
+</item>
+        <item>
+Xperia Z3+ Dual
+</item>
+        <item>
+Xperia Z3+
+</item>
+        <item>
+Xperia M4 Aqua Dual
+</item>
+        <item>
+Xperia A4
+</item>
+        <item>
+Xperia Z4
+</item>
+        <item>
+Xperia J1 Compact
+</item>
+        <item>
+Xperia E4 Dual
+</item>
+        <item>
+Xperia E4
+</item>
+        <item>
+Xperia C4 Dual
+</item>
+        <item>
+Xperia C4
+</item>
+        <item>
+Xperia M4 Aqua
+</item>
+        <item>
+Xperia E4g Dual
+</item>
+        <item>
+Xperia E4g
+</item>
+        <item>
+Xperia Z3 Dual
+</item>
+        <item>
+Xperia E3 Dual
+</item>
+        <item>
+Xperia Z3 Compact
+</item>
+        <item>
+Xperia Z3
+</item>
+        <item>
+Xperia E3
+</item>
+        <item>
+Xperia M2 Aqua
+</item>
+        <item>
+Xperia C3 Dual
+</item>
+        <item>
+Xperia C3
+</item>
+        <item>
+Xperia Z2a
+</item>
+        <item>
+Xperia T3
+</item>
+        <item>
+Xperia A2
+</item>
+        <item>
+Xperia ZL2
+</item>
+        <item>
+Xperia M2 Dual
+</item>
+        <item>
+Xperia M2
+</item>
+        <item>
+Xperia Z2
+</item>
+        <item>
+Xperia T2 Ultra dual
+</item>
+        <item>
+Xperia T2 Ultra
+</item>
+        <item>
+Xperia E1 dual
+</item>
+        <item>
+Xperia E1
+</item>
+        <item>
+Xperia Z1S
+</item>
+        <item>
+Xperia Z1 Compact
+</item>
+        <item>
+Xperia Z1 f
+</item>
+        <item>
+Xperia Z1
+</item>
+        <item>
+Xperia M
+</item>
+        <item>
+Xperia Z Ultra
+</item>
+        <item>
+Xperia C
+</item>
+        <item>
+Xperia M dual
+</item>
+        <item>
+Xperia A
+</item>
+        <item>
+Xperia UL
+</item>
+        <item>
+Xperia ZR
+</item>
+        <item>
+Xperia L
+</item>
+        <item>
+Xperia ZL
+</item>
+        <item>
+Xperia SP
+</item>
+        <item>
+Xperia E
+</item>
+        <item>
+Xperia Z
+</item>
+        <item>
+Xperia E Dual
+</item>
+        <item>
+Xperia Tipo Dual
+</item>
+        <item>
+Xperia tipo
+</item>
+        <item>
+Xperia Miro
+</item>
+        <item>
+Xperia SL
+</item>
+        <item>
+Xperia J
+</item>
+        <item>
+Xperia Ion
+</item>
+        <item>
+Xperia neo L
+</item>
+        <item>
+Xperia go
+</item>
+        <item>
+Xperia U
+</item>
+        <item>
+Xperia Sola
+</item>
+        <item>
+Xperia P
+</item>
+        <item>
+Xperia S
+</item>
+        <item>
+txt
+</item>
+        <item>
+Mix Walkman
+</item>
+        <item>
+Xperia pro
+</item>
+        <item>
+Xperia neo V
+</item>
+        <item>
+Xperia neo
+</item>
+        <item>
+Xperia active
+</item>
+        <item>
+Xperia mini pro
+</item>
+        <item>
+Xperia arc S
+</item>
+        <item>
+txt pro
+</item>
+        <item>
+Xperia ray
+</item>
+        <item>
+Xperia mini
+</item>
+        <item>
+Live with Walkman
+</item>
+        <item>
+Xperia Play
+</item>
+        <item>
+Xperia arc
+</item>
+        <item>
+Xperia X8
+</item>
+        <item>
+Zylo
+</item>
+        <item>
+Xperia X10
+</item>
+    </string-array>
+    <string-array name="spice_p">
+
+<item>
+XLife 511 Pro
+</item>
+        <item>
+XLife 480Q
+</item>
+        <item>
+XLife 403E
+</item>
+        <item>
+XLife 406
+</item>
+        <item>
+XLife 512
+</item>
+        <item>
+XLife 431q
+</item>
+        <item>
+XLife 431q Lite
+</item>
+        <item>
+XLife 404
+</item>
+        <item>
+Stellar 519
+</item>
+        <item>
+Stellar 526n Octa
+</item>
+        <item>
+Stellar 431
+</item>
+        <item>
+Fire One Mi-FX 2
+</item>
+        <item>
+Stellar 405
+</item>
+        <item>
+Mi-551
+</item>
+        <item>
+Mi-514
+</item>
+        <item>
+Mi-501
+</item>
+        <item>
+Mi-402
+</item>
+        <item>
+Mi-401
+</item>
+        <item>
+Mi-347
+</item>
+        <item>
+Stellar 440
+</item>
+        <item>
+Dream Uno H
+</item>
+        <item>
+Stellar 520n
+</item>
+        <item>
+Stellar 439
+</item>
+        <item>
+Stellar Mi-362
+</item>
+        <item>
+Mi-430
+</item>
+        <item>
+Stellar 470
+</item>
+        <item>
+Stellar 517
+</item>
+        <item>
+Mi-549
+</item>
+        <item>
+Stellar 518
+</item>
+        <item>
+Stellar Mi-516
+</item>
+        <item>
+Stellar Mi-507
+</item>
+        <item>
+Stellar Mi-503
+</item>
+        <item>
+Dream Uno
+</item>
+        <item>
+Fire One Mi-FX 1
+</item>
+        <item>
+Stellar Mi-508
+</item>
+        <item>
+Stellar 449 3G
+</item>
+        <item>
+Stellar 451 3G
+</item>
+        <item>
+Smart Flo Mi-359
+</item>
+        <item>
+Stellar 526
+</item>
+        <item>
+Stellar 520
+</item>
+        <item>
+Stellar Mi-497
+</item>
+        <item>
+Stellar Mi-361
+</item>
+        <item>
+Stellar 445
+</item>
+        <item>
+Stellar 600
+</item>
+        <item>
+Stellar 360
+</item>
+        <item>
+Stellar 509
+</item>
+        <item>
+Smart Flo Crystal
+</item>
+        <item>
+Smart Flo Glam
+</item>
+        <item>
+Stellar Glide
+</item>
+        <item>
+Stellar Mettle Icon
+</item>
+        <item>
+Smart Flo Poise
+</item>
+        <item>
+Stellar 524
+</item>
+        <item>
+Smart Flo Mettle 3.5X
+</item>
+        <item>
+Smart Flo Mettle 4X
+</item>
+        <item>
+Smart Flo Mettle 5X
+</item>
+        <item>
+Smart Flo Edge
+</item>
+        <item>
+Smart Flo Ivory 2
+</item>
+        <item>
+Stellar Nhance 2
+</item>
+        <item>
+Smart Flo Pace 3
+</item>
+        <item>
+Pinnacle Stylus Mi-550
+</item>
+        <item>
+Virtuoso Pro+
+</item>
+        <item>
+Smart Flo Space
+</item>
+        <item>
+Stellar Glamour
+</item>
+        <item>
+Pinnacle FHD
+</item>
+        <item>
+Coolpad 2 Mi-496
+</item>
+        <item>
+Stellar Virtuoso Pro
+</item>
+        <item>
+CoolPad Mi 515
+</item>
+        <item>
+Stellar Prime Mi 510
+</item>
+        <item>
+mi- 505
+</item>
+        <item>
+SMART FLO PACE Mi 422
+</item>
+        <item>
+Smart Flo Pace 2
+</item>
+        <item>
+Pinnacle Pro
+</item>
+    </string-array>
+    <string-array name="swipe8_p">
+<item>
+Konnect Neo 4G
+</item>
+        <item>
+Elite Sense
+</item>
+        <item>
+Elite 3
+</item>
+        <item>
+Konnect Star
+</item>
+        <item>
+Elite Power
+</item>
+        <item>
+Konnect Grand
+</item>
+        <item>
+Konnect 4G
+</item>
+        <item>
+Elite Max
+</item>
+        <item>
+Elite Star
+</item>
+        <item>
+Elite 2 Plus
+</item>
+        <item>
+Konnect Plus
+</item>
+        <item>
+Elite Plus
+</item>
+        <item>
+Elite Note
+</item>
+        <item>
+Konnect 5.1
+</item>
+        <item>
+Virtue
+</item>
+        <item>
+Junior
+</item>
+        <item>
+Elite 2
+</item>
+        <item>
+Elite
+</item>
+        <item>
+Konnect ME
+</item>
+        <item>
+Marathon
+</item>
+        <item>
+Sense
+</item>
+        <item>
+Konnect 4E
+</item>
+        <item>
+Konnect 4
+</item>
+        <item>
+Konnect 5.0
+</item>
+        <item>
+Halo Fone
+</item>
+        <item>
+Sonic
+</item>
+        <item>
+Volt 1000
+</item>
+        <item>
+9X
+</item>
+    </string-array>
+    <string-array name="videocon_p">
+<item>
+Krypton 22
+</item>
+        <item>
+Delite 11+
+</item>
+        <item>
+Ultra30
+</item>
+        <item>
+Ultra50
+</item>
+        <item>
+Q1 V500K
+</item>
+        <item>
+Cube 3
+</item>
+        <item>
+Krypton V50DC
+</item>
+        <item>
+Krypton V50DA
+</item>
+        <item>
+Krypton V50FG
+</item>
+        <item>
+Z55 Krypton
+</item>
+        <item>
+Z55 Delite
+</item>
+        <item>
+Infinium Z45 Dazzle
+</item>
+        <item>
+Infinium Z45 Amaze
+</item>
+        <item>
+Infinium Z51 Punch
+</item>
+        <item>
+Infinium Z51Q Star
+</item>
+        <item>
+Z55 Dash
+</item>
+        <item>
+Infinium Z51 Nova+
+</item>
+        <item>
+Infinium Z51 Nova
+</item>
+        <item>
+Infinium Z45 Nova+
+</item>
+        <item>
+Infinium Z40Q Star
+</item>
+        <item>
+Infinium Zest Lite
+</item>
+        <item>
+Infinium Z50Q Lite
+</item>
+        <item>
+Infinium Z50Q Star
+</item>
+        <item>
+Infinium Z40 Lite
+</item>
+        <item>
+Infinium Z45 Nova
+</item>
+        <item>
+Infinium Z50 Nova
+</item>
+        <item>
+Infinium Z50 Quad
+</item>
+        <item>
+Infinium Graphite
+</item>
+        <item>
+Infinium Z40 Quad
+</item>
+        <item>
+Vstyle Mini
+</item>
+        <item>
+Vstyle Flip
+</item>
+        <item>
+Vstyle Curve
+</item>
+        <item>
+Vstyle Mega
+</item>
+        <item>
+Vstyle Smart
+</item>
+        <item>
+VPhone Grande
+</item>
+        <item>
+A29
+</item>
+        <item>
+A55qHD
+</item>
+        <item>
+A31
+</item>
+        <item>
+A48
+</item>
+        <item>
+A54
+</item>
+        <item>
+A53
+</item>
+        <item>
+A52
+</item>
+        <item>
+A42
+</item>
+        <item>
+A24
+</item>
+        <item>
+A55 HD
+</item>
+    </string-array>
+    <string-array name="vivo_p">
+
+<item>
+V5s
+</item>
+        <item>
+Y66
+</item>
+        <item>
+Y25
+</item>
+        <item>
+Y55s
+</item>
+        <item>
+V5 Lite
+</item>
+        <item>
+V5 Plus
+</item>
+        <item>
+Xplay6
+</item>
+        <item>
+X9 Plus
+</item>
+        <item>
+X9
+</item>
+        <item>
+V5
+</item>
+        <item>
+Y55L
+</item>
+        <item>
+Y21L
+</item>
+        <item>
+X7 Plus
+</item>
+        <item>
+X7
+</item>
+        <item>
+X6S Plus
+</item>
+        <item>
+X6S
+</item>
+        <item>
+Y31L
+</item>
+        <item>
+Y31A
+</item>
+        <item>
+Xplay5
+</item>
+        <item>
+Xplay5 Elite
+</item>
+        <item>
+Y51L
+</item>
+        <item>
+X6 Plus
+</item>
+        <item>
+X6
+</item>
+        <item>
+Y51
+</item>
+        <item>
+Y27L
+</item>
+        <item>
+Y15S
+</item>
+        <item>
+V1Max
+</item>
+        <item>
+V1
+</item>
+        <item>
+X5Pro
+</item>
+        <item>
+X5Max+
+</item>
+        <item>
+X5S L
+</item>
+        <item>
+X Shot
+</item>
+        <item>
+X3S
+</item>
+        <item>
+Y15
+</item>
+        <item>
+Y22
+</item>
+        <item>
+X5Max
+</item>
+        <item>
+V3Max
+</item>
+        <item>
+V3
+</item>
+    </string-array>
+    <string-array name="wickedleak_p">
+<item>
+Wammy Note 5
+</item>
+        <item>
+Wammy Titan 5
+</item>
+        <item>
+Wammy Neo 3
+</item>
+        <item>
+Wammy Note 4
+</item>
+        <item>
+Wammy Titan 4
+</item>
+        <item>
+Wammy One
+</item>
+        <item>
+Wammy Note 3
+</item>
+        <item>
+Wammy Neo Youth
+</item>
+        <item>
+Wammy Neo
+</item>
+        <item>
+Wammy Titan 3 Octa
+</item>
+        <item>
+Wammy Passion X
+</item>
+        <item>
+Wammy Titan 3
+</item>
+        <item>
+Wammy Passion Z Plus
+</item>
+        <item>
+Wammy Passion Z
+</item>
+    </string-array>
+    <string-array name="xolo_p">
+<item>
+Era 2X
+</item>
+        <item>
+Era 2
+</item>
+        <item>
+Era 1X
+</item>
+        <item>
+Era X
+</item>
+        <item>
+Era 4G
+</item>
+        <item>
+Era 4K
+</item>
+        <item>
+8X-1000i
+</item>
+        <item>
+One HD
+</item>
+        <item>
+Era HD
+</item>
+        <item>
+Black 1X
+</item>
+        <item>
+Black
+</item>
+        <item>
+Era
+</item>
+        <item>
+Cube 5.0
+</item>
+        <item>
+Prime
+</item>
+        <item>
+LT2000
+</item>
+        <item>
+Q1001
+</item>
+        <item>
+Q600 Club
+</item>
+        <item>
+A1010
+</item>
+        <item>
+Win Q1000
+</item>
+        <item>
+Q520s
+</item>
+        <item>
+8X-1020
+</item>
+        <item>
+Q700 Club
+</item>
+        <item>
+Q900s Plus
+</item>
+        <item>
+Omega 5.5
+</item>
+        <item>
+Omega 5.0
+</item>
+        <item>
+Opus 3
+</item>
+        <item>
+Q710s
+</item>
+        <item>
+Q1020
+</item>
+        <item>
+One
+</item>
+        <item>
+Opus HD
+</item>
+        <item>
+Q2100
+</item>
+        <item>
+Play 8X-1100
+</item>
+        <item>
+Q1000s Plus
+</item>
+        <item>
+Q700s Plus
+</item>
+        <item>
+Q610s
+</item>
+        <item>
+Q510s
+</item>
+        <item>
+A1000s
+</item>
+        <item>
+8X-1000
+</item>
+        <item>
+Play 8X-1200
+</item>
+        <item>
+A550s IPS
+</item>
+        <item>
+Q900s
+</item>
+        <item>
+A700s
+</item>
+        <item>
+Play 6X-1000
+</item>
+        <item>
+Q500s IPS
+</item>
+        <item>
+Win Q900s
+</item>
+        <item>
+Q1011
+</item>
+        <item>
+Q1000 Opus 2
+</item>
+        <item>
+Q1200
+</item>
+        <item>
+Q600s
+</item>
+        <item>
+A500s Lite
+</item>
+        <item>
+Q900T
+</item>
+        <item>
+Q1010i
+</item>
+        <item>
+Q2500
+</item>
+        <item>
+A510s
+</item>
+        <item>
+Q1100
+</item>
+        <item>
+Q1010
+</item>
+        <item>
+A500 Club
+</item>
+        <item>
+Q700S
+</item>
+        <item>
+LT900
+</item>
+        <item>
+Q3000
+</item>
+        <item>
+Q1000 Opus
+</item>
+        <item>
+Q500
+</item>
+        <item>
+Q2000
+</item>
+        <item>
+A500s IPS
+</item>
+        <item>
+Q800 X-Edition
+</item>
+        <item>
+A600
+</item>
+        <item>
+Q900
+</item>
+        <item>
+A500L
+</item>
+        <item>
+Q700i
+</item>
+        <item>
+Q1000S
+</item>
+        <item>
+A500s
+</item>
+        <item>
+Play T1000
+</item>
+        <item>
+X910
+</item>
+        <item>
+Q700
+</item>
+        <item>
+Q800
+</item>
+        <item>
+Q1000
+</item>
+        <item>
+A1000
+</item>
+        <item>
+X1000
+</item>
+        <item>
+A500
+</item>
+        <item>
+X500
+</item>
+        <item>
+A700
+</item>
+        <item>
+Q600
+</item>
+        <item>
+X900
+</item>
+    </string-array>
+    <string-array name="yu_p">
+
+<item>
+Yureka S
+</item>
+        <item>
+Yunique Plus
+</item>
+        <item>
+Yunicorn
+</item>
+        <item>
+Yureka Note
+</item>
+        <item>
+Yutopia
+</item>
+        <item>
+Yunique
+</item>
+        <item>
+Yureka Plus
+</item>
+        <item>
+Yuphoria
+</item>
+        <item>
+Yureka
+</item>
+    </string-array>
+
+    <string-array name="zen_p">
+<item>
+Admire Joy
+</item>
+        <item>
+Admire Metal
+</item>
+        <item>
+Admire Swadesh
+</item>
+        <item>
+Cinemax 4G
+</item>
+        <item>
+Cinemax Click
+</item>
+        <item>
+Admire Thrill
+</item>
+        <item>
+Admire Dragon
+</item>
+        <item>
+Cinemax 2+
+</item>
+        <item>
+Cinemax Force
+</item>
+        <item>
+Admire Star
+</item>
+        <item>
+Cinemax 3
+</item>
+        <item>
+Admire SXY
+</item>
+        <item>
+Cinemax 2
+</item>
+        <item>
+Firefox U105
+</item>
+        <item>
+Ultrafone 504
+</item>
+        <item>
+Ultrafone Amaze 701 FHD
+</item>
+        <item>
+ultrafone 502
+</item>
+        <item>
+Ultrafone 701 HD
+</item>
+    </string-array>
+
+    <string-array name="zopo_p">
+
+<item>
+Color M5
+</item>
+        <item>
+Color M4
+</item>
+        <item>
+Color X 5.5
+</item>
+        <item>
+Flash X Plus
+</item>
+        <item>
+Color F2
+</item>
+        <item>
+Color F5
+</item>
+        <item>
+Color C3
+</item>
+        <item>
+Color F1
+</item>
+        <item>
+Speed 8
+</item>
+        <item>
+Speed 7C
+</item>
+        <item>
+Hero 1
+</item>
+        <item>
+Speed 7 Plus
+</item>
+        <item>
+Speed 7
+</item>
+    </string-array>
+
+    <string-array name="asus_p">
+
+<item>
+    ZenFone Go 5.5 (ZB552KL)
+    </item>
+        <item>
+ZenFone Zoom S
+</item>
+        <item>
+ZenFone Live
+</item>
+        <item>
+ZenFone Go 5.0 LTE (ZB500KL)
+</item>
+        <item>
+ZenFone 3 Zoom
+</item>
+        <item>
+ZenFone 3S Max
+</item>
+        <item>
+Zenfone Pegasus 3S
+</item>
+        <item>
+ZenFone 3 Max (ZC553KL)
+</item>
+        <item>
+ZenFone Go (ZB450KL)
+</item>
+        <item>
+ZenFone 3 (ZE520KL)
+</item>
+        <item>
+ZenFone 3 Max (ZC520TL)
+</item>
+        <item>
+ZenFone 3 Laser
+</item>
+        <item>
+Zenfone Pegasus 3
+</item>
+        <item>
+ZenFone 3 Ultra (ZU680KL)
+</item>
+        <item>
+ZenFone 3 Deluxe (ZS570KL)
+</item>
+        <item>
+ZenFone 3 (ZE552KL)
+</item>
+        <item>
+ZenFone Max (2016)
+</item>
+        <item>
+ZenFone Go 4.5 (ZB452KG)
+</item>
+        <item>
+Zenfone Go 5.0 LTE
+</item>
+        <item>
+Pegasus 5000
+</item>
+        <item>
+Live
+</item>
+        <item>
+ZenFone Zoom
+</item>
+        <item>
+ZenFone Go 4.5
+</item>
+        <item>
+ZenPad C 7.0 (Z170MG)
+</item>
+        <item>
+ZenFone Go
+</item>
+        <item>
+ZenFone 2 Laser (ZE601KL)
+</item>
+        <item>
+ZenFone Max
+</item>
+        <item>
+ZenFone 2 Deluxe
+</item>
+        <item>
+ZenFone 2 Laser (ZE550KL)
+</item>
+        <item>
+ZenFone 2 Laser (ZE500KL)
+</item>
+        <item>
+Pegasus 2 Plus
+</item>
+        <item>
+ZenFone 2 ZE600KL
+</item>
+        <item>
+ZenFone Selfie
+</item>
+        <item>
+ZenFone 2 ZE500CL
+</item>
+        <item>
+ZenFone 2 ZE550ML
+</item>
+        <item>
+ZenFone C (ZC451CG)
+</item>
+        <item>
+ZenFone 5 (A501CG-2A508WWE)
+</item>
+        <item>
+ZenFone 2
+</item>
+        <item>
+Pegasus X002
+</item>
+        <item>
+ZenFone 5 (A502CG)
+</item>
+        <item>
+ZenFone 5 LTE
+</item>
+        <item>
+ZenFone 4 A450CG
+</item>
+        <item>
+PadFone S
+</item>
+        <item>
+PadFone Infinity Lite
+</item>
+        <item>
+PadFone X
+</item>
+        <item>
+PadFone mini
+</item>
+        <item>
+ZenFone 4 A400CG
+</item>
+        <item>
+ZenFone 6
+</item>
+        <item>
+ZenFone 5
+</item>
+        <item>
+Padfone mini 4.3
+</item>
+        <item>
+PadFone Infinity (second gen)
+</item>
+        <item>
+FonePad Note FHD6
+</item>
+        <item>
+PadFone Infinity
+</item>
+        <item>
+ZenFone AR
+</item>
+    </string-array>
+
+    <string-array name="sharp_p">
+        <item>AQUOS (SH80F)</item>
+        <item>SE-02</item>
+    </string-array>
+
+    <string-array name="kyocera_p">
+        <item>DuraForce PRO</item>
+        <item>Hydro SHORE</item>
+        <item>Hydro REACH</item>
+        <item>Dura Force XD</item>
+        <item>Hydro VIEW</item>
+        <item>Hydro AIR</item>
+        <item>Hydro WAVE</item>
+        <item>DuraScout</item>
+        <item>DuraForce</item>
+        <item>Torque XT</item>
+        <item>Brigadier</item>
+        <item>Hydro LIFE</item>
+        <item>Hydro ICON</item>
+        <item>Hydro VIBE</item>
+        <item>Hydro XTRM</item>
+        <item>Hydro ELITE</item>
+        <item>Hydro EDGE</item>
+        <item>Event</item>
+    </string-array>
     <string name="title_activity_model_tcl_pp">model_tcl_pp</string>
     <string name="title_activity_options_fix_p">options_fix_p</string>
     <string name="title_activity_options_fix_lptp">options_fix_lptp</string>
     <string name="title_activity_options_fix_desktp">options_fix_desktp</string>
     <string name="title_fixtype_list">fix_types</string>
     <string name="title_fixtype_detail">fix_type Detail</string>
+    <string name="title_activity_brand_pw">brand_pw</string>
+    <string name="title_activity_model_acer_p">model_acer_p</string>
+    <string name="title_activity_model_archos_p">model_archos_p</string>
+    <string name="title_activity_model_blu_p">model_blu_p</string>
 
 
 </resources>

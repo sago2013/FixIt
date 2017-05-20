@@ -170,4 +170,56 @@ public class brand_pp extends AppCompatActivity {
         Intent i = new Intent(brand_pp.this,model_lenovo_p.class);
         startActivity(i);
     }
+    public void ch_acer(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "acer");
+        editor.apply();
+        Toast.makeText(this, "Brand: Acer ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_acer_p.class);
+        startActivity(i);
+    }
+
+    public void ch_adcom(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "adcom");
+        editor.putString("model_spec", "adcom_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Adcom ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+    public void ch_archos(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "archos");
+        editor.apply();
+        Toast.makeText(this, "Brand: Archos ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_archos_p.class);
+        startActivity(i);
+
+    }
+    public void ch_bb_pa(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "BlackBerry");
+        editor.putString("model_spec", "bb_pa");
+        editor.apply();
+        Toast.makeText(this, "Brand: BlackBerry", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+
+    }
+    public void ch_blu(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Blu");
+        editor.apply();
+        Toast.makeText(this, "Brand: Blu", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_blu_p.class);
+        startActivity(i);
+
+    }
+
 }

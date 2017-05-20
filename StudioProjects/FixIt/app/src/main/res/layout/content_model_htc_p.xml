@@ -10,20 +10,25 @@
     android:background="@color/nice_plain">
 
     <ScrollView
+        style="@style/scrollbar_shape_style"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:elevation="5dp"
         android:fadingEdge="horizontal|vertical"
         android:fadingEdgeLength="25dp"
-        android:paddingTop="10dp">
+        android:paddingTop="10dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp">
 
-        <LinearLayout
+
+    <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="center_horizontal">
 
             <Button
+                android:id="@+id/a1"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
@@ -35,6 +40,7 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/a3"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
@@ -46,6 +52,7 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/a4"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
@@ -58,6 +65,7 @@
                 android:padding="10dp" />
 
             <Button
+                android:id="@+id/a5"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
@@ -70,6 +78,7 @@
                 android:padding="10dp" />
 
             <Button
+                android:id="@+id/a6"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
@@ -81,6 +90,7 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/a7"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
@@ -91,32 +101,120 @@
                 android:text="10"
                 android:textSize="40sp"
                 android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:onClick="ch_htc_8s"
-                android:background="@drawable/backgroundforcards"
-                android:text="8S"
-                android:textSize="40sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:onClick="ch_htc_8x"
-                android:background="@drawable/backgroundforcards"
-                android:text="8X"
-                android:textSize="40sp"
-                android:padding="10dp" />
+
+        <Button
+            android:id="@+id/w6"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="ch_htc_warhawk"
+            android:background="@drawable/backgroundforcards"
+            android:text="Warhawk"
+            android:textSize="40sp"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/w4"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="ch_htc_trophy"
+            android:background="@drawable/backgroundforcards"
+            android:text="Trophy"
+            android:textSize="40sp"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/w5"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="ch_htc_wizard"
+            android:background="@drawable/backgroundforcards"
+            android:text="Wizard 100"
+            android:textSize="40sp"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/w7"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="ch_htc_hd2"
+            android:background="@drawable/backgroundforcards"
+            android:text="HD2"
+            android:textSize="40sp"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/w3"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="ch_htc_8s"
+            android:background="@drawable/backgroundforcards"
+            android:text="8S"
+            android:textSize="40sp"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/w2"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="ch_htc_8x"
+            android:background="@drawable/backgroundforcards"
+            android:text="8X"
+            android:textSize="40sp"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/w1"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="ch_htc_8xt"
+            android:background="@drawable/backgroundforcards"
+            android:text="8XT"
+            android:textSize="40sp"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/w8"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="ch_htc_radar"
+            android:background="@drawable/backgroundforcards"
+            android:text="Radar 4G"
+            android:textSize="40sp"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/w9"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="ch_htc_hd7"
+            android:background="@drawable/backgroundforcards"
+            android:text="HD7"
+            android:textSize="40sp"
+            android:padding="10dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:text=""/>
+
         </LinearLayout>
 
     </ScrollView>

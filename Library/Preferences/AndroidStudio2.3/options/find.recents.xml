@@ -1,10 +1,21 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>htc</find>
       <find>gentle</find>
       <find>samsung</find>
       <find>sam</find>
+      <find>'</find>
+      <find>htc</find>
+      <find>acer</find>
+      <find>alcate</find>
+      <find>plus</find>
+      <find>tcl</find>
+      <find>plus 10</find>
+      <find>arch</find>
+      <find>b</find>
+      <find>bb</find>
+      <find>blu</find>
+      <find>archos</find>
     </findStrings>
   </component>
 </application>
