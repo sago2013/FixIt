@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.fixit.fixit.model_tcl_pp"
-    tools:showIn="@layout/activity_model_tcl_pp"
+    tools:context="com.fixit.fixit.model_archos_p"
+    tools:showIn="@layout/activity_model_archos_p"
     android:background="@color/nice_plain">
 
     <ScrollView
@@ -25,121 +25,113 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="center_horizontal">
+
             <Button
+                android:id="@+id/a1"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_2"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch 20.05"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
+                android:onClick="ch_archos_graph"
+                android:background="@drawable/backgroundforcards"
+                android:text="Graphite"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/a2"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_fierce"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Fierce XL"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="28sp"
+                android:onClick="ch_archos_diamond"
+                android:background="@drawable/backgroundforcards"
+                android:text="Diamond"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/a3"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_fire"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Fire"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
+                android:onClick="ch_archos_xenon"
+                android:background="@drawable/backgroundforcards"
+                android:text="Xenon"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/a4"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_archos_platinum"
+                android:background="@drawable/backgroundforcards"
+                android:text="Platinum"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/a5"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_archos_helium"
+                android:background="@drawable/backgroundforcards"
+                android:text="Helium"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/a6"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_hero"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Hero"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
+                android:onClick="ch_archos_oxygen"
+                android:background="@drawable/backgroundforcards"
+                android:text="Oxygen"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/a7"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_idol"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Idol"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
+                android:onClick="ch_archos_40btitanium"
+                android:background="@drawable/backgroundforcards"
+                android:text="40b Titanium"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/a8"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_pixi"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Pixi"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_pop"
+                android:onClick="ch_archos_50saphir"
                 android:background="@drawable/backgroundforcards"
-                android:text="One Touch Pop"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_star"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Pop Star"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="28sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_popup"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Pop Up"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_tribe"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Tribe 3040"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="25sp"
+                android:text="50 Saphir"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:text=""/>
-            </LinearLayout>
+
+        </LinearLayout>
+
+
     </ScrollView>
 
 </LinearLayout>

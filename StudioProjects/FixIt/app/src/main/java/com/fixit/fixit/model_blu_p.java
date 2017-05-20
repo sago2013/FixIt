@@ -10,12 +10,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
 
-public class model_tcl_pp extends AppCompatActivity {
+public class model_blu_p extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_model_tcl_pp);
+        setContentView(R.layout.activity_model_blu_p);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -26,7 +26,7 @@ public class model_tcl_pp extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(model_tcl_pp.this, MainActivity.class);
+                Intent i = new Intent(model_blu_p.this, MainActivity.class);
                 startActivity(i);
                 /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();*/
@@ -37,99 +37,85 @@ public class model_tcl_pp extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (os.equals("windows")) {
-                    Intent i = new Intent(model_tcl_pp.this, brand_pw.class);
+                    Intent i = new Intent(model_blu_p.this, brand_pw.class);
                     startActivity(i);
                 } else {
-                    Intent i = new Intent(model_tcl_pp.this, brand_pp.class);
+                    Intent i = new Intent(model_blu_p.this, brand_pp.class);
                     startActivity(i);
                 }
-
-                /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();*/
             }
         });
     }
-    public void ch_tcl_ot_fire(View view){
+
+    public void ch_blu_life(View view) {
         SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
         SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_fire");
+        editor.putString("model_spec", "blu_life");
         editor.apply();
-        Toast.makeText(this, "OT Fire", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
+        Toast.makeText(this, "Life", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_blu_p.this, model_specific_list.class);
         startActivity(i);
-    }
-    public void ch_tcl_ot_hero(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_hero");
-        editor.apply();
-        Toast.makeText(this, "OT hero", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
-        startActivity(i);
-    }public void ch_tcl_ot_idol(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_idol");
-        editor.apply();
-        Toast.makeText(this, "OT Idol", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
-        startActivity(i);
-    }
-    public void ch_tcl_ot_pixi(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_pixi");
-        editor.apply();
-        Toast.makeText(this, "OT Pixi", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
-        startActivity(i);
-    }
-    public void ch_tcl_ot_pop(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_pop");
-        editor.apply();
-        Toast.makeText(this, "OT Pop Star", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
-        startActivity(i);
-    }
-    public void ch_tcl_ot_star(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "tcl_ot_star");
-        editor.apply();
-        Toast.makeText(this, "OT Pop Star", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(model_tcl_pp.this,model_specific_list.class);
-        startActivity(i);
-    }
-    public void ch_tcl_ot_tribe(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model", "One Touch Tribe 3040");
-        editor.apply();
-        Toast.makeText(this, "One Touch Tribe 3040", Toast.LENGTH_SHORT).show();
-    }
-    public void ch_tcl_ot_2(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model", "One Touch 20.05");
-        editor.apply();
-        Toast.makeText(this, "One Touch 20.05", Toast.LENGTH_SHORT).show();
-    }
-    public void ch_tcl_ot_fierce(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model", "One Touch Fierce XL");
-        editor.apply();
-        Toast.makeText(this, "One Touch Fierce XL", Toast.LENGTH_SHORT).show();
-    }
-    public void ch_tcl_ot_popup(View view){
-        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
-        SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model", "One Touch Pop Up");
-        editor.apply();
-        Toast.makeText(this, "One Touch Pop Up", Toast.LENGTH_SHORT).show();
     }
 
+    public void ch_blu_vivo(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model_spec", "blu_vivo");
+        editor.apply();
+        Toast.makeText(this, "Vivo", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_blu_p.this, model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_blu_pure(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model_spec", "blu_pure");
+        editor.apply();
+        Toast.makeText(this, "Pure", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_blu_p.this, model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_blu_energy(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model_spec", "blu_energy");
+        editor.apply();
+        Toast.makeText(this, "Energy", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(model_blu_p.this, model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_blu_r1p(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model", "R1 Plus");
+        editor.apply();
+        Toast.makeText(this, "R1 Plus", Toast.LENGTH_SHORT).show();
+    }
+
+    public void ch_blu_tank2(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model", "Tank 2");
+        editor.apply();
+        Toast.makeText(this, "Tank 2", Toast.LENGTH_SHORT).show();
+    }
+
+    public void ch_blu_studio(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model", "Studio Energy 2");
+        editor.apply();
+        Toast.makeText(this, "Studio Energy 2", Toast.LENGTH_SHORT).show();
+    }
+    public void ch_blu_diva(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("model", "Diva II");
+        editor.apply();
+        Toast.makeText(this, "Diva II", Toast.LENGTH_SHORT).show();
+    }
 
 }

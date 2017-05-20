@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.fixit.fixit.model_tcl_pp"
-    tools:showIn="@layout/activity_model_tcl_pp"
+    tools:context="com.fixit.fixit.model_acer_p"
+    tools:showIn="@layout/activity_model_acer_p"
     android:background="@color/nice_plain">
 
     <ScrollView
@@ -20,126 +21,132 @@
         android:layout_marginRight="2dp"
         android:layout_marginEnd="2dp">
 
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="center_horizontal">
+
             <Button
+                android:id="@+id/a1"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_2"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch 20.05"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
+                android:onClick="ch_acer_e"
+                android:background="@drawable/backgroundforcards"
+                android:text="Liquid E"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/a2"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_fierce"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Fierce XL"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="28sp"
+                android:onClick="ch_acer_jade"
+                android:background="@drawable/backgroundforcards"
+                android:text="Liquid Jade"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/a3"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_fire"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Fire"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
+                android:onClick="ch_acer_s"
+                android:background="@drawable/backgroundforcards"
+                android:text="Liquid S"
+                android:textSize="40sp"
                 android:padding="10dp" />
+
             <Button
+                android:id="@+id/a4"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_hero"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Hero"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
+                android:onClick="ch_acer_x1"
+                android:background="@drawable/backgroundforcards"
+                android:text="Liquid X1"
+                android:textSize="40sp"
                 android:padding="10dp" />
+
             <Button
+                android:id="@+id/a5"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_idol"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Idol"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
+                android:onClick="ch_acer_z"
+                android:background="@drawable/backgroundforcards"
+                android:text="Liquid Z"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/a6"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_pixi"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Pixi"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
+                android:onClick="ch_acer_zest"
+                android:background="@drawable/backgroundforcards"
+                android:text="Liquid Zest"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/w1"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_pop"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Pop"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
+                android:onClick="ch_acer_m220"
+                android:background="@drawable/backgroundforcards"
+                android:text="Liquid M220"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/w2"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_star"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Pop Star"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="28sp"
+                android:onClick="ch_acer_m320"
+                android:background="@drawable/backgroundforcards"
+                android:text="Liquid M320"
+                android:textSize="40sp"
                 android:padding="10dp" />
             <Button
+                android:id="@+id/w3"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_popup"
-                android:background="@drawable/backgroundforcards"
-                android:text="One Touch Pop Up"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textSize="30sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_tcl_ot_tribe"
+                android:onClick="ch_acer_m330"
                 android:background="@drawable/backgroundforcards"
-                android:text="One Touch Tribe 3040"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="25sp"
+                android:text="Liquid M330"
+                android:textSize="40sp"
                 android:padding="10dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:text=""/>
-            </LinearLayout>
+
+        </LinearLayout>
+
+
     </ScrollView>
 
 </LinearLayout>

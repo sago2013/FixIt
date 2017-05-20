@@ -10,12 +10,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
 
-public class brand_p extends AppCompatActivity {
+public class brand_pw extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_brand_p);
+        setContentView(R.layout.activity_brand_pw);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -23,7 +23,7 @@ public class brand_p extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(brand_p.this,MainActivity.class);
+                Intent i = new Intent(brand_pw.this,MainActivity.class);
                 startActivity(i);
                 /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();*/
@@ -33,7 +33,7 @@ public class brand_p extends AppCompatActivity {
         fab_return.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(brand_p.this,device.class);
+                Intent i = new Intent(brand_pw.this,brand_p.class);
                 startActivity(i);
                 /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();*/
@@ -41,48 +41,57 @@ public class brand_p extends AppCompatActivity {
         });
     }
 
-    public void ch_android(View view) {
+    public void ch_htc(View view) {
         SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
         SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("os", "android");
+        editor.putString("brand", "htc");
         editor.apply();
-        Toast.makeText(this, "os: Android ", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(brand_p.this,brand_pp.class);
+        Toast.makeText(this, "Brand: HTC ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pw.this,model_htc_p.class);
         startActivity(i);
 
     }
-    public void ch_apple(View view) {
+
+    public void ch_acer(View view) {
         SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
         SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("os", "apple");
-        editor.putString("brand", "apple");
-        editor.putString("model_spec", "apple");
+        editor.putString("brand", "acer");
         editor.apply();
-        Toast.makeText(this, "os: Apple \n brand: Apple"  , Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(brand_p.this,model_specific_list.class);
+        Toast.makeText(this, "Brand: Acer ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pw.this,model_acer_p.class);
+        startActivity(i);
+    }
+    public void ch_tcl(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "tcl");
+        editor.apply();
+        Toast.makeText(this, "Brand: Alcatel ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pw.this,model_tcl_p.class);
         startActivity(i);
     }
 
-    public void ch_windows(View view) {
+    public void ch_archos_pw(View view) {
         SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
         SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("os", "windows");
+        editor.putString("brand", "archos");
+        editor.putString("model_spec", "archos_pw");
         editor.apply();
-        Toast.makeText(this, "os: Windows ", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(brand_p.this,brand_pw.class);
+        Toast.makeText(this, "Brand: Archos ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pw.this,model_specific_list.class);
         startActivity(i);
-
 
     }
 
-    public void ch_bb_pbb(View view) {
+    public void ch_blu(View view) {
         SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
         SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("os", "bb");
-        editor.putString("model_spec", "bb_pb");
+        editor.putString("brand", "Blu");
+        editor.putString("model_spec", "blu_pw");
         editor.apply();
-        Toast.makeText(this, "os: BlackbBerry", Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(brand_p.this,model_specific_list.class);
+        Toast.makeText(this, "Brand: Blu ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pw.this,model_specific_list.class);
         startActivity(i);
+
     }
 }
