@@ -37,13 +37,13 @@
                     android:layout_width="165dp"
                     android:layout_height="165dp"
                     android:layout_margin="4dp"
-                    android:background="@drawable/acer_p"
+                    android:background="@mipmap/acer_p"
                     android:onClick="ch_acer"/>
                 <Button
                     android:layout_width="165dp"
                     android:layout_height="165dp"
                     android:layout_margin="4dp"
-                    android:background="@drawable/alcatel_p"
+                    android:background="@mipmap/alcatel_p"
                     android:onClick="ch_tcl"/>
 
             </LinearLayout>
@@ -59,13 +59,13 @@
                 android:layout_width="165dp"
                 android:layout_height="165dp"
                 android:layout_margin="4dp"
-                android:background="@drawable/archos_p"
+                android:background="@mipmap/archos_p"
                 android:onClick="ch_archos_pw"/>
             <Button
                 android:layout_width="165dp"
                 android:layout_height="165dp"
                 android:layout_margin="4dp"
-                android:background="@drawable/blu_p"
+                android:background="@mipmap/blu_p"
                 android:onClick="ch_blu"/>
 
         </LinearLayout>
@@ -86,7 +86,7 @@
                     android:layout_width="165dp"
                     android:layout_height="165dp"
                     android:layout_margin="4dp"
-                    android:background="@drawable/htc_p"
+                    android:background="@mipmap/htc_p"
                     android:onClick="ch_htc"/>
 
             </LinearLayout>

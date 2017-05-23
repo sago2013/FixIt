@@ -24,13 +24,13 @@
            android:layout_width="165dp"
            android:layout_height="165dp"
            android:layout_margin="4dp"
-           android:background="@drawable/apple_p"
+           android:background="@mipmap/apple_p"
            android:onClick="ch_apple"/>
        <Button
            android:layout_width="165dp"
            android:layout_height="165dp"
            android:layout_margin="4dp"
-           android:background="@drawable/android"
+           android:background="@mipmap/android"
            android:onClick="ch_android"/>
 
    </LinearLayout>
@@ -45,13 +45,13 @@
             android:layout_width="165dp"
             android:layout_height="165dp"
             android:layout_margin="4dp"
-            android:background="@drawable/windows_p"
+            android:background="@mipmap/windows_p"
             android:onClick="ch_windows"/>
         <Button
             android:layout_width="165dp"
             android:layout_height="165dp"
             android:layout_margin="4dp"
-            android:background="@drawable/bb_p"
+            android:background="@mipmap/bb_p"
             android:onClick="ch_bb_pbb"/>
 
     </LinearLayout>

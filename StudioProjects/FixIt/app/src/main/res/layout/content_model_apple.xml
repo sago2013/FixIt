@@ -33,7 +33,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_i7"
-                android:background="@drawable/bg_i7"
+                android:background="@mipmap/bg_i7"
                 android:padding="10dp" />
 
             <Button
@@ -42,7 +42,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_i6p"
-                android:background="@drawable/bg_i6p"
+                android:background="@mipmap/bg_i6p"
                 android:padding="10dp" />
 
             <Button
@@ -51,7 +51,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_i6s"
-                android:background="@drawable/bg_i6s"
+                android:background="@mipmap/bg_i6s"
                 android:padding="10dp" />
             <Button
                 android:layout_width="300dp"
@@ -59,7 +59,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_i5c"
-                android:background="@drawable/bg_5c"
+                android:background="@mipmap/bg_5c"
                 android:padding="10dp" />
 
             <Button
@@ -68,7 +68,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_i5"
-                android:background="@drawable/bg_i5"
+                android:background="@mipmap/bg_i5"
                 android:padding="10dp" />
 
             <Button
@@ -77,7 +77,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_i4s"
-                android:background="@drawable/bg_i4s"
+                android:background="@mipmap/bg_i4s"
                 android:padding="10dp" />
 
             <Button
@@ -87,7 +87,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_i4"
-                android:background="@drawable/bg_i4"
+                android:background="@mipmap/bg_i4"
                 android:padding="10dp" />
             <TextView
             android:layout_width="match_parent"

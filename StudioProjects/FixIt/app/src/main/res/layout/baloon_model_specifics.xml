@@ -10,7 +10,7 @@
         android:id="@+id/model_name_tv"
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:background="@drawable/tiny_bubble"
+        android:background="@mipmap/tiny_bubble"
         android:elegantTextHeight="false"
         android:paddingTop="20dp"
         android:text="Name"

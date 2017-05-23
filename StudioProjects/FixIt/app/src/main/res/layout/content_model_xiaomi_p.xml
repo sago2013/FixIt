@@ -33,7 +33,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_htc_hongmi"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Hongmi Red Rice"
                 android:textSize="35sp"
                 android:padding="10dp" />
@@ -44,7 +44,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_xia_mi"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="MI"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -55,7 +55,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_xia_redmi"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="RedMi"
                 android:textSize="40sp"
                 android:padding="10dp" />

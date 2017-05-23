@@ -21,134 +21,134 @@
         android:layout_marginEnd="2dp">
 
 
-    <LinearLayout
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="center_horizontal">
-        <Button
-            android:layout_width="300dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:onClick="ch_oppo_a"
-            android:background="@drawable/backgroundforcards"
-            android:text="A"
-            android:fontFamily="sans-serif-smallcaps"
-            android:textSize="40sp"
-            android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_oppo_a"
+                android:background="@mipmap/backgroundforcards"
+                android:text="A"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
 
 
-        <Button
-            android:layout_width="300dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:onClick="ch_oppo_f"
-            android:background="@drawable/backgroundforcards"
-            android:text="F"
-            android:fontFamily="sans-serif-smallcaps"
-            android:textSize="40sp"
-            android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_oppo_f"
+                android:background="@mipmap/backgroundforcards"
+                android:text="F"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
 
-        <Button
-            android:layout_width="300dp"
-            android:fontFamily="sans-serif-smallcaps"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:onClick="ch_oppo_find"
-            android:background="@drawable/backgroundforcards"
-            android:text="Find"
-            android:textSize="40sp"
-            android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_oppo_find"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Find"
+                android:textSize="40sp"
+                android:padding="10dp" />
 
-        <Button
-            android:layout_width="300dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:onClick="ch_oppo_mirror"
-            android:background="@drawable/backgroundforcards"
-            android:text="Mirror"
-            android:fontFamily="sans-serif-smallcaps"
-            android:textSize="40sp"
-            android:padding="10dp" />
-        <Button
-            android:id="@+id/button"
-            android:layout_width="300dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:fontFamily="sans-serif-smallcaps"
-            android:onClick="ch_oppo_n"
-            android:background="@drawable/backgroundforcards"
-            android:text="N"
-            android:textSize="40sp"
-            android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_oppo_mirror"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Mirror"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_oppo_n"
+                android:background="@mipmap/backgroundforcards"
+                android:text="N"
+                android:textSize="40sp"
+                android:padding="10dp" />
 
-        <Button
-            android:layout_width="300dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:onClick="ch_oppo_neo"
-            android:fontFamily="sans-serif-smallcaps"
-            android:background="@drawable/backgroundforcards"
-            android:text="Neo"
-            android:textSize="40sp"
-            android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_oppo_neo"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Neo"
+                android:textSize="40sp"
+                android:padding="10dp" />
 
-        <Button
-            android:layout_width="300dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:onClick="ch_oppo_joy"
-            android:background="@drawable/backgroundforcards"
-            android:text="Joy"
-            android:fontFamily="sans-serif-smallcaps"
-            android:textSize="40sp"
-            android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_oppo_joy"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Joy"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
 
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="300dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:onClick="ch_oppo_r"
-            android:background="@drawable/backgroundforcards"
-            android:text="R"
-            android:fontFamily="sans-serif-smallcaps"
-            android:textSize="40sp"
-            android:padding="10dp" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_oppo_r"
+                android:background="@mipmap/backgroundforcards"
+                android:text="R"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
 
-        <Button
-            android:layout_width="300dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:onClick="ch_oppo_u"
-            android:background="@drawable/backgroundforcards"
-            android:text="U3"
-            android:fontFamily="sans-serif-smallcaps"
-            android:textSize="40sp"
-            android:padding="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_oppo_u"
+                android:background="@mipmap/backgroundforcards"
+                android:text="U3"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="300dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:onClick="ch_oppo_3"
-            android:background="@drawable/backgroundforcards"
-            android:text="3000"
-            android:fontFamily="sans-serif-smallcaps"
-            android:textSize="40sp"
-            android:padding="10dp" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:onClick="ch_oppo_3"
+                android:background="@mipmap/backgroundforcards"
+                android:text="3000"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:padding="10dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="100dp"

@@ -83,7 +83,7 @@ public class fixtypeListActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     private void populate_RV() {
-        master_list.add(new master_df_item("Upgrade Your Laptop ","If you want to upgrade your laptops Operating System, Antivirus, or its Programs/Applications", context.getResources().getDrawable(R.drawable.laptop_upgrade_shadow, getTheme()),""));
+        master_list.add(new master_df_item("Upgrade Your Laptop ","If you want to upgrade your laptops Operating System, Antivirus, or its Programs/Applications", context.getResources().getDrawable(R.mipmap.laptop_upgrade_shadow, getTheme()),""));
     }
 
     private void setupRecyclerView(@NonNull RecyclerView recyclerView) {

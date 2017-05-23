@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-<item android:title="Account">
-    <menu>
-        <item
-            android:id="@+id/Profile"
-            android:icon="@drawable/profile"
-            android:title="Profile" />
-        <item
-            android:id="@+id/sign_out"
-            android:icon="@android:drawable/ic_lock_idle_lock"
-            android:title="Sign Out" />
-        <item
-            android:id="@+id/my_devices"
-            android:icon="@drawable/my_devices"
-            android:title="My Devices"/>
-    </menu>
-</item>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/Profile"
+                android:icon="@mipmap/profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="Sign Out" />
+            <item
+                android:id="@+id/my_devices"
+                android:icon="@mipmap/my_devices"
+                android:title="My Devices"/>
+        </menu>
+    </item>
 
     <group android:checkableBehavior="single">
 
         <item
             android:id="@+id/gohome"
-            android:icon="@drawable/home"
+            android:icon="@mipmap/home"
             android:title="Home" />
         <item
             android:id="@+id/gotofixer"
-            android:icon="@drawable/wrnech"
+            android:icon="@mipmap/wrnech"
             android:title="Lets get Fixin'" />
         <item
             android:id="@+id/FixITGuarantee"
-            android:icon="@drawable/saftey2"
+            android:icon="@mipmap/saftey2"
             android:title="Device Safety Guarantee" />
     </group>
 
@@ -38,25 +38,25 @@
         <menu>
             <item
                 android:id="@+id/help"
-                android:icon="@drawable/help"
+                android:icon="@mipmap/help"
                 android:title="Help" />
 
             <item
                 android:id="@+id/becomefixit"
-                android:icon="@drawable/empowered_done2"
+                android:icon="@mipmap/empowered_done2"
                 android:title="Become a Fixer" />
             <item
                 android:id="@+id/terms"
                 android:title="Terms and Conditions"
-                android:icon="@drawable/fileclaim"/>
+                android:icon="@mipmap/fileclaim"/>
             <item
                 android:title="Privacy Policy"
-                android:icon="@drawable/privacy"
+                android:icon="@mipmap/privacy"
                 android:id="@+id/privacy_policy" />
 
-           <item
+            <item
                 android:id="@+id/file_Claim"
-                android:icon="@drawable/fileclaim2"
+                android:icon="@mipmap/fileclaim2"
                 android:title="File a Claim" />
         </menu>
     </item>

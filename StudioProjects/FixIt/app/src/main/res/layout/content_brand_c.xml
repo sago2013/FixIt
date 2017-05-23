@@ -8,7 +8,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.fixit.fixit.brand_c"
     tools:showIn="@layout/activity_brand_c"
-    android:background="@drawable/newbackgroun">
+    android:background="@mipmap/newbackgroun">
 
 
     <ScrollView
@@ -34,7 +34,7 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_asus"
+                android:background="@mipmap/bg_asus"
                 android:padding="10dp" />
 
             <Button
@@ -42,7 +42,7 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_lenovo"
+                android:background="@mipmap/bg_lenovo"
                 android:padding="10dp" />
 
             <Button
@@ -50,7 +50,7 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_acer"
+                android:background="@mipmap/bg_acer"
                 android:padding="10dp" />
 
             <Button
@@ -58,7 +58,7 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_toshiba"
+                android:background="@mipmap/bg_toshiba"
                 android:padding="10dp" />
 
             <Button
@@ -66,7 +66,7 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_msi2"
+                android:background="@mipmap/bg_msi2"
                 android:padding="10dp" />
 
             <Button
@@ -74,7 +74,7 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_microsoft"
+                android:background="@mipmap/bg_microsoft"
                 android:padding="10dp" />
 
             <Button
@@ -83,14 +83,14 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_samsung"
+                android:background="@mipmap/bg_samsung"
                 android:padding="10dp" />
             <Button
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_hp"
+                android:background="@mipmap/bg_hp"
                 android:padding="10dp" />
 
             <Button
@@ -98,7 +98,7 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_razer"
+                android:background="@mipmap/bg_razer"
                 android:padding="10dp" />
 
             <Button
@@ -107,7 +107,7 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_dell"
+                android:background="@mipmap/bg_dell"
                 android:padding="10dp" />
         </LinearLayout>
 

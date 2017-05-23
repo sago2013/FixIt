@@ -33,7 +33,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_google_pixel"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Pixel"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -46,7 +46,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_google_pixelxl"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Pixel XL"
                 android:fontFamily="sans-serif-smallcaps"
                 android:textSize="40sp"

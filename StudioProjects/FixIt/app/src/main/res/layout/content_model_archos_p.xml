@@ -34,7 +34,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_archos_graph"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Graphite"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -46,7 +46,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_archos_diamond"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Diamond"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -58,7 +58,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_archos_xenon"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Xenon"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -71,7 +71,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_archos_platinum"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Platinum"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -84,7 +84,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_archos_helium"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Helium"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -96,7 +96,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_archos_oxygen"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Oxygen"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -108,7 +108,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_archos_40btitanium"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="40b Titanium"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -120,7 +120,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_archos_50saphir"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="50 Saphir"
                 android:textSize="40sp"
                 android:padding="10dp" />

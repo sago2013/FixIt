@@ -49,6 +49,6 @@
         android:backgroundTint="@color/fab"
         app:layout_anchor="@+id/fixtype_detail_container"
         app:layout_anchorGravity="top|end"
-        app:srcCompat="@drawable/laptop_upgrade_shadow" />
+        app:srcCompat="@mipmap/laptop_upgrade_shadow" />
 
 </android.support.design.widget.CoordinatorLayout>

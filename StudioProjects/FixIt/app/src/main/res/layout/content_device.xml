@@ -17,7 +17,7 @@
         android:layout_gravity="center"
         android:onClick="ch_computer"
         app:backgroundTint="@color/fab"
-        app:srcCompat="@drawable/brandless_computer" />
+        app:srcCompat="@mipmap/brandless_computer" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabphone"
@@ -26,6 +26,6 @@
         android:layout_gravity="center"
         android:onClick="ch_phone"
         app:backgroundTint="@color/fab"
-        app:srcCompat="@drawable/phone" />
+        app:srcCompat="@mipmap/phone" />
 
 </LinearLayout>

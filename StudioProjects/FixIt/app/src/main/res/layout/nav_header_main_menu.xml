@@ -10,13 +10,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
-
+<!--
     <ImageView
         android:paddingTop="10dp"
         android:id="@+id/imageView"
         android:layout_width="59dp"
         android:layout_height="83dp"
-        app:srcCompat="@drawable/penguin" />
+        app:srcCompat="@drawable/penguin" /> -->
 
     <TextView
         android:layout_width="match_parent"
