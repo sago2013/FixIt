@@ -34,7 +34,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_a"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="A290"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -45,7 +45,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_aka"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="AKA"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -56,7 +56,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_band"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Band Play"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -67,7 +67,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_class"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Class"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -78,7 +78,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_cookie"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Cookie"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -89,7 +89,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_cougar"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Cougar  A350"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -100,7 +100,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_e"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="E"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -111,7 +111,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_f"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="F"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -122,7 +122,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_fireweb"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Fireweb"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -133,7 +133,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_g"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="G"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -144,7 +144,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_gentle"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Gentle"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -155,7 +155,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_ice"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Ice Cream Smart"
                 android:textSize="30sp"
                 android:padding="10dp" />
@@ -166,7 +166,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_isai"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Isai"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -177,7 +177,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_joy"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Joy"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -188,7 +188,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_k"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="K"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -199,7 +199,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_l"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="L"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -210,7 +210,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_leon"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Leon"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -221,7 +221,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_lucid"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Lucid"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -232,7 +232,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_magna"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Magna"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -243,7 +243,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_max"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Max"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -254,7 +254,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_nexus"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Nexus"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -265,7 +265,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_optimus"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Optimus"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -276,7 +276,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_ray"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Ray"
                 android:textSize="40sp"
                 android:padding="10dp" /><Button
@@ -286,7 +286,7 @@
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-smallcaps"
             android:onClick="ch_lg_spirit"
-            android:background="@drawable/backgroundforcards"
+            android:background="@mipmap/backgroundforcards"
             android:text="Spirit"
             android:textSize="40sp"
             android:padding="10dp" /><Button
@@ -296,7 +296,7 @@
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-smallcaps"
             android:onClick="ch_lg_stylus"
-            android:background="@drawable/backgroundforcards"
+            android:background="@mipmap/backgroundforcards"
             android:text="Stylus"
             android:textSize="40sp"
             android:padding="10dp" />
@@ -307,7 +307,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_s"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="S365"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -318,7 +318,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_t"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="T"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -329,7 +329,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_u"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="U"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -340,7 +340,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_v"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="V"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -351,7 +351,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_volt"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Volt"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -362,7 +362,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_vu"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Vu 3"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -373,7 +373,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_wine"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Wine"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -384,7 +384,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_x"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="X"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -395,7 +395,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lg_zero"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Zero"
                 android:textSize="40sp"
                 android:padding="10dp" />

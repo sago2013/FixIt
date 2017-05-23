@@ -20,8 +20,7 @@
         android:layout_marginRight="2dp"
         android:layout_marginEnd="2dp">
 
-
-    <LinearLayout
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -35,11 +34,10 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_nokia_asha"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Asha"
                 android:textSize="40sp"
                 android:padding="10dp" />
-
 
             <Button
                 android:layout_width="300dp"
@@ -47,7 +45,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_nokia_c"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="C"
                 android:fontFamily="sans-serif-smallcaps"
                 android:textSize="40sp"
@@ -58,7 +56,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_nokia_e"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="E"
                 android:fontFamily="sans-serif-smallcaps"
                 android:textSize="40sp"
@@ -71,11 +69,10 @@
                 android:layout_marginTop="20dp"
                 android:onClick="ch_nokia_lumina"
                 android:fontFamily="sans-serif-smallcaps"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Lumia"
                 android:textSize="40sp"
                 android:padding="10dp" />
-
 
             <Button
                 android:layout_width="300dp"
@@ -84,12 +81,10 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_nokia_x"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="X"
                 android:textSize="40sp"
                 android:padding="10dp" />
-
-
 
             <Button
                 android:layout_width="300dp"
@@ -98,7 +93,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:onClick="ch_nokia_other"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Other"
                 android:textSize="40sp"
                 android:padding="10dp" />

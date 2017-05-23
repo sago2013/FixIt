@@ -33,7 +33,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_google"
+            android:background="@mipmap/bg_google"
             android:onClick="ch_google"
             android:padding="10dp" />
 
@@ -43,7 +43,7 @@
             android:layout_gravity="center"
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
-            android:background="@drawable/bg_htc"
+            android:background="@mipmap/bg_htc"
             android:onClick="ch_htc"
             android:padding="10dp" />
 
@@ -55,7 +55,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_nokia"
+            android:background="@mipmap/bg_nokia"
             android:onClick="ch_nokia"
             android:padding="10dp" />
 
@@ -66,7 +66,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_motolenovo"
+            android:background="@mipmap/bg_motolenovo"
             android:onClick="ch_motolenovo"
             android:padding="10dp" />
 
@@ -77,7 +77,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_oppo"
+            android:background="@mipmap/bg_oppo"
             android:onClick="ch_oppo"
             android:padding="10dp" />
 
@@ -88,7 +88,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_lg"
+            android:background="@mipmap/bg_lg"
             android:onClick="ch_lg"
             android:padding="10dp" />
 
@@ -99,7 +99,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_huawei"
+            android:background="@mipmap/bg_huawei"
             android:onClick="ch_huawei"
             android:padding="10dp" />
 
@@ -110,7 +110,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_microsoft"
+            android:background="@mipmap/bg_microsoft"
             android:onClick="ch_microsoft"
             android:padding="10dp" />
 
@@ -121,7 +121,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_xiomi"
+            android:background="@mipmap/bg_xiomi"
             android:onClick="ch_xiomi"
             android:padding="10dp" />
 
@@ -132,7 +132,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_zte"
+            android:background="@mipmap/bg_zte"
             android:onClick="ch_zte"
             android:padding="10dp" />
 
@@ -143,7 +143,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_tcl"
+            android:background="@mipmap/bg_tcl"
             android:onClick="ch_tcl"
             android:padding="10dp" />
 
@@ -155,7 +155,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_samsung"
+            android:background="@mipmap/bg_samsung"
             android:onClick="ch_samsung"
             android:padding="10dp" />
         <Button
@@ -165,7 +165,7 @@
             android:layout_marginEnd="2dp"
             android:layout_marginStart="2dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_lenovo"
+            android:background="@mipmap/bg_lenovo"
             android:onClick="ch_lenovo_p"
             android:padding="10dp"
             android:layout_marginBottom="35dp"/>

@@ -33,7 +33,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lenovo_a"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="A"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -46,7 +46,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lenovo_k"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="K"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -57,7 +57,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lenovo_lemon"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Lemon 3"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -68,7 +68,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lenovo_p"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="P"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -79,7 +79,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lenovo_phab"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Phab"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -90,7 +90,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lenovo_r"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="RocStar (A139)"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -101,7 +101,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lenovo_s"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="S"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -112,7 +112,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lenovo_sis"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Sisley S90"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -123,7 +123,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lenovo_vibe"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Vibe"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -134,7 +134,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lenovo_zuk"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Zuk"
                 android:textSize="40sp"
                 android:padding="10dp" />
@@ -145,7 +145,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_lenovo_z"
-                android:background="@drawable/backgroundforcards"
+                android:background="@mipmap/backgroundforcards"
                 android:text="Z2 Plus"
                 android:textSize="40sp"
                 android:padding="10dp" />

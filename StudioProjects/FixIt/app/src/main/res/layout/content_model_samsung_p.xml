@@ -9,304 +9,304 @@
     tools:showIn="@layout/activity_model_samsung_p"
     android:background="@color/nice_plain">
 
-    <ScrollView
-        style="@style/scrollbar_shape_style"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:elevation="5dp"
-        android:fadingEdge="horizontal|vertical"
-        android:fadingEdgeLength="25dp"
-        android:paddingTop="10dp"
-        android:layout_marginRight="2dp"
-        android:layout_marginEnd="2dp">
+        <ScrollView
+            style="@style/scrollbar_shape_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="5dp"
+            android:fadingEdge="horizontal|vertical"
+            android:fadingEdgeLength="25dp"
+            android:paddingTop="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginEnd="2dp">
 
 
-    <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_gravity="center_horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal">
 
 
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_B2"
-                android:background="@drawable/backgroundforcards"
-                android:text="B2"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
+                        <Button
+                            android:id="@+id/button6"
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_B2"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="B2"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
 
 
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_E2"
-                android:background="@drawable/backgroundforcards"
-                android:text="E3"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_E2"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="E3"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:onClick="ch_sam_champ"
-                android:background="@drawable/backgroundforcards"
-                android:text="Champ"
-                android:textSize="40sp"
-                android:padding="10dp" />
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_sam_champ"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Champ"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
 
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_galaxy"
-                android:background="@drawable/backgroundforcards"
-                android:text="Galaxy"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_guru"
-                android:background="@drawable/backgroundforcards"
-                android:text="Guru"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_galaxy"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Galaxy"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_guru"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Guru"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
 
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_hero"
-                android:fontFamily="sans-serif-smallcaps"
-                android:background="@drawable/backgroundforcards"
-                android:text="Hero"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-
-
-
-
-
-            <Button
-                android:layout_width="300dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_metro"
-                android:background="@drawable/backgroundforcards"
-                android:text="Metro"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_mpower"
-                android:background="@drawable/backgroundforcards"
-                android:text="Mpower"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_primo"
-                android:background="@drawable/backgroundforcards"
-                android:text="Primo"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_hero"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Hero"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
 
 
 
 
 
 
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_rex"
-                android:background="@drawable/backgroundforcards"
-                android:text="Rex"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_w"
-                android:background="@drawable/backgroundforcards"
-                android:text="W"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
+                        <Button
+                            android:layout_width="300dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_metro"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Metro"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
 
-
-            <Button
-                android:id="@+id/button10"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_wave"
-                android:background="@drawable/backgroundforcards"
-                android:text="Wave"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_z"
-                android:background="@drawable/backgroundforcards"
-                android:text="Z"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_star"
-                android:background="@drawable/backgroundforcards"
-                android:text="Star 3 Duos"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_SI"
-                android:background="@drawable/backgroundforcards"
-                android:text="S III Neo"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_SM"
-                android:background="@drawable/backgroundforcards"
-                android:text="SM-G9098"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-            <Button
-                android:id="@+id/button12"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:onClick="ch_sam_gt"
-                android:background="@drawable/backgroundforcards"
-                android:text="GT-E2202"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_g9"
-                android:background="@drawable/backgroundforcards"
-                android:text="G9198"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_omnia"
-                android:background="@drawable/backgroundforcards"
-                android:text="Omnia M"
-                android:fontFamily="sans-serif-smallcaps"
-                android:textSize="40sp"
-                android:padding="10dp" />
-
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_chat"
-                android:fontFamily="sans-serif-smallcaps"
-                android:background="@drawable/backgroundforcards"
-                android:text="Chat"
-                android:textSize="40sp"
-                android:padding="10dp" />
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_mpower"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Mpower"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_primo"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Primo"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
 
 
 
 
 
 
-            <Button
-                android:layout_width="300dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:onClick="ch_sam_ativ"
-                android:background="@drawable/backgroundforcards"
-                android:text="Ativ SE"
-                android:textSize="40sp"
-                android:padding="10dp" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text=""/>
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_rex"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Rex"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_w"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="W"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
 
-        </LinearLayout>
 
-    </ScrollView>
+                        <Button
+                            android:id="@+id/button10"
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_wave"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Wave"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+
+
+
+                        <Button
+                            android:id="@+id/button5"
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_z"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Z"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_star"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Star 3 Duos"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_SI"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="S III Neo"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+
+
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_SM"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="SM-G9098"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+
+                        <Button
+                            android:id="@+id/button12"
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_sam_gt"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="GT-E2202"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_g9"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="G9198"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:id="@+id/button8"
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_omnia"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Omnia M"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+
+                        <Button
+                            android:layout_width="300dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_chat"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Chat"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+
+
+
+
+
+
+                        <Button
+                            android:layout_width="300dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:onClick="ch_sam_ativ"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Ativ SE"
+                            android:textSize="40sp"
+                            android:padding="10dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:text=""/>
+
+                </LinearLayout>
+
+        </ScrollView>
 
 </LinearLayout>
