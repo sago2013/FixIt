@@ -15,11 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:elevation="5dp"
-        android:fadingEdge="horizontal|vertical"
-        android:fadingEdgeLength="25dp"
-        android:paddingTop="10dp"
-        android:layout_marginRight="2dp"
-        android:layout_marginEnd="2dp">
+        android:paddingTop="10dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -34,41 +30,19 @@
                 android:layout_marginTop="5dp">
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/acer_p"
                     android:onClick="ch_acer"/>
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/alcatel_p"
                     android:onClick="ch_tcl"/>
 
             </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="5dp">
-
-
-            <Button
-                android:layout_width="165dp"
-                android:layout_height="165dp"
-                android:layout_margin="4dp"
-                android:background="@mipmap/archos_p"
-                android:onClick="ch_archos_pw"/>
-            <Button
-                android:layout_width="165dp"
-                android:layout_height="165dp"
-                android:layout_margin="4dp"
-                android:background="@mipmap/blu_p"
-                android:onClick="ch_blu"/>
-
-        </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -78,16 +52,83 @@
 
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
+                    android:background="@mipmap/archos_p"
                     android:onClick="ch_archos_pw"/>
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/blu_p"
+                    android:onClick="ch_blu"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp">
+
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/celkon_p"
+                    android:onClick="ch_celkon_pw"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/htc_p"
                     android:onClick="ch_htc"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp">
+
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:onClick="ch_huawei"
+                    android:background="@mipmap/huawei_p"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/iball_p"
+                    android:onClick="ch_iball_pw"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp">
+
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:onClick="ch_karbonn_pw"
+                    android:background="@mipmap/karbonn_p"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/lava_p"
+                    android:onClick="ch_lava_pw"/>
 
             </LinearLayout>
             <TextView

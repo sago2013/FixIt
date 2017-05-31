@@ -17,7 +17,7 @@
         android:elevation="5dp"
         android:fadingEdge="horizontal|vertical"
         android:fadingEdgeLength="25dp"
-        android:paddingTop="10dp"
+        android:paddingTop="1dp"
         android:layout_marginRight="2dp"
         android:layout_marginEnd="2dp">
 
@@ -30,10 +30,10 @@
 
             <Button
                 android:id="@+id/a1"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_acer_e"
                 android:background="@mipmap/backgroundforcards"
@@ -42,10 +42,10 @@
                 android:padding="10dp" />
             <Button
                 android:id="@+id/a2"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_acer_jade"
                 android:background="@mipmap/backgroundforcards"
@@ -54,10 +54,10 @@
                 android:padding="10dp" />
             <Button
                 android:id="@+id/a3"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_acer_s"
                 android:background="@mipmap/backgroundforcards"
@@ -67,10 +67,10 @@
 
             <Button
                 android:id="@+id/a4"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_acer_x1"
                 android:background="@mipmap/backgroundforcards"
@@ -80,10 +80,10 @@
 
             <Button
                 android:id="@+id/a5"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_acer_z"
                 android:background="@mipmap/backgroundforcards"
@@ -92,10 +92,10 @@
                 android:padding="10dp" />
             <Button
                 android:id="@+id/a6"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_acer_zest"
                 android:background="@mipmap/backgroundforcards"
@@ -104,10 +104,10 @@
                 android:padding="10dp" />
             <Button
                 android:id="@+id/w1"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_acer_m220"
                 android:background="@mipmap/backgroundforcards"
@@ -116,10 +116,10 @@
                 android:padding="10dp" />
             <Button
                 android:id="@+id/w2"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_acer_m320"
                 android:background="@mipmap/backgroundforcards"
@@ -128,10 +128,10 @@
                 android:padding="10dp" />
             <Button
                 android:id="@+id/w3"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_acer_m330"
                 android:background="@mipmap/backgroundforcards"

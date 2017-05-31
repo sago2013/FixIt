@@ -16,7 +16,7 @@
         android:elevation="5dp"
         android:fadingEdge="horizontal|vertical"
         android:fadingEdgeLength="25dp"
-        android:paddingTop="10dp"
+        android:paddingTop="1dp"
         android:layout_marginRight="2dp"
         android:layout_marginEnd="2dp">
 
@@ -26,10 +26,10 @@
             android:orientation="vertical"
             android:layout_gravity="center_horizontal">
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_tcl_ot_2"
                 android:background="@mipmap/backgroundforcards"
                 android:text="One Touch 20.05"
@@ -37,10 +37,10 @@
                 android:textSize="30sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_tcl_ot_fierce"
                 android:background="@mipmap/backgroundforcards"
                 android:text="One Touch Fierce XL"
@@ -48,10 +48,10 @@
                 android:textSize="28sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_tcl_ot_fire"
                 android:background="@mipmap/backgroundforcards"
                 android:text="One Touch Fire"
@@ -59,10 +59,10 @@
                 android:textSize="30sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_tcl_ot_hero"
                 android:background="@mipmap/backgroundforcards"
                 android:text="One Touch Hero"
@@ -70,10 +70,10 @@
                 android:textSize="30sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_tcl_ot_idol"
                 android:background="@mipmap/backgroundforcards"
                 android:text="One Touch Idol"
@@ -81,10 +81,10 @@
                 android:textSize="30sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_tcl_ot_pixi"
                 android:background="@mipmap/backgroundforcards"
                 android:text="One Touch Pixi"
@@ -92,10 +92,10 @@
                 android:textSize="30sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_tcl_ot_pop"
                 android:background="@mipmap/backgroundforcards"
                 android:text="One Touch Pop"
@@ -103,10 +103,10 @@
                 android:textSize="30sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_tcl_ot_star"
                 android:background="@mipmap/backgroundforcards"
                 android:text="One Touch Pop Star"
@@ -114,10 +114,10 @@
                 android:textSize="28sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_tcl_ot_popup"
                 android:background="@mipmap/backgroundforcards"
                 android:text="One Touch Pop Up"
@@ -125,10 +125,10 @@
                 android:textSize="30sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_tcl_ot_tribe"
                 android:background="@mipmap/backgroundforcards"
                 android:text="One Touch Tribe 3040"

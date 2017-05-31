@@ -16,7 +16,7 @@
         android:elevation="5dp"
         android:fadingEdge="horizontal|vertical"
         android:fadingEdgeLength="25dp"
-        android:paddingTop="10dp"
+        android:paddingTop="1dp"
         android:layout_marginRight="2dp"
         android:layout_marginEnd="2dp">
 
@@ -28,11 +28,11 @@
 
 
             <Button
-                android:layout_width="300dp"
+                android:layout_width="380dp"
                 android:fontFamily="sans-serif-smallcaps"
-                android:layout_height="80dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_micro_lumia"
                 android:background="@mipmap/backgroundforcards"
                 android:text="Lumia"
@@ -40,11 +40,11 @@
                 android:padding="10dp" />
 
             <Button
-                android:layout_width="300dp"
+                android:layout_width="380dp"
                 android:fontFamily="sans-serif-smallcaps"
-                android:layout_height="80dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_micro_lumia_dual"
                 android:background="@mipmap/backgroundforcards"
                 android:text="Lumia Dual SIM"

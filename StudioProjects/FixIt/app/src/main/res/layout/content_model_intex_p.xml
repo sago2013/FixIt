@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fixit.fixit.model_intex_p"
+    tools:showIn="@layout/activity_model_intex_p"
+    android:background="@color/nice_plain">
+
+    <ScrollView
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="25dp"
+        android:paddingTop="1dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_ace"
+                android:background="@mipmap/backgroundforcards"
+                android:text="4470 Ace"
+                android:textSize="35sp"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_aqua"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_aura"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aura Plus"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_avatar"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Avatar 3D 2.0"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_boss"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Boss 5.1"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_cloud"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Cloud"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_eagle"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Eagle"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_elyt"
+                android:background="@mipmap/backgroundforcards"
+                android:text="ELYT-e1"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_force"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Force"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_gc"
+                android:background="@mipmap/backgroundforcards"
+                android:text="GC 5050"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_in"
+                android:background="@mipmap/backgroundforcards"
+                android:text="IN 50 plus"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_killer"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Killer"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_neo"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Neo"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_player"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Player"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_slimzz"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Slimzz"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_spark"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Spark"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_turbo"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Turbo"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_u"
+                android:background="@mipmap/backgroundforcards"
+                android:text="U AA Power"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_ultra"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Ultra 4000i"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_intex_yuvi"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Yuvi Plus"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

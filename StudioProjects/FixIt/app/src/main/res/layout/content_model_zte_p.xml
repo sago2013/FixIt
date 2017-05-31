@@ -16,7 +16,7 @@
         android:elevation="5dp"
         android:fadingEdge="horizontal|vertical"
         android:fadingEdgeLength="25dp"
-        android:paddingTop="10dp"
+        android:paddingTop="1dp"
         android:layout_marginRight="2dp"
         android:layout_marginEnd="2dp">
 
@@ -27,10 +27,10 @@
             android:layout_gravity="center_horizontal">
 
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_avid"
                 android:background="@mipmap/backgroundforcards"
@@ -38,10 +38,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_axon"
                 android:background="@mipmap/backgroundforcards"
@@ -49,10 +49,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_blade"
                 android:background="@mipmap/backgroundforcards"
@@ -60,10 +60,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_t"
                 android:background="@mipmap/backgroundforcards"
@@ -71,10 +71,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_geek"
                 android:background="@mipmap/backgroundforcards"
@@ -82,10 +82,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_grand"
                 android:background="@mipmap/backgroundforcards"
@@ -93,10 +93,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_hawkeye"
                 android:background="@mipmap/backgroundforcards"
@@ -104,10 +104,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_kis"
                 android:background="@mipmap/backgroundforcards"
@@ -115,10 +115,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_nubia"
                 android:background="@mipmap/backgroundforcards"
@@ -126,10 +126,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_n"
                 android:background="@mipmap/backgroundforcards"
@@ -137,10 +137,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_open"
                 android:background="@mipmap/backgroundforcards"
@@ -148,10 +148,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_q"
                 android:background="@mipmap/backgroundforcards"
@@ -159,10 +159,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_small"
                 android:background="@mipmap/backgroundforcards"
@@ -170,10 +170,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_speed"
                 android:background="@mipmap/backgroundforcards"
@@ -181,10 +181,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_star"
                 android:background="@mipmap/backgroundforcards"
@@ -192,10 +192,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_v"
                 android:background="@mipmap/backgroundforcards"
@@ -204,10 +204,10 @@
                 android:padding="10dp" />
 
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_zinger"
                 android:background="@mipmap/backgroundforcards"
@@ -215,10 +215,10 @@
                 android:textSize="40sp"
                 android:padding="10dp" />
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_zte_zmax"
                 android:background="@mipmap/backgroundforcards"

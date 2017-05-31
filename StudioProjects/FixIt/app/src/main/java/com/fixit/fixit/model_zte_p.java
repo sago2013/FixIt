@@ -97,7 +97,7 @@ public class model_zte_p extends AppCompatActivity {
     public void ch_zte_grand(View view){
         SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
         SharedPreferences.Editor editor = mPrefs.edit();
-        editor.putString("model_spec", "zte_gnad");
+        editor.putString("model_spec", "zte_grand");
         editor.apply();
         Toast.makeText(this, "Grand", Toast.LENGTH_SHORT).show();
         Intent i = new Intent(model_zte_p.this,model_specific_list.class);
@@ -184,5 +184,6 @@ public class model_zte_p extends AppCompatActivity {
         editor.apply();
         Toast.makeText(this, "Zinger", Toast.LENGTH_SHORT).show();
     }
+
 
 }

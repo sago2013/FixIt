@@ -15,11 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:elevation="5dp"
-        android:fadingEdge="horizontal|vertical"
-        android:fadingEdgeLength="25dp"
-        android:paddingTop="10dp"
-        android:layout_marginRight="2dp"
-        android:layout_marginEnd="2dp">
+        android:paddingTop="1dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -29,49 +25,30 @@
 
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="5dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2.5dp">
 
-        <Button
-            android:layout_width="165dp"
-            android:layout_height="165dp"
-            android:layout_margin="4dp"
-            android:background="@mipmap/acer_p"
-            android:onClick="ch_acer"/>
-        <Button
-            android:layout_width="165dp"
-            android:layout_height="165dp"
-            android:layout_margin="4dp"
-            android:background="@mipmap/adcom_p"
-            android:onClick="ch_adcom"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/acer_p"
+                    android:onClick="ch_acer"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/adcom_p"
+                    android:onClick="ch_adcom"/>
 
 
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal">
+            </LinearLayout>
 
-        <Button
-            android:layout_width="165dp"
-            android:layout_height="165dp"
-            android:layout_margin="4dp"
-            android:background="@mipmap/archos_p"
-            android:onClick="ch_archos"/>
-        <Button
-            android:layout_width="165dp"
-            android:layout_height="165dp"
-            android:layout_margin="4dp"
-            android:background="@mipmap/asus_p"
-            android:onClick="ch_asus"/>
-
-    </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -79,17 +56,18 @@
                 android:layout_gravity="center_horizontal">
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
-                    android:background="@mipmap/bb_p"
-                    android:onClick="ch_bb_pa"/>
+                    android:background="@mipmap/alcatel_p"
+                    android:onClick="ch_tcl"/>
+
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
-                    android:background="@mipmap/blu_p"
-                    android:onClick="ch_blu"/>
+                    android:background="@mipmap/archos_p"
+                    android:onClick="ch_archos"/>
 
 
             </LinearLayout>
@@ -100,37 +78,152 @@
                 android:layout_gravity="center_horizontal">
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/asus_p"
+                    android:onClick="ch_asus"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/bb_p"
+                    android:onClick="ch_bb_pa"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/blu_p"
+                    android:onClick="ch_blu"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/celkon_p"
+                    android:onClick="ch_celkon"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/coolpad_p"
+                    android:onClick="ch_coolpad"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/datawind_p"
+                    android:onClick="ch_datawind"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/fly_p"
+                    android:onClick="ch_fly"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/gionee_p"
+                    android:onClick="ch_gionee"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/google_p"
                     android:onClick="ch_google"/>
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
-                    android:layout_margin="4dp"/>
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center_horizontal">
-
-                <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/htc_p"
                     android:onClick="ch_htc"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/huawei_p"
                     android:onClick="ch_huawei"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/iball_p"
+                    android:onClick="ch_iball"/>
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/iberry_p"
+                    android:onClick="ch_iberry"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/idea"
+                    android:onClick="ch_idea"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -139,17 +232,58 @@
                 android:layout_gravity="center_horizontal">
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/infocus_p"
+                    android:onClick="ch_infocus_p"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/intex_p"
+                    android:onClick="ch_intex_p"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/karbonn_p"
+                    android:onClick="ch_karbonn"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/kyocera"
                     android:onClick="ch_kyocera"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/lava_p"
                     android:onClick="ch_lava"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/leeco_p2"
+                    android:onClick="ch_leeco"/>
 
             </LinearLayout>
 
@@ -160,14 +294,14 @@
                 android:layout_gravity="center_horizontal">
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/lenovo"
                     android:onClick="ch_lenovo_p"/>
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/lg_p"
                     android:onClick="ch_lg"/>
@@ -180,21 +314,42 @@
                 android:layout_gravity="center_horizontal">
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/lyf_p"
+                    android:onClick="ch_lyf_p"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/maxx_p"
+                    android:onClick="ch_max"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/meizu_p"
                     android:onClick="ch_meizu"/>
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/micromax_pp"
                     android:onClick="ch_micromax"/>
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -202,18 +357,18 @@
                 android:layout_gravity="center_horizontal">
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/motorola_p"
                     android:onClick="ch_motolenovo"/>
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
-                    android:background="@mipmap/nokia_p"
-                    android:onClick="ch_nokia"/>
+                    android:background="@mipmap/mts_p"
+                    android:onClick="ch_mts"/>
 
             </LinearLayout>
             <LinearLayout
@@ -223,17 +378,38 @@
                 android:layout_gravity="center_horizontal">
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/nokia_p"
+                    android:onClick="ch_nokia"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/obi_p"
+                    android:onClick="ch_obi"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/oppo_p"
                     android:onClick="ch_oppo"/>
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
-                    android:background="@mipmap/samsung_p"
+                    android:background="@mipmap/panasonic_p"
                     android:onClick="ch_samsung"/>
 
 
@@ -245,15 +421,55 @@
                 android:layout_gravity="center_horizontal">
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/philips_p"
+                    android:onClick="ch_philips"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/rb_p"
+                    android:onClick="ch_ringingbells"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/samsung_p"
+                    android:onClick="ch_samsung"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/sony_p"
+                    android:onClick="ch_sony"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/sharp_p"
                     android:onClick="ch_sharp"/>
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/spice_p"
                     android:onClick="ch_spice"/>
@@ -266,25 +482,104 @@
                 android:layout_gravity="center_horizontal">
 
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/swipe_p"
+                    android:onClick="ch_swipe"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/videocon_p"
+                    android:onClick="ch_videocon"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/vivo_p"
+                    android:onClick="ch_vivo"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/wickedleak_p"
+                    android:onClick="ch_wickedleak"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/xiaomi_p"
                     android:onClick="ch_xiomi"/>
                 <Button
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/xolo_p"
+                    android:onClick="ch_xolo"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/yu_p"
+                    android:onClick="ch_yu"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/zen_p"
+                    android:onClick="ch_zen"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/zopo_p"
+                    android:onClick="ch_zopo"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
                     android:layout_margin="4dp"
                     android:background="@mipmap/zte_p"
                     android:onClick="ch_zte"/>
 
             </LinearLayout>
-            <Button
-                android:layout_width="165dp"
-                android:layout_height="165dp"
-                android:layout_margin="4dp"
-                android:background="@mipmap/alcatel_p"
-                android:onClick="ch_tcl"/>
+
+
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="100dp"

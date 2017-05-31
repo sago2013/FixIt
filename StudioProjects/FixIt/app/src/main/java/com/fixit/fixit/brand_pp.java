@@ -222,4 +222,266 @@ public class brand_pp extends AppCompatActivity {
 
     }
 
+    public void ch_celkon(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Celkon");
+        editor.apply();
+        Toast.makeText(this, "Brand: Celkon", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_celkon_p.class);
+        startActivity(i);
+    }
+
+    public void ch_coolpad(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Coolpad");
+        editor.apply();
+        Toast.makeText(this, "Brand: Coolpad", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_coolpad_p.class);
+        startActivity(i);
+    }
+
+    public void ch_datawind(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Datawind");
+        editor.putString("model_spec", "datawind_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Datawind", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+    public void ch_fly(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Fly");
+        editor.putString("model_spec", "fly_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Fly", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+    public void ch_gionee(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Gionee");
+        editor.apply();
+        Toast.makeText(this, "Brand: Gionee", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_gionee_p.class);
+        startActivity(i);
+    }
+
+    public void ch_iball(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "iball");
+        editor.apply();
+        Toast.makeText(this, "Brand: iball", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_iball_p.class);
+        startActivity(i);
+    }
+
+    public void ch_iberry(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "iberry");
+        editor.putString("model_spec", "iberry_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: iberry", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+    public void ch_idea(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Idea");
+        editor.putString("model_spec", "idea_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Idea", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_infocus_p(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "InFocus");
+        editor.putString("model_spec", "infocus_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: InFocus", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_intex_p(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Intex");
+        editor.apply();
+        Toast.makeText(this, "Brand: Intex", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_intex_p.class);
+        startActivity(i);
+
+    }
+
+    public void ch_karbonn(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Karbonn");
+        editor.apply();
+        Toast.makeText(this, "Brand: Karbonn", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_karbonn_p.class);
+        startActivity(i);
+    }
+
+    public void ch_kyocera(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Kyocera");
+        editor.putString("model_spec", "kyocera_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Kyocera", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+
+    }
+    public void ch_zopo(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Zopo");
+        editor.putString("model_spec", "zopo_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Zopo", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+
+    }
+    public void ch_obi(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Obi");
+        editor.putString("model_spec", "obi_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Obi", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+
+    }
+    public void ch_mts(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "MTS");
+        editor.putString("model_spec", "mts_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: MTS", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+
+    }
+    public void ch_max(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Maxx Mobile");
+        editor.putString("model_spec", "maxx_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Maxx Mobile ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+    public void ch_philips(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Philips");
+        editor.putString("model_spec", "philips_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Philips", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+    public void ch_ringingbells(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Ringing Bells");
+        editor.putString("model_spec", "rbells_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Ringing Bells", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+    public void ch_wickedleak(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Wickedleak");
+        editor.putString("model_spec", "wickedleak_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Wickedleak ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+    public void ch_yu(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Yu");
+        editor.putString("model_spec", "yu_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Yu ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+    public void ch_zen(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Zen");
+        editor.putString("model_spec", "zen_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Zen", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+
+    }
+    public void ch_sharp(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Sharp");
+        editor.putString("model_spec", "sharp_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: Sharp", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+
+    }
+    public void ch_lava(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Lava");
+        editor.apply();
+        Toast.makeText(this, "Brand: Lava", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_lava_p.class);
+        startActivity(i);
+    }
+
+    public void ch_leeco(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "LeEco");
+        editor.putString("model_spec", "leeco_p");
+        editor.apply();
+        Toast.makeText(this, "Brand: LeEco", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_specific_list.class);
+        startActivity(i);
+    }
+    
+
+/*
+    public void ch_asus(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Asus");
+        editor.apply();
+        Toast.makeText(this, "Brand: Asus", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pp.this,model_asus_p.class);
+        startActivity(i);
+    }
+*/
 }

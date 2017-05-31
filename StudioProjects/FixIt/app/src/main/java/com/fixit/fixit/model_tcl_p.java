@@ -22,6 +22,10 @@ public class model_tcl_p extends AppCompatActivity {
 
         SharedPreferences mPrefs = getSharedPreferences("table", 0);
         final String os = mPrefs.getString("os", "error");
+        if (os.equals("windows")){
+            toolbar.setTitle("What model is your Alcatel Windows phone?");
+            setSupportActionBar(toolbar);
+        }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -227,7 +231,7 @@ public class model_tcl_p extends AppCompatActivity {
         SharedPreferences.Editor editor = mPrefs.edit();
         editor.putString("model", "One Touch Flash");
         editor.apply();
-        Toast.makeText(this, "One Touch Flashf", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "One Touch Flash", Toast.LENGTH_SHORT).show();
     }
     public void ch_tcl_ott(View view) {
         SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table", 0);
