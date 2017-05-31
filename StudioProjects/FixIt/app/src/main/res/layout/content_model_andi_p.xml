@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fixit.fixit.model_andi_p"
+    tools:showIn="@layout/activity_model_andi_p"
+    android:background="@color/nice_plain">
+
+    <ScrollView
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="25dp"
+        android:paddingTop="1dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/a1"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_107"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi 107"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a2"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_3"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi 3"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a3"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_4"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi 4"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a4"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_5"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi 5"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a5"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_avonte"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi Avonte 5"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a6"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_blink"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi Blink 4g"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a7"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_class"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi Class X"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a8"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_f2f"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi F2F 5.5U"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/a9"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_hd"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi HD 6"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/a11"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_sprinter"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi Sprinter 4G"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a10"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_uddaan"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi Uddaan"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a12"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_andi_wink"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Andi Wink 4G"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

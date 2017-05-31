@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fixit.fixit.model_i_aqua_p"
+    tools:showIn="@layout/activity_model_i_aqua_p"
+    android:background="@color/nice_plain">
+
+    <ScrollView
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="25dp"
+        android:paddingTop="1dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_3g"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua 3G"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_4"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua 4"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_4g"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua 4G"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_5"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua 5"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_a"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua A"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_ace"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Ace"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_air"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Air"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_curve"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Curve"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_craze"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Craze"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_desire"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Desire"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_dream"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Dream"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_eco"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Eco"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_hd"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua HD"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_i"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua i"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_lions"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Lions"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_life"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Life"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_marvel"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Marvel"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_n"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua N"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_power"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Power"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_q"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Q"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_raze"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Raze"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_s"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua S"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_sense"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Sense"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_speed"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Speed"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_star"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Star"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_strong"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Strong"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_t"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua T"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_trend"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Trend"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_v"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua V"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_wonder"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Wonder"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_x"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua X"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_xtreme"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Xtreme"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_y"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Aqua Y"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_i_aqua_other"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Other Aqua Models"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

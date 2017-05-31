@@ -29,7 +29,7 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
-       -->
+        -->
         <activity
             android:name=".login"
             android:label="@string/title_activity_login"
@@ -102,7 +102,10 @@
             android:name=".model_huawei_p"
             android:label="@string/title_activity_model_huawei_p"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".model_specific_list" />
+        <activity
+            android:name=".model_specific_list"
+            android:label="Santiago Change this Label!"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".model_tcl_p"
             android:label="@string/title_activity_model_tcl_p"
@@ -155,6 +158,50 @@
         <activity
             android:name=".model_blu_p"
             android:label="@string/title_activity_model_blu_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_celkon_p"
+            android:label="@string/title_activity_model_celkon_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_coolpad_p"
+            android:label="@string/title_activity_model_coolpad_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_gionee_p"
+            android:label="@string/title_activity_model_gionee_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_andi_p"
+            android:label="@string/title_activity_model_andi_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_iball_p"
+            android:label="@string/title_activity_model_iball_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_intex_p"
+            android:label="@string/title_activity_model_intex_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_i_aqua_p"
+            android:label="@string/title_activity_model_i_aqua_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_i_cloud_p"
+            android:label="@string/title_activity_model_i_cloud_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_karbonn_p"
+            android:label="@string/title_activity_model_karbonn_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_lava_p"
+            android:label="@string/title_activity_model_lava_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".model_l_iris_p"
+            android:label="@string/title_activity_model_l_iris_p"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

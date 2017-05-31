@@ -1,21 +1,36 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>gentle</find>
+      <find>setSup</find>
+      <find>blu_p</find>
+      <find>OT</find>
+      <find>idol</find>
+      <find>droid</find>
+      <find>z</find>
+      <find>lg_s</find>
+      <find>lenovo_s</find>
+      <find>axon</find>
+      <find>brand</find>
+      <find>flash</find>
       <find>samsung</find>
       <find>sam</find>
+      <find>e3</find>
+      <find>e2</find>
+      <find>andi 4l</find>
       <find>'</find>
-      <find>htc</find>
+      <find>iball</find>
+      <find>ascend</find>
       <find>acer</find>
-      <find>alcate</find>
-      <find>plus</find>
-      <find>tcl</find>
-      <find>plus 10</find>
-      <find>arch</find>
-      <find>b</find>
-      <find>bb</find>
-      <find>blu</find>
-      <find>archos</find>
+      <find>iberry</find>
+      <find>bingo</find>
+      <find>andi</find>
+      <find>lava</find>
+      <find>cloud</find>
+      <find>tiani</find>
+      <find>leeco</find>
+      <find>mts</find>
+      <find>zen</find>
+      <find>zopo</find>
     </findStrings>
   </component>
 </application>

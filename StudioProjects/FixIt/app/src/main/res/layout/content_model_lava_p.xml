@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:context="com.fixit.fixit.model_lava_p"
+                tools:showIn="@layout/activity_model_lava_p"
+                android:background="@color/nice_plain">
+
+                <ScrollView
+                    style="@style/scrollbar_shape_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="5dp"
+                    android:fadingEdge="horizontal|vertical"
+                    android:fadingEdgeLength="25dp"
+                    android:paddingTop="1dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginEnd="2dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal">
+
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_3g"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="3G"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_4g"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="4G Connect M1"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_a"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="A"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_arc"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Arc"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_b"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="B"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_c"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="C"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_discover"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Discover"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_flair"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Flair"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_icon"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Icon"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_iris"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Iris"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_kkt"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="KKT"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_m"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="M"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_magnum"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Magnum X604"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_metal"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Metal 24"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_p"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="P"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_pixel"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Pixel"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_s12"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="S12"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_v"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="V"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_x"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="X"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+                        <Button
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:onClick="ch_lava_z"
+                            android:background="@mipmap/backgroundforcards"
+                            android:text="Z"
+                            android:textSize="35sp"
+                            android:padding="10dp" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:text=""/>
+
+                    </LinearLayout>
+
+
+                </ScrollView>
+
+            </LinearLayout>
+

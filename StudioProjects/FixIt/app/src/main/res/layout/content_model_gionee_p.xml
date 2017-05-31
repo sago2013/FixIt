@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fixit.fixit.model_gionee_p"
+    tools:showIn="@layout/activity_model_gionee_p"
+    android:background="@color/nice_plain">
+
+    <ScrollView
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="25dp"
+        android:paddingTop="1dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/a1"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_a"
+                android:background="@mipmap/backgroundforcards"
+                android:text="A"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a2"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_ctrl"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Ctrl"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a3"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_dream"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Dream D1"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a4"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_elife"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Elife"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a5"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_f"
+                android:background="@mipmap/backgroundforcards"
+                android:text="F"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a6"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_gn"
+                android:background="@mipmap/backgroundforcards"
+                android:text="GN715"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a7"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_gpad"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Gpad"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a8"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_l"
+                android:background="@mipmap/backgroundforcards"
+                android:text="L"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/a9"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_m"
+                android:background="@mipmap/backgroundforcards"
+                android:text="M"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a10"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_marathon"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Marathon"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a11"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_p"
+                android:background="@mipmap/backgroundforcards"
+                android:text="P"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a12"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_pioneer"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Pioneer"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a13"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_s"
+                android:background="@mipmap/backgroundforcards"
+                android:text="S"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a14"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_steel"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Steel 2"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a15"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_t"
+                android:background="@mipmap/backgroundforcards"
+                android:text="T 520"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a16"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_gionee_w"
+                android:background="@mipmap/backgroundforcards"
+                android:text="W909"
+                android:textSize="35sp"
+                android:padding="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

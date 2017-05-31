@@ -16,7 +16,7 @@
             android:elevation="5dp"
             android:fadingEdge="horizontal|vertical"
             android:fadingEdgeLength="25dp"
-            android:paddingTop="10dp"
+            android:paddingTop="1dp"
             android:layout_marginRight="2dp"
             android:layout_marginEnd="2dp">
 
@@ -30,10 +30,10 @@
 
                         <Button
                             android:id="@+id/button6"
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_B2"
                             android:background="@mipmap/backgroundforcards"
                             android:text="B2"
@@ -43,23 +43,23 @@
 
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_E2"
                             android:background="@mipmap/backgroundforcards"
-                            android:text="E3"
+                            android:text="E1"
                             android:fontFamily="sans-serif-smallcaps"
                             android:textSize="40sp"
                             android:padding="10dp" />
 
                         <Button
                             android:id="@+id/button"
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="sans-serif-smallcaps"
                             android:onClick="ch_sam_champ"
                             android:background="@mipmap/backgroundforcards"
@@ -68,10 +68,10 @@
                             android:padding="10dp" />
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_galaxy"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Galaxy"
@@ -80,10 +80,10 @@
                             android:padding="10dp" />
                         <Button
                             android:id="@+id/button4"
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_guru"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Guru"
@@ -92,10 +92,10 @@
                             android:padding="10dp" />
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_hero"
                             android:fontFamily="sans-serif-smallcaps"
                             android:background="@mipmap/backgroundforcards"
@@ -109,11 +109,11 @@
 
 
                         <Button
-                            android:layout_width="300dp"
+                            android:layout_width="380dp"
                             android:fontFamily="sans-serif-smallcaps"
-                            android:layout_height="80dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_metro"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Metro"
@@ -121,10 +121,10 @@
                             android:padding="10dp" />
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_mpower"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Mpower"
@@ -132,10 +132,10 @@
                             android:textSize="40sp"
                             android:padding="10dp" />
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_primo"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Primo"
@@ -149,10 +149,10 @@
 
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_rex"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Rex"
@@ -160,10 +160,10 @@
                             android:textSize="40sp"
                             android:padding="10dp" />
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_w"
                             android:background="@mipmap/backgroundforcards"
                             android:text="W"
@@ -174,10 +174,10 @@
 
                         <Button
                             android:id="@+id/button10"
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_wave"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Wave"
@@ -189,10 +189,10 @@
 
                         <Button
                             android:id="@+id/button5"
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_z"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Z"
@@ -200,10 +200,10 @@
                             android:textSize="40sp"
                             android:padding="10dp" />
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_star"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Star 3 Duos"
@@ -211,10 +211,10 @@
                             android:textSize="40sp"
                             android:padding="10dp" />
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_SI"
                             android:background="@mipmap/backgroundforcards"
                             android:text="S III Neo"
@@ -224,10 +224,10 @@
 
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_SM"
                             android:background="@mipmap/backgroundforcards"
                             android:text="SM-G9098"
@@ -237,10 +237,10 @@
 
                         <Button
                             android:id="@+id/button12"
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="sans-serif-smallcaps"
                             android:onClick="ch_sam_gt"
                             android:background="@mipmap/backgroundforcards"
@@ -249,10 +249,10 @@
                             android:padding="10dp" />
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_g9"
                             android:background="@mipmap/backgroundforcards"
                             android:text="G9198"
@@ -261,10 +261,10 @@
                             android:padding="10dp" />
                         <Button
                             android:id="@+id/button8"
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_omnia"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Omnia M"
@@ -273,10 +273,10 @@
                             android:padding="10dp" />
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_chat"
                             android:fontFamily="sans-serif-smallcaps"
                             android:background="@mipmap/backgroundforcards"
@@ -284,17 +284,12 @@
                             android:textSize="40sp"
                             android:padding="10dp" />
 
-
-
-
-
-
                         <Button
-                            android:layout_width="300dp"
+                            android:layout_width="380dp"
                             android:fontFamily="sans-serif-smallcaps"
-                            android:layout_height="80dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_sam_ativ"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Ativ SE"

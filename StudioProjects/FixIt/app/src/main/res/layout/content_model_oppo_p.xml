@@ -16,7 +16,7 @@
         android:elevation="5dp"
         android:fadingEdge="horizontal|vertical"
         android:fadingEdgeLength="25dp"
-        android:paddingTop="10dp"
+        android:paddingTop="1dp"
         android:layout_marginRight="2dp"
         android:layout_marginEnd="2dp">
 
@@ -27,10 +27,10 @@
             android:orientation="vertical"
             android:layout_gravity="center_horizontal">
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_oppo_a"
                 android:background="@mipmap/backgroundforcards"
                 android:text="A"
@@ -40,10 +40,10 @@
 
 
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_oppo_f"
                 android:background="@mipmap/backgroundforcards"
                 android:text="F"
@@ -52,11 +52,11 @@
                 android:padding="10dp" />
 
             <Button
-                android:layout_width="300dp"
+                android:layout_width="380dp"
                 android:fontFamily="sans-serif-smallcaps"
-                android:layout_height="80dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_oppo_find"
                 android:background="@mipmap/backgroundforcards"
                 android:text="Find"
@@ -64,10 +64,10 @@
                 android:padding="10dp" />
 
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_oppo_mirror"
                 android:background="@mipmap/backgroundforcards"
                 android:text="Mirror"
@@ -76,10 +76,10 @@
                 android:padding="10dp" />
             <Button
                 android:id="@+id/button"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:onClick="ch_oppo_n"
                 android:background="@mipmap/backgroundforcards"
@@ -88,10 +88,10 @@
                 android:padding="10dp" />
 
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_oppo_neo"
                 android:fontFamily="sans-serif-smallcaps"
                 android:background="@mipmap/backgroundforcards"
@@ -100,10 +100,10 @@
                 android:padding="10dp" />
 
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_oppo_joy"
                 android:background="@mipmap/backgroundforcards"
                 android:text="Joy"
@@ -114,10 +114,10 @@
 
             <Button
                 android:id="@+id/button4"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_oppo_r"
                 android:background="@mipmap/backgroundforcards"
                 android:text="R"
@@ -126,10 +126,10 @@
                 android:padding="10dp" />
 
             <Button
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_oppo_u"
                 android:background="@mipmap/backgroundforcards"
                 android:text="U3"
@@ -139,10 +139,10 @@
 
             <Button
                 android:id="@+id/button5"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:onClick="ch_oppo_3"
                 android:background="@mipmap/backgroundforcards"
                 android:text="3000"

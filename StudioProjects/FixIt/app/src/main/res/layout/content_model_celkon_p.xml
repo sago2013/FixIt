@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fixit.fixit.model_celkon_p"
+    tools:showIn="@layout/activity_model_celkon_p"
+    android:background="@color/nice_plain">
+
+    <ScrollView
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="25dp"
+        android:paddingTop="1dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/a1"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_millennia"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Millennia"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a2"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_millennium"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Millennium"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a3"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_campus"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Campus"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/a4"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_rahman"
+                android:background="@mipmap/backgroundforcards"
+                android:text="RahmanIshq"
+                android:textSize="40sp"
+                android:padding="10dp" />
+
+
+            <Button
+                android:id="@+id/a5"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_signature"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Signature"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a6"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_a119q"
+                android:background="@mipmap/backgroundforcards"
+                android:text="A119Q"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a7"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_colt"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Colt A401"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a8"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_xion"
+                android:background="@mipmap/backgroundforcards"
+                android:text="XION S CT695"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a9"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_q40"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Q40+"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a10"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_s1"
+                android:background="@mipmap/backgroundforcards"
+                android:text="S1"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a11"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_diamond"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Diamond 4G Plus"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/a12"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_celkon_monalisa"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Monalisa ML-5"
+                android:textSize="40sp"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

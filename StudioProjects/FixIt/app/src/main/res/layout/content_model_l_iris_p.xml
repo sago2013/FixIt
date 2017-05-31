@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fixit.fixit.model_l_iris_p"
+    tools:showIn="@layout/activity_model_l_iris_p"
+    android:background="@color/nice_plain">
+
+    <ScrollView
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="25dp"
+        android:paddingTop="1dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_100"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris 100 Lite"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_250"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris 250"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_3_99"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris 300 - 399"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_4_99"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris 400 - 499"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_5_99"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris 500 - 599"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_alfa"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris Alfa"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_atom"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris Atom"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_fuel"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris Fuel"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_n"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris N"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_pro"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris Pro"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_selfie"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris Selfie 50"
+                android:textSize="35sp"
+                android:padding="10dp" />
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:onClick="ch_l_iris_x"
+                android:background="@mipmap/backgroundforcards"
+                android:text="Iris X"
+                android:textSize="35sp"
+                android:padding="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

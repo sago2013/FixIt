@@ -16,7 +16,7 @@
             android:elevation="5dp"
             android:fadingEdge="horizontal|vertical"
             android:fadingEdgeLength="25dp"
-            android:paddingTop="10dp"
+            android:paddingTop="1dp"
             android:layout_marginRight="2dp"
             android:layout_marginEnd="2dp">
 
@@ -27,10 +27,10 @@
                     android:orientation="vertical"
                     android:layout_gravity="center_horizontal">
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="sans-serif-smallcaps"
                             android:onClick="ch_moto_atrix"
                             android:background="@mipmap/backgroundforcards"
@@ -39,10 +39,10 @@
                             android:padding="10dp" />
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_defy"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Defy"
@@ -52,10 +52,10 @@
 
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_droid"
                             android:fontFamily="sans-serif-smallcaps"
                             android:background="@mipmap/backgroundforcards"
@@ -63,10 +63,10 @@
                             android:textSize="40sp"
                             android:padding="10dp" />
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="sans-serif-smallcaps"
                             android:onClick="ch_moto_ex"
                             android:background="@mipmap/backgroundforcards"
@@ -77,10 +77,10 @@
 
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_fire"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Fire XT "
@@ -90,10 +90,10 @@
 
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_nexus"
                             android:fontFamily="sans-serif-smallcaps"
                             android:background="@mipmap/backgroundforcards"
@@ -102,10 +102,10 @@
                             android:padding="10dp" />
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="sans-serif-smallcaps"
                             android:onClick="ch_moto_milestone"
                             android:background="@mipmap/backgroundforcards"
@@ -115,10 +115,10 @@
 
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_c"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Moto C"
@@ -126,10 +126,10 @@
                             android:textSize="40sp"
                             android:padding="10dp" />
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_e"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Moto E"
@@ -139,10 +139,10 @@
 
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_g"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Moto G"
@@ -152,10 +152,10 @@
 
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_m"
                             android:fontFamily="sans-serif-smallcaps"
                             android:background="@mipmap/backgroundforcards"
@@ -163,10 +163,10 @@
                             android:textSize="40sp"
                             android:padding="10dp" />
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_max"
                             android:fontFamily="sans-serif-smallcaps"
                             android:background="@mipmap/backgroundforcards"
@@ -175,10 +175,10 @@
                             android:padding="10dp" />
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_turbo"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Moto Turbo"
@@ -188,10 +188,10 @@
 
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_x"
                             android:fontFamily="sans-serif-smallcaps"
                             android:background="@mipmap/backgroundforcards"
@@ -199,10 +199,10 @@
                             android:textSize="40sp"
                             android:padding="10dp" />
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="sans-serif-smallcaps"
                             android:onClick="ch_moto_z"
                             android:background="@mipmap/backgroundforcards"
@@ -211,10 +211,10 @@
                             android:padding="10dp" />
 
                         <Button
-                            android:layout_width="300dp"
-                            android:layout_height="80dp"
+                            android:layout_width="380dp"
+                            android:layout_height="110dp"
                             android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:onClick="ch_moto_razr"
                             android:background="@mipmap/backgroundforcards"
                             android:text="Razr"

@@ -94,4 +94,59 @@ public class brand_pw extends AppCompatActivity {
         startActivity(i);
 
     }
+
+    public void ch_celkon_pw(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Celkon");
+        editor.putString("model_spec", "celkon_pw");
+        editor.apply();
+        Toast.makeText(this, "Brand: Celkon ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pw.this,model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_iball_pw(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "iBall");
+        editor.putString("model_spec", "iball_pw");
+        editor.apply();
+        Toast.makeText(this, "Brand: iBall ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pw.this,model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_huawei(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Huawei");
+        editor.putString("model_spec", "huaw_pw");
+        editor.apply();
+        Toast.makeText(this, "Brand: Huawei ", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pw.this,model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_karbonn_pw(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Karbonn");
+        editor.putString("model_spec", "karbonn_pw");
+        editor.apply();
+        Toast.makeText(this, "Brand: Karbonn", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pw.this,model_specific_list.class);
+        startActivity(i);
+    }
+
+    public void ch_lava_pw(View view) {
+        SharedPreferences mPrefs = getApplicationContext().getSharedPreferences("table",0);
+        SharedPreferences.Editor editor = mPrefs.edit();
+        editor.putString("brand", "Lava");
+        editor.putString("model_spec", "lava_pw");
+        editor.apply();
+        Toast.makeText(this, "Brand: Lava", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(brand_pw.this,model_specific_list.class);
+        startActivity(i);
+    }
 }
