@@ -3,6 +3,7 @@
     <option name="recentPaths">
       <list>
         <option value="$USER_HOME$/StudioProjects/FixIt" />
+        <option value="$USER_HOME$/StudioProjects/cheesesquare-master" />
         <option value="$USER_HOME$/StudioProjects/Team-53" />
       </list>
     </option>
@@ -15,7 +16,18 @@
               <option name="build" value="AI-162.3871768" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1496069726651" />
+              <option name="projectOpenTimestamp" value="1496696170323" />
+              <option name="buildTimestamp" value="1491019200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/FragmentBasics">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-162.3871768" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1496679356588" />
               <option name="buildTimestamp" value="1491019200000" />
             </RecentProjectMetaInfo>
           </value>
@@ -27,6 +39,17 @@
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1495302739305" />
+              <option name="buildTimestamp" value="1491019200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/cheesesquare-master">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-162.3871768" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1496245482177" />
               <option name="buildTimestamp" value="1491019200000" />
             </RecentProjectMetaInfo>
           </value>

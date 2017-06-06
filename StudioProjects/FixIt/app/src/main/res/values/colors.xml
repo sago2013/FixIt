@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- first look -->
+    <!--
     <color name="colorPrimary">#3498DB</color>
     <color name="colorPrimaryDark">#1a5276</color>
-    <color name="colorAccent">#a569bd</color>
+    <color name="colorAccent">#78f7bc</color>
     <color name="fab">#b0d6ef</color>
-    <color name="fab_background">#9f8de0f2</color>
+    <color name="fab_background">#8de0f2</color>
     <color name="backgrond">#a0a19a97</color>
     <color name="plain">#99b6bd</color>
     <color name="nice_plain">#e1f5f9</color>
     <color name="plandepth">#00acff</color>
+    <color name="fab_tint">#9ca1b4f7</color>
+    -->
+
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#005b4f</color>
+    <color name="colorPrimaryLight">#52c7b8</color>
+    <color name="colorAccent">#52c7b8</color>
+    <color name="colorAccentDark">#c60055</color>
+    <color name="colorAccentLight">#ff79b0</color>
+    <color name="nice_plain">#e0f2f1</color>
+    <color name="snackbarActioncolor">#78f7bc</color>
+    <color name="colorTextLight">#fafafa</color>
+    <!-- need unification -->
+    <color name="fab">#52c7b8</color>
+    <color name="fab_background">#52c7b8</color>
+
+    <color name="fab_tint">#9ca1b4f7</color>
+
+    <!-- need to be replaced or renamed -->
+
+    <color name="plain">#99b6bd</color>
+    <color name="transperent">#00ffffff</color>
+
+
 </resources>
