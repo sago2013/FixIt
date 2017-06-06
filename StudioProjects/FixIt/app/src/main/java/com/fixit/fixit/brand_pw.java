@@ -1,14 +1,19 @@
 package com.fixit.fixit;
 
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.bumptech.glide.Glide;
 
 public class brand_pw extends AppCompatActivity {
 
@@ -16,8 +21,25 @@ public class brand_pw extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brand_pw);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        FloatingActionButton fab_help = (FloatingActionButton) findViewById(R.id.fab_help);
+        fab_help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, R.string.title_activity_brand_pw, Snackbar.LENGTH_INDEFINITE)
+                        .setAction("More Help", new MoreHelp()).show();
+            }
+        });
+
+        CollapsingToolbarLayout collapsingToolbar =
+                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        //collapsingToolbar.setTitle(getString(R.string.title_activity_brand_pw));
+        collapsingToolbar.setTitle("Windows Phones");
+
+        loadBackdrop();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -39,6 +61,11 @@ public class brand_pw extends AppCompatActivity {
                         .setAction("Action", null).show();*/
             }
         });
+    }
+
+    private void loadBackdrop() {
+        final ImageView imageView = (ImageView) findViewById(R.id.backdrop);
+        Glide.with(this).load(R.mipmap.windows_h).fitCenter().into(imageView);
     }
 
     public void ch_htc(View view) {

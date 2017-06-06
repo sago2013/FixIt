@@ -10,20 +10,18 @@
     tools:showIn="@layout/activity_brand_pp"
     android:orientation="vertical">
 
-    <ScrollView
+    <android.support.v4.widget.NestedScrollView
         style="@style/scrollbar_shape_style"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:elevation="5dp"
-        android:paddingTop="1dp">
+        android:paddingTop="10dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="center_horizontal">
-
-
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -588,7 +586,8 @@
 
 
 
-    </ScrollView>
+    </android.support.v4.widget.NestedScrollView>
+
 
 
 </LinearLayout>

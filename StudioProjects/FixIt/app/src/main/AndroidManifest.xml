@@ -202,6 +202,14 @@
         <activity
             android:name=".model_l_iris_p"
             android:label="@string/title_activity_model_l_iris_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".phone_fix_options"
+            android:label="@string/title_activity_phone_fix_options"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fixed_feed"
+            android:label="@string/title_activity_fixed_feed"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

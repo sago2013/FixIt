@@ -5841,13 +5841,15 @@ X456
 
 <item>
 Blaze 5.0
-</item><item>
+</item>
+        <item>
 Blaze 4.5
 </item>
 
         <item>
 Duet 2
-</item><item>
+</item>
+        <item>
 Duet
 </item>
 
@@ -5856,23 +5858,30 @@ Striker C121
 </item>
         <item>
 Striker F121
-</item><item>
+</item>
+        <item>
 Striker C122
 </item>
 
         <item>
 Mtag 3.1
-</item><item>
+</item>
+        <item>
 Alive
-</item><item>
+</item>
+        <item>
 Slider
-</item><item>
+</item>
+        <item>
 Silver
-</item><item>
+</item>
+        <item>
 Rockstar
-</item><item>
+</item>
+        <item>
 Turbo B121
-</item><item>
+</item>
+        <item>
 C5100
 </item>
     </string-array>
@@ -5923,15 +5932,20 @@ Octopus S520
     <string-array name="maxx_p">
   <item>
   AXD21 MSD7 Smarty
-  </item><item>
+  </item>
+        <item>
   AX411 Duo
-  </item><item>
+  </item>
+        <item>
   AX40
-  </item><item>
+  </item>
+        <item>
   Ax5 Plus
-  </item><item>
+  </item>
+        <item>
   AX9z
-  </item><item>
+  </item>
+        <item>
   AX8
   </item>
         <item>
@@ -6154,18 +6168,23 @@ Eluga A2
 
 <item>
 Sapphire Life V787
-</item><item>
+</item>
+        <item>
 Sapphire S616
-</item><item>
+</item>
+        <item>
 Xenium S309
-</item><item>
+</item>
+        <item>
 Xenium I908
-</item><item>
+</item>
+        <item>
 Xenium X2566
 </item>
         <item>
 Xenium W6610
-</item><item>
+</item>
+        <item>
 S308
 </item>
         <item>
@@ -6173,9 +6192,11 @@ S388
 </item>
         <item>
 S398
-</item><item>
+</item>
+        <item>
 i966 Aurora
-</item><item>
+</item>
+        <item>
 I928
 </item>
         <item>
@@ -7080,9 +7101,11 @@ V3
     <string-array name="wickedleak_p">
 <item>
 Wammy Note 5
-</item><item>
+</item>
+        <item>
 Wammy Titan 5
-</item><item>
+</item>
+        <item>
 Wammy Titan 4
 </item>
         <item>
@@ -7093,27 +7116,33 @@ Wammy Titan 3
 </item>
         <item>
 Wammy One
-</item><item>
+</item>
+        <item>
 Wammy Neo Youth
-</item><item>
+</item>
+        <item>
 Wammy Neo
-</item><item>
+</item>
+        <item>
         Wammy Neo 3
-    </item> <item>
+    </item>
+        <item>
     Wammy Note 4
 </item>
-    <item>
+        <item>
         Wammy Note 3
     </item>
-    <item>
+        <item>
         Wammy Passion X
-    </item><item>
+    </item>
+        <item>
     Wammy Passion Z
 </item>
         <item>
     Wammy Passion Z Plus
 </item>
-</string-array>w
+    </string-array>
+    w
     <string-array name="xolo_p">
 <item>
 Era 2X
@@ -7369,7 +7398,8 @@ X900
 
 <item>
 Yureka S
-</item><item>
+</item>
+        <item>
 Yureka Note
 </item>
         <item>
@@ -7380,7 +7410,8 @@ Yureka Plus
 </item>
         <item>
 Yutopia
-</item><item>
+</item>
+        <item>
 Yunique
 </item>
         <item>
@@ -7397,13 +7428,17 @@ Yuphoria
     <string-array name="zen_p">
 <item>
 Admire Joy
-</item><item>
+</item>
+        <item>
 Admire Metal
-</item><item>
+</item>
+        <item>
 Admire Swadesh
-</item><item>
+</item>
+        <item>
 Admire Thrill
-</item><item>
+</item>
+        <item>
 Admire Dragon
 </item>
         <item>
@@ -7414,26 +7449,35 @@ Admire SXY
 </item>
         <item>
 Cinemax 4G
-</item><item>
+</item>
+        <item>
 Cinemax Click
 </item>
         <item>
 Cinemax 2+
-</item><item>
+</item>
+        <item>
 Cinemax Force
-</item><item>
+</item>
+        <item>
 Cinemax 3
-</item><item>
+</item>
+        <item>
 Cinemax 2
-</item><item>
+</item>
+        <item>
 Firefox U105
-</item><item>
+</item>
+        <item>
 Ultrafone 504
-</item><item>
+</item>
+        <item>
 Ultrafone Amaze 701 FHD
-</item><item>
+</item>
+        <item>
 ultrafone 502
-</item><item>
+</item>
+        <item>
 Ultrafone 701 HD
 </item>
     </string-array>
@@ -7442,32 +7486,41 @@ Ultrafone 701 HD
 
     <item>
         Color M5
-    </item><item>
+    </item>
+        <item>
     Color M4
-</item><item>
+</item>
+        <item>
     Color X 5.5
-</item><item>
+</item>
+        <item>
     Color F2
-</item><item>
+</item>
+        <item>
     Color F5
-</item><item>
+</item>
+        <item>
     Color C3
-</item><item>
+</item>
+        <item>
     Color F1
 </item>
-    <item>
+        <item>
         Hero 1
     </item>
-    <item>
+        <item>
         Flash X Plus
     </item>
-    <item>
+        <item>
         Speed 8
-    </item><item>
+    </item>
+        <item>
     Speed 7C
-</item><item>
+</item>
+        <item>
     Speed 7 Plus
-</item><item>
+</item>
+        <item>
     Speed 7
 </item>
     </string-array>
@@ -7671,9 +7724,12 @@ ZenFone AR
         <item>Rise</item>
         <item>Zio M6000</item>
     </string-array>
+    <string name="title_activity_phone_fix_options">phone_fix_options</string>
 
-
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fixed_feed">fixed_feed</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 
 
 </resources>

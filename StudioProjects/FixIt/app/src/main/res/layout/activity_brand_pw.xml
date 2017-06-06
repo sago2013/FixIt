@@ -7,41 +7,73 @@
     tools:context="com.fixit.fixit.brand_pw">
 
     <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="200dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows="true">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="64dp">
 
+            <ImageView
+                android:id="@+id/backdrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitCenter"
+                app:layout_collapseMode="pin" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="8dp"
+        app:fabSize="mini"
+        app:rippleColor="@color/colorAccentLight"
+        app:srcCompat="@mipmap/cancel" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_return"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="8dp"
+        app:fabSize="mini"
+        app:rippleColor="@color/colorAccentLight"
+        app:srcCompat="@mipmap/arrow" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:clickable="true"
+        android:src="@mipmap/help_2"
+        app:fabSize="mini"
+        app:layout_anchor="@+id/appbar"
+        app:layout_anchorGravity="bottom|right"
+        app:rippleColor="@color/colorAccentLight" />
+
+
     <include layout="@layout/content_brand_pw" />
-
-<android.support.design.widget.FloatingActionButton
-android:id="@+id/fab"
-android:layout_width="61dp"
-android:layout_height="61dp"
-android:layout_gravity="bottom|end"
-android:layout_margin="8dp"
-app:backgroundTint="@color/fab_background"
-app:fabSize="mini"
-app:rippleColor="@color/colorAccent"
-app:srcCompat="@mipmap/cancel_fab" />
-<android.support.design.widget.FloatingActionButton
-android:id="@+id/fab_return"
-android:layout_width="61dp"
-android:layout_height="61dp"
-android:layout_gravity="bottom|start"
-android:layout_margin="8dp"
-app:backgroundTint="@color/fab_background"
-app:fabSize="mini"
-app:rippleColor="@color/colorAccent"
-app:srcCompat="@mipmap/goback" />
-
 </android.support.design.widget.CoordinatorLayout>
 

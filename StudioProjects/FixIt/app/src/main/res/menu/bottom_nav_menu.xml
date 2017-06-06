@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+ <item android:id="@+id/bbar_home"
+     android:title="home"
+     android:icon="@mipmap/house"
+     app:showAsAction="ifRoom">
+</item>
+
+ <item
+     android:id="@+id/bbar_connect"
+     android:icon="@mipmap/network"
+     android:title="Connect"></item>
+ <item android:id="@+id/bbar_devices"
+     android:title="My Devices"
+     android:icon="@mipmap/devices"
+     app:showAsAction="ifRoom">
+ </item>
+
+ <item android:id="@+id/bbar_help"
+     android:title="Help"
+     android:icon="@mipmap/help_2"
+     app:showAsAction="ifRoom">
+ </item>
+
+</menu>
