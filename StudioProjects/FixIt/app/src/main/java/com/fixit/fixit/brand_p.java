@@ -33,7 +33,7 @@ public class brand_p extends AppCompatActivity {
         fab_return.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(brand_p.this,device.class);
+                Intent i = new Intent(brand_p.this,MainActivity.class);
                 startActivity(i);
                 /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();*/

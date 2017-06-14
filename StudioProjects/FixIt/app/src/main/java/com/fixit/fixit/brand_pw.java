@@ -65,7 +65,7 @@ public class brand_pw extends AppCompatActivity {
 
     private void loadBackdrop() {
         final ImageView imageView = (ImageView) findViewById(R.id.backdrop);
-        Glide.with(this).load(R.mipmap.windows_h).fitCenter().into(imageView);
+        Glide.with(this).load(R.mipmap.windows_h).into(imageView);
     }
 
     public void ch_htc(View view) {

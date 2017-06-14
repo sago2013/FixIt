@@ -20,82 +20,13 @@
 
     </android.support.design.widget.AppBarLayout>
 
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_desktop"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_gravity="bottom|end"
-        android:layout_marginBottom="295dp"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginRight="@dimen/fab_margin"
-        android:visibility="invisible"
-        app:elevation="6dp"
-        app:fabSize="mini"
-        app:pressedTranslationZ="12dp"
-        app:srcCompat="@mipmap/new_desktop" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_laptop"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_gravity="bottom|end"
-        android:layout_marginBottom="225dp"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginRight="@dimen/fab_margin"
-        app:elevation="6dp"
-        android:visibility="invisible"
-        app:fabSize="mini"
-        app:pressedTranslationZ="12dp"
-        app:srcCompat="@mipmap/new_laptop" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_phone"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_gravity="bottom|end"
-        android:layout_marginBottom="155dp"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginRight="@dimen/fab_margin"
-        app:elevation="6dp"
-        android:visibility="invisible"
-        app:fabSize="mini"
-        app:pressedTranslationZ="12dp"
-        app:srcCompat="@mipmap/new_phone" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_gravity="bottom|end"
-        android:layout_marginBottom="70dp"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginRight="@dimen/fab_margin"
-        app:elevation="6dp"
-        app:fabSize="mini"
-        app:pressedTranslationZ="12dp"
-        app:srcCompat="@mipmap/fab_add_new" />
-
-
     <android.support.design.widget.BottomNavigationView
-
         android:id="@+id/bottom_navigation_menu"
-
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content"
-
-        android:layout_alignParentBottom="true"
-
         android:layout_gravity="bottom"
-
-        app:itemBackground="@color/colorPrimary"
-
-        app:itemIconTint="@android:color/white"
-
-        app:itemTextColor="@android:color/white"
-
-        app:menu="@menu/bottom_nav_menu" />
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/navigation" />
 
     <FrameLayout
         android:id="@+id/frame_layout"

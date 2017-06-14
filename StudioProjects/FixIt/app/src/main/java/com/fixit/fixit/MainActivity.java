@@ -12,6 +12,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.util.FloatProperty;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -23,15 +24,24 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.RatingBar;
+import android.widget.TextView;
 import android.widget.Toast;
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
+
+import com.google.android.gms.auth.api.Auth;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    private Boolean isFabOpen = false;
-    private Animation fab_open,fab_close,rotate_forward,rotate_backward, fab_open2, fab_open3, fab_close2, fab_close3;
+
     private BottomNavigationView mBottomNavigationView;
+
 
 
     @Override
@@ -42,7 +52,10 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
 
+
+
         mBottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation_menu);
+
 
         mBottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
             @Override
@@ -68,70 +81,29 @@ public class MainActivity extends AppCompatActivity
                 return true;
             }
         });
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.frame_layout, Home_fragment.newInstance());
-        transaction.commit();
 
-        //launching default fragement
-        //getSupportFragmentManager().beginTransaction()
-                ///.add(R.id.frag_container, Home_fragment.newInstance(), Home_fragment.TAG)
-                //.addToBackStack(null)
-                //.commit();
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.frame_layout, Home_fragment.newInstance());
+            transaction.commit();
 
-
-        //fab animations, and functionalities
-        fab_open = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_open);
-        fab_open2 =  AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_open2);
-        fab_open3 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_open3);
-        fab_close = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fab_close);
-        fab_close2 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fab_close2);
-        fab_close3 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fab_close3);
-        rotate_forward = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotate_forward);
-        rotate_backward = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotate_backward);
-        //rotate_bounce = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotate_bouce);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                animateFAB();
-                //Intent i = new Intent(MainActivity.this, device.class);
-                //startActivity(i);
-            }
-        });
-        FloatingActionButton fab_laptop = (FloatingActionButton) findViewById(R.id.fab_laptop);
-        fab_laptop.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, brand_c.class);
-                startActivity(i);
-            }
-        });
-        FloatingActionButton fab_desktop = (FloatingActionButton) findViewById(R.id.fab_desktop);
-        fab_desktop.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, fixed_feed.class);
-                startActivity(i);
-            }
-        });
-        FloatingActionButton fab_phone = (FloatingActionButton) findViewById(R.id.fab_phone);
-        fab_phone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, brand_p.class);
-                startActivity(i);
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
-
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+
+
+        //Get User information from the database an use it to inflate the nav header.
+        RatingBar stars = (RatingBar) navigationView.getHeaderView(0).findViewById(R.id.ratingBar);
+        TextView email = (TextView) navigationView.getHeaderView(0).findViewById(R.id.email);
+        TextView name = (TextView) navigationView.getHeaderView(0).findViewById(R.id.name);
+        ImageView prof_pic = (ImageView) navigationView.getHeaderView(0).findViewById(R.id.profile_image);
+
+        //Toast.makeText(this,tv.getText().toString(),Toast.LENGTH_SHORT).show();
         navigationView.setNavigationItemSelectedListener(this);
+
     }
 
     @Override
@@ -176,7 +148,10 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(MainActivity.this, UserProfile.class);
             startActivity(i);
         } else if (id == R.id.sign_out) {
-
+            Intent intent = new Intent(MainActivity.this, login.class);
+            FirebaseAuth.getInstance().signOut();
+            startActivity(intent);
+            finish();
         } else if (id == R.id.gotofixer) {
 
         } else if (id == R.id.gohome) {
@@ -186,7 +161,14 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.file_Claim) {
 
-        } else if (id == R.id.becomefixit){
+        }else if(id == R.id.my_devices){
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.frame_layout, MyDevices.newInstance());
+            transaction.commit();
+            mBottomNavigationView.getMenu().getItem(2).setChecked(true);
+
+        }
+        else if (id == R.id.becomefixit){
 
         } else if (id == R.id.FixITGuarantee){
 
@@ -200,38 +182,8 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-    public void animateFAB(){
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        FloatingActionButton fab_laptop = (FloatingActionButton) findViewById(R.id.fab_laptop);
-        FloatingActionButton fab_phone = (FloatingActionButton) findViewById(R.id.fab_phone);
-        FloatingActionButton fab_dektop = (FloatingActionButton) findViewById(R.id.fab_desktop);
-
-        if(isFabOpen){
-
-            fab.startAnimation(rotate_backward);
-            fab_dektop.startAnimation(fab_close);
-            fab_laptop.startAnimation(fab_close2);
-            fab_phone.startAnimation(fab_close3);
-            fab_dektop.setClickable(false);
-            fab_phone.setClickable(false);
-            fab_laptop.setClickable(false);
-            isFabOpen = false;
-            Log.d("Fab Animation:", "close");
-
-        } else {
-
-
-            fab.startAnimation(rotate_forward);
-            //fab.startAnimation(rotate_bounce);
-            fab_phone.startAnimation(fab_open);
-            fab_laptop.startAnimation(fab_open2);
-            fab_dektop.startAnimation(fab_open3);
-            fab_laptop.setClickable(true);
-            fab_dektop.setClickable(true);
-            fab_phone.setClickable(true);
-            isFabOpen = true;
-            Log.d("Fab Animation","open");
-
-        }
+    public void click(View view) {
+        Intent i = new Intent(MainActivity.this, erase_me.class);
+        startActivity(i);
     }
 }

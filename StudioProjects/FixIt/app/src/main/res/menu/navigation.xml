@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bbar_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_filled_24dp">
+    </item>
+    <item
+        android:id="@+id/bbar_connect"
+        android:icon="@drawable/ic_people_24dp"
+        android:title="Connect">
+    </item>
+    <item android:id="@+id/bbar_devices"
+        android:title="My Devices"
+        android:icon="@drawable/ic_devices_24dp">
+    </item>
+
+    <item android:id="@+id/bbar_help"
+        android:title="Help"
+        android:icon="@drawable/ic_help_filled_24dp">
+    </item>
+
+</menu>

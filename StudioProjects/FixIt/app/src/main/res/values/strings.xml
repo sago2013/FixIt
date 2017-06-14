@@ -65,6 +65,9 @@
     <string name="pre_spec">What version is your </string>
     <string name="post_spec"> phone?</string>
     <string name="pre_spec1">What model is your</string>
+    <string name="facebook_app_id">124799804768880</string>
+    <string name="fb_login_protocol_scheme">fb124799804768880</string>
+
 
 
     ///Arrays for models, to save time. and space in the users phone
@@ -7730,6 +7733,10 @@ ZenFone AR
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_fixed_feed">fixed_feed</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_erase_me">erase_me</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
 
 </resources>

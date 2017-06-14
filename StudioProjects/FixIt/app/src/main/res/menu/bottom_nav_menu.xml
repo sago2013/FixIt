@@ -3,24 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
  <item android:id="@+id/bbar_home"
-     android:title="home"
-     android:icon="@mipmap/house"
+     android:title="Home"
+     android:icon="@drawable/ic_home_outline_24dp"
      app:showAsAction="ifRoom">
 </item>
-
  <item
      android:id="@+id/bbar_connect"
-     android:icon="@mipmap/network"
-     android:title="Connect"></item>
+     android:icon="@drawable/ic_people_outline_24dp"
+     android:title="Connect">
+ </item>
  <item android:id="@+id/bbar_devices"
      android:title="My Devices"
-     android:icon="@mipmap/devices"
+     android:icon="@drawable/ic_devices_outline_24dp"
      app:showAsAction="ifRoom">
  </item>
 
  <item android:id="@+id/bbar_help"
      android:title="Help"
-     android:icon="@mipmap/help_2"
+     android:icon="@drawable/ic_help_outline_24dp"
      app:showAsAction="ifRoom">
  </item>
 
