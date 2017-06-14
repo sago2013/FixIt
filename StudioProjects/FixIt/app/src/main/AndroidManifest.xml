@@ -6,8 +6,11 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
-    <application
+
+
+<application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher2"
         android:label="@string/app_name"
@@ -15,21 +18,34 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".fixit_splash"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--
+    <meta-data android:name="com.facebook.sdk.ApplicationId"
+        android:value="@string/facebook_app_id"/>
+    <activity android:name="com.facebook.FacebookActivity"
+        android:configChanges=
+            "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+        android:label="@string/app_name" />
+    <activity
+        android:name="com.facebook.CustomTabActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="@string/fb_login_protocol_scheme" />
+        </intent-filter>
+    </activity>
            <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        -->
         <activity
             android:name=".login"
             android:label="@string/title_activity_login"
@@ -131,19 +147,6 @@
             android:label="@string/title_activity_options_fix_desktp"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".fixtypeListActivity"
-            android:label="@string/title_fixtype_list"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".fixtypeDetailActivity"
-            android:label="@string/title_fixtype_detail"
-            android:parentActivityName=".fixtypeListActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.fixit.fixit.fixtypeListActivity" />
-        </activity>
-        <activity
             android:name=".brand_pw"
             android:label="@string/title_activity_brand_pw"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -210,7 +213,10 @@
         <activity
             android:name=".fixed_feed"
             android:label="@string/title_activity_fixed_feed"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".erase_me"
+            android:label="@string/title_activity_erase_me"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "485721809163",
+    "firebase_url": "https://fixit-sandbox.firebaseio.com",
+    "project_id": "fixit-sandbox",
+    "storage_bucket": "fixit-sandbox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485721809163:android:7371d3c930bfc5bb",
+        "android_client_info": {
+          "package_name": "com.fixit.fixit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485721809163-tt1g9efiu4eolosot4mu819t83f0kf1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fixit.fixit",
+            "certificate_hash": "caf628b9ec8e920a3c9c1c09b8409ef8f4840e46"
+          }
+        },
+        {
+          "client_id": "485721809163-oangpg8507aj48pmefdc9v0cj93skpff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1U0EF7AeTsuQmtuBGu5CgYmgn8j9Rb_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485721809163-oangpg8507aj48pmefdc9v0cj93skpff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

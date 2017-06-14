@@ -13,16 +13,15 @@
                 android:title="Sign Out" />
             <item
                 android:id="@+id/my_devices"
-                android:icon="@mipmap/devices"
+                android:icon="@drawable/ic_devices_24dp"
                 android:title="My Devices"/>
         </menu>
     </item>
 
     <group android:checkableBehavior="single">
-
         <item
             android:id="@+id/gohome"
-            android:icon="@mipmap/house"
+            android:icon="@drawable/ic_home_black_24dp"
         android:title="Home" />
         <item
             android:id="@+id/gotofixer"
@@ -35,7 +34,7 @@
     </group>
 
     <item android:title="About FixIt">
-        <menu>
+        <menu android:checkableBehavior="single">
             <item
                 android:id="@+id/help"
                 android:icon="@mipmap/help"
@@ -53,12 +52,12 @@
                 android:title="Privacy Policy"
                 android:icon="@mipmap/privacy"
                 android:id="@+id/privacy_policy" />
-
             <item
                 android:id="@+id/file_Claim"
                 android:icon="@mipmap/fileclaim2"
                 android:title="File a Claim" />
         </menu>
     </item>
+
 
 </menu>

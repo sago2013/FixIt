@@ -5,16 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.fixit.fixit.fixit_splash"
-    android:background="@mipmap/fixit_background"
+    android:background="#dfe2ed"
     android:weightSum="1">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="330dp"
-        android:layout_height="229dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingStart="4dp"
         android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"
-        android:background="@mipmap/newsplash" />
+        android:src="@mipmap/fix_it_shirt" />
 
 </LinearLayout>

@@ -5,11 +5,6 @@
     android:layout_height="match_parent"
     tools:context="com.fixit.fixit.NewsFeed">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="276dp"
-        android:text="This is the News feed thingy" />
-
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
@@ -18,18 +13,21 @@
 
         <android.support.design.widget.TabLayout
             android:id="@+id/result_tabs"
-            android:background="@color/colorPrimaryLight"
+            android:background="@color/colorPrimary"
             app:tabTextColor="@android:color/white"
-            app:tabSelectedTextColor="@android:color/black"
+            app:tabSelectedTextColor="@color/nice_plain"
             app:tabIndicatorColor="@color/colorPrimaryDark"
+            app:tabIndicatorHeight="3dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:tabMode="scrollable"
-            android:paddingTop="10dp"
+            android:paddingTop="8dp"
             app:tabPaddingStart="39dp"
             app:tabPaddingEnd="39dp"
             app:tabTextAppearance="@style/CustomTabText"
-            />
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp" />
+
        <!--
        These havent worked to make the thingies bigger.
 
@@ -43,5 +41,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        app:backgroundTint="@color/fab"
+        app:srcCompat="@drawable/ic_edit_black_24dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        app:elevation="6dp"
+        app:fabSize="mini"
+        app:pressedTranslationZ="12dp" />
 
 </FrameLayout>

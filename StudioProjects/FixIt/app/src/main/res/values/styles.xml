@@ -26,9 +26,13 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-
+<!-- tab style-->
     <style name="CustomTabText" parent="TextAppearance.Design.Tab">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!-- rating bar style-->
+    <style name="customRatingBar"
+        parent="android:style/Widget.Material.RatingBar.Small">
     </style>
 
 

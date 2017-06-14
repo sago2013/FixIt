@@ -5,14 +5,13 @@
     tools:context="com.fixit.fixit.NF_me"
     android:background="@color/nice_plain">
 
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="54dp"
+    android:id="@+id/recyclerView"
+    android:layout_marginBottom="55dp"/>
 
-    <TextView
-        android:layout_marginTop="55dp"
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:text="This will display the transactions the user has completed/posted" />
+
 
 </FrameLayout>

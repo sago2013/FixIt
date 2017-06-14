@@ -64,7 +64,7 @@ public class brand_pp extends AppCompatActivity {
 
     private void loadBackdrop() {
         final ImageView imageView = (ImageView) findViewById(R.id.backdrop);
-        Glide.with(this).load(R.mipmap.android_h).fitCenter().into(imageView);
+        Glide.with(this).load(R.mipmap.android_h).into(imageView);
     }
 
     public void ch_google(View view) {

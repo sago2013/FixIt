@@ -3,15 +3,13 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.fixit.fixit.NF_public">
+    tools:context="com.fixit.fixit.NF_public"
+    android:background="@color/nice_plain">
 
-    <TextView
-        android:layout_marginTop="55dp"
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:text="This will display the transactions all users (that have marked their transacition posts as public) have completed/posted" />
-
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="54dp"
+        android:id="@+id/recyclerView"
+        android:layout_marginBottom="55dp"/>
 </FrameLayout>

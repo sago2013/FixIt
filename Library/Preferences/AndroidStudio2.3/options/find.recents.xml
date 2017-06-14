@@ -1,8 +1,6 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>OT</find>
-      <find>idol</find>
       <find>droid</find>
       <find>z</find>
       <find>lg_s</find>
@@ -31,6 +29,8 @@
       <find>zopo</find>
       <find>wam</find>
       <find>aqua</find>
+      <find>defaul</find>
+      <find>visible</find>
     </findStrings>
   </component>
 </application>
