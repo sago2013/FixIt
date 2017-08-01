@@ -9,12 +9,12 @@
     android:weightSum="1">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_height="wrap_content"
+        android:id="@+id/splash"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:paddingLeft="4dp"
         android:paddingStart="4dp"
-        android:layout_gravity="center"
-        android:src="@mipmap/fix_it_shirt" />
+        android:src="@mipmap/fixit_logo_5" />
 
 </LinearLayout>

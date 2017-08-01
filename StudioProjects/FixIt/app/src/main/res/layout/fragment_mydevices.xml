@@ -51,7 +51,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tablet  "
+            android:text="  Tablet  "
+            android:background="@drawable/border_tv_4_fabs"
+            android:textColor="#f000"
+            android:textSize="16sp"
+            android:textStyle="bold"
             android:layout_marginTop="15dp"
             android:id="@+id/tablet_tv"
             android:visibility="invisible"/>
@@ -67,7 +71,7 @@
             app:elevation="6dp"
             app:fabSize="mini"
             app:pressedTranslationZ="12dp"
-            app:srcCompat="@drawable/ic_tablet_black_24dp"
+            app:srcCompat="@drawable/ic_tablet_white_24dp"
             android:visibility="invisible"/>
     </LinearLayout>
     <LinearLayout
@@ -79,9 +83,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Desktop  "
+            android:text="  Desktop  "
             android:layout_marginTop="15dp"
             android:id="@+id/desktop_tv"
+            android:background="@drawable/border_tv_4_fabs"
+            android:textColor="#f000"
+            android:textSize="16sp"
+            android:textStyle="bold"
             android:visibility="invisible"/>
 
         <android.support.design.widget.FloatingActionButton
@@ -95,7 +103,7 @@
             app:elevation="6dp"
             app:fabSize="mini"
             app:pressedTranslationZ="12dp"
-            app:srcCompat="@drawable/ic_desktop_black_24dp"
+            app:srcCompat="@drawable/ic_desktop_white_24dp"
             android:visibility="invisible"/>
     </LinearLayout>
     <LinearLayout
@@ -107,7 +115,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Laptop  "
+            android:text="  Laptop  "
+            android:background="@drawable/border_tv_4_fabs"
+            android:textColor="#f000"
+            android:textSize="16sp"
+            android:textStyle="bold"
             android:layout_marginTop="15dp"
             android:visibility="invisible"
             android:id="@+id/laptop_tv"/>
@@ -122,34 +134,7 @@
             app:elevation="6dp"
             app:fabSize="mini"
             app:pressedTranslationZ="12dp"
-            app:srcCompat="@drawable/ic_laptop_black_24dp"
-            android:visibility="invisible"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="bottom|end">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Phone  "
-            android:layout_marginTop="15dp"
-            android:id="@+id/phone_tv"
-            android:visibility="invisible"/>
-
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab_phone"
-            android:layout_width="55dp"
-            android:layout_height="55dp"
-            android:layout_marginBottom="140dp"
-            android:layout_marginEnd="@dimen/fab_margin"
-            android:layout_marginRight="@dimen/fab_margin"
-            app:elevation="6dp"
-            app:fabSize="mini"
-            app:pressedTranslationZ="12dp"
-            app:srcCompat="@drawable/ic_phone_white_24dp"
+            app:srcCompat="@drawable/ic_laptop_white_24dp"
             android:visibility="invisible"/>
     </LinearLayout>
 
@@ -166,6 +151,38 @@
         app:fabSize="mini"
         app:pressedTranslationZ="12dp"
         app:srcCompat="@drawable/ic_add_white_24dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/phone_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="  Phone  "
+            android:background="@drawable/border_tv_4_fabs"
+            android:textColor="#f000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_phone"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="140dp"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:visibility="invisible"
+            app:elevation="6dp"
+            app:fabSize="mini"
+            app:pressedTranslationZ="12dp"
+            app:srcCompat="@drawable/ic_phone_white_24dp" />
+    </LinearLayout>
 
 
 </FrameLayout>

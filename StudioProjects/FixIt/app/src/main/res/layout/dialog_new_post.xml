@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="58dp"
+    android:textAlignment="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        style="@style/scrollbar_shape_style"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Audience"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/audience">
+
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What device is this review about?"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_devices"
+        android:layout_width="match_parent"
+        android:background="#e0f2f1"
+        android:layout_height="120dp">
+
+    </android.support.v7.widget.RecyclerView>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What was Done to This Device?"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fix_type">
+
+        </android.support.v7.widget.AppCompatSpinner>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select a Fixer From This List"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#e0f2f1">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="Rate this Fixer"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="0.5" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+        android:id="@+id/body"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="How did things go?"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:minLines="4"
+            android:maxLines="9"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="7dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/trash"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            app:elevation="6dp"
+            app:fabSize="mini"
+            app:pressedTranslationZ="12dp"
+            app:srcCompat="@drawable/ic_delete_24dp" />
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="0dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/post"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+           android:padding="5dp"
+            android:layout_margin="5dp"
+            app:elevation="6dp"
+            app:fabSize="mini"
+            app:pressedTranslationZ="12dp"
+            app:srcCompat="@drawable/ic_done_24dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

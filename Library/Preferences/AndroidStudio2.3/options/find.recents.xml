@@ -1,36 +1,36 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>droid</find>
-      <find>z</find>
-      <find>lg_s</find>
-      <find>lenovo_s</find>
-      <find>axon</find>
-      <find>brand</find>
-      <find>flash</find>
-      <find>samsung</find>
-      <find>sam</find>
-      <find>e3</find>
-      <find>e2</find>
-      <find>andi 4l</find>
-      <find>'</find>
-      <find>iball</find>
-      <find>ascend</find>
-      <find>acer</find>
-      <find>iberry</find>
-      <find>bingo</find>
-      <find>andi</find>
-      <find>lava</find>
-      <find>cloud</find>
-      <find>tiani</find>
-      <find>leeco</find>
-      <find>mts</find>
-      <find>zen</find>
       <find>zopo</find>
       <find>wam</find>
       <find>aqua</find>
       <find>defaul</find>
+      <find>accoun</find>
+      <find>ac</find>
+      <find>apple</find>
+      <find>incl</find>
+      <find>fly</find>
+      <find>bb</find>
+      <find>text</find>
       <find>visible</find>
+      <find>snack</find>
+      <find>Users</find>
+      <find>Main</find>
+      <find>start</find>
+      <find>save</find>
+      <find>images</find>
+      <find>StorageRef</find>
+      <find>ab</find>
+      <find>pop</find>
+      <find>phone</find>
+      <find>toast</find>
+      <find>ch_</find>
+      <find>ch_f</find>
+      <find>getSu</find>
+      <find>isfi</find>
+      <find>linL</find>
+      <find>linla</find>
+      <find>auth</find>
     </findStrings>
   </component>
 </application>

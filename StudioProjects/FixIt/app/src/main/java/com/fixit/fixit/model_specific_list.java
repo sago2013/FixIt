@@ -3,7 +3,10 @@ package com.fixit.fixit;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.preference.PreferenceManager;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,7 +14,11 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.bumptech.glide.Glide;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -24,6 +31,12 @@ public class model_specific_list extends AppCompatActivity {
     private RecyclerView.LayoutManager mLayoutManager;
     private List<model_spec> specs;
     private Context context;
+
+    //Getting the info to set up the scrollbar
+    private String model_title = "";
+    private String model_header = "";
+    private int resID = R.mipmap.ic_apple;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,12 +88,43 @@ public class model_specific_list extends AppCompatActivity {
         specs = new ArrayList<>();
 
 
+
+
+
+
         populate(id);
         setSupportActionBar(toolbar);
         // specify an adapter (see also next example)
         mAdapter = new mode__specific_adapter(specs, context);
         mRecyclerView.setAdapter(mAdapter);
 
+        final CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            boolean isShow = false;
+            int scrollRange = -1;
+
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                if (scrollRange == -1) {
+                    scrollRange = appBarLayout.getTotalScrollRange();
+                }
+                if (scrollRange + verticalOffset == 0) {
+                    collapsingToolbarLayout.setTitle(model_title);
+                    isShow = true;
+                } else if(isShow) {
+                    collapsingToolbarLayout.setTitle(" ");
+                    isShow = false;
+                }
+            }
+        });
+        collapsingToolbarLayout.setTitle(" ");
+        loadBackdrop();
+    }
+    private void loadBackdrop() {
+        final ImageView imageView = (ImageView) findViewById(R.id.backdrop);
+
+        Glide.with(this).load(resID).into(imageView);
     }
 
     private void populate(String id) {
@@ -99,6 +143,8 @@ public class model_specific_list extends AppCompatActivity {
             for (length = title.length; length > i; i++) {
                 specs.add(new model_spec(title[i]));
             }
+            model_title = " ";
+
         }
         if (id.equals("huaw_y")) {
             toolbar.setTitle(prespec + " Huawei Y "+ postspec);
@@ -1154,7 +1200,6 @@ public class model_specific_list extends AppCompatActivity {
             }
         }
         if (id.equals("apple")) {
-            toolbar.setTitle(prespec2 + " Iphone?");
 
             String[] title = context.getResources().getStringArray(R.array.apple_p);
             int i = 0;
@@ -1162,9 +1207,12 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            //setting up the collapsable toolbar
+            model_title = prespec2 + " Iphone?";
+            model_header = "Apple Models";
+            resID = R.mipmap.ic_apple;
         }
         if (id.equals("acer_e")) {
-            toolbar.setTitle(prespec + " Acer Liquid E "+ postspec);
 
             String[] title = context.getResources().getStringArray(R.array.acer_e);
             int i = 0;
@@ -1172,10 +1220,12 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec + " Acer Liquid E "+ postspec;
+            model_header = "Liquid E Models";
+            resID = R.mipmap.ic_acer;
         }
 
         if (id.equals("acer_jade")) {
-            toolbar.setTitle(prespec + " Acer Liquid Jade"+ postspec);
 
             String[] title = context.getResources().getStringArray(R.array.acer_jade);
             int i = 0;
@@ -1183,9 +1233,11 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec + " Acer Liquid Jade "+ postspec;
+            model_header = "Liquid Jade Models";
+            resID = R.mipmap.ic_acer;
         }
         if (id.equals("acer_s")) {
-            toolbar.setTitle(prespec + " Acer Liquid S "+ postspec);
 
             String[] title = context.getResources().getStringArray(R.array.acer_s);
             int i = 0;
@@ -1193,10 +1245,12 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec + " Acer Liquid S "+ postspec;
+            model_header = "Liquid S Models";
+            resID = R.mipmap.ic_acer;
         }
 
         if (id.equals("acer_z")) {
-            toolbar.setTitle(prespec + " Acer Liquid Z "+ postspec);
 
             String[] title = context.getResources().getStringArray(R.array.acer_z);
             int i = 0;
@@ -1204,9 +1258,11 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec + " Acer Liquid Z "+ postspec;
+            model_header = "Liquid Z Models";
+            resID = R.mipmap.ic_acer;
         }
         if (id.equals("acer_zest")) {
-            toolbar.setTitle(prespec + " Acer Liquid Zest "+ postspec);
 
             String[] title = context.getResources().getStringArray(R.array.acer_zest);
             int i = 0;
@@ -1214,6 +1270,9 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec + " Acer Liquid Zest "+ postspec;
+            model_header = "Liquid Zest Models";
+            resID = R.mipmap.ic_acer;
         }
         if (id.equals("adcom_p")) {
             toolbar.setTitle(prespec2 + " Adcom "+ postspec);
@@ -1234,6 +1293,9 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec2 + " Archos Windows "+ postspec;
+            model_header = "Windows Models";
+            resID = R.mipmap.ic_archos;
         }
         if (id.equals("archos_graph")) {
             toolbar.setTitle(prespec + " Archos Graphite "+ postspec);
@@ -1244,9 +1306,11 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec + " Archos Graph "+ postspec;
+            model_header = "Graph Models";
+            resID = R.mipmap.ic_archos;
         }
         if (id.equals("archos_diamond")) {
-            toolbar.setTitle(prespec + " Archos Diamond "+ postspec);
 
             String[] title = context.getResources().getStringArray(R.array.archos_diamond);
             int i = 0;
@@ -1254,9 +1318,11 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec + " Archos Diamond "+ postspec;
+            model_header = "Diamond Models";
+            resID = R.mipmap.ic_archos;
         }
         if (id.equals("archos_xenon")) {
-            toolbar.setTitle(prespec + " Archos Xenon "+ postspec);
 
             String[] title = context.getResources().getStringArray(R.array.archos_xenon);
             int i = 0;
@@ -1264,9 +1330,12 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec + " Archos Xenon "+ postspec;
+            model_header = "Xenon Models";
+            resID = R.mipmap.ic_archos;
         }
         if (id.equals("archos_platinum")) {
-            toolbar.setTitle(prespec + " Archos Platinum "+ postspec);
+
 
             String[] title = context.getResources().getStringArray(R.array.archos_platinum);
             int i = 0;
@@ -1274,9 +1343,11 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec + " Archos Platinum "+ postspec;
+            model_header = "Platinum Models";
+            resID = R.mipmap.ic_archos;
         }
         if (id.equals("archos_helium")) {
-            toolbar.setTitle(prespec + " Archos Helium "+ postspec);
 
             String[] title = context.getResources().getStringArray(R.array.archos_helium);
             int i = 0;
@@ -1284,9 +1355,11 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec + " Archos Helium "+ postspec;
+            model_header = "Helium Models";
+            resID = R.mipmap.ic_archos;
         }
         if (id.equals("archos_oxygen")) {
-            toolbar.setTitle(prespec + " Archos Oxygen "+ postspec);
 
             String[] title = context.getResources().getStringArray(R.array.archos_oxygen);
             int i = 0;
@@ -1294,25 +1367,31 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec + " Archos Oxygen "+ postspec;
+            model_header = "Oxygen Models";
+            resID = R.mipmap.ic_archos;
         }
         if (id.equals("bb_pa")) {
-            toolbar.setTitle(prespec2 + " BlackBerry Android "+ postspec);
-
             String[] title = context.getResources().getStringArray(R.array.bb_pa);
             int i = 0;
             int length;
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec2 + " BlackBerry Android "+ postspec;
+            model_header = "BlackBerry Models";
+            resID = R.mipmap.ic_blackberry;
         }if (id.equals("bb_pb")) {
-            toolbar.setTitle(prespec2 + " BlackBerry "+ postspec);
-
             String[] title = context.getResources().getStringArray(R.array.bb_pb);
             int i = 0;
             int length;
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            //setting up the collapsable toolbar
+            model_title = prespec2 + " BlackBerry "+ postspec;
+            model_header = "BlackBerry Models";
+            resID = R.mipmap.ic_bb3;
         }
         if (id.equals("blu_life")) {
             toolbar.setTitle(prespec + " Blu Life "+ postspec);
@@ -1480,7 +1559,6 @@ public class model_specific_list extends AppCompatActivity {
             }
         }
         if (id.equals("fly_p")) {
-            toolbar.setTitle(prespec2 + " Fly "+ postspec);
 
             String[] title = context.getResources().getStringArray(R.array.fly_p);
             int i = 0;
@@ -1488,6 +1566,9 @@ public class model_specific_list extends AppCompatActivity {
             for (length =title.length; length >i; i++){
                 specs.add(new model_spec(title[i]));
             }
+            model_title = prespec2 + " Fly "+ postspec;
+            model_header = "Fly Models";
+            resID = R.mipmap.ic_fly;
         }
         if (id.equals("gionee_a")) {
             toolbar.setTitle(prespec + " Gionee A "+ postspec);

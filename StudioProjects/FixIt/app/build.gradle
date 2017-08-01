@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+//apply plugin: 'android-apt'
 
 android {
     compileSdkVersion 25
@@ -33,6 +35,7 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:25.3.1'
     compile 'com.android.support:support-v4:25.3.1'
     compile 'com.android.support:support-vector-drawable:25.3.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
 
     //authentications, like fb, google, linked in maybe
     compile 'com.google.android.gms:play-services-auth:11.0.0'
@@ -44,10 +47,15 @@ dependencies {
     compile 'com.google.firebase:firebase-crash:11.0.0'
     compile 'com.google.firebase:firebase-auth:11.0.0'
     compile 'com.google.firebase:firebase-messaging:11.0.0'
+    compile 'com.firebaseui:firebase-ui-storage:0.6.0'
 
     //apache license (credit developers)
     compile 'de.hdodenhof:circleimageview:2.1.0'
     compile 'com.github.bumptech.glide:glide:4.0.0-RC0'
+    compile 'com.theartofdev.edmodo:android-image-cropper:2.4.+'
+    compile 'com.jakewharton:butterknife:8.7.0'
+    //apt 'com.jakewharton:butterknife-compiler:8.7.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
 
     //test compile
     testCompile 'junit:junit:4.12'

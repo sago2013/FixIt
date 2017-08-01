@@ -56,6 +56,10 @@
                 android:id="@+id/file_Claim"
                 android:icon="@mipmap/fileclaim2"
                 android:title="File a Claim" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="File a Claim" />
         </menu>
     </item>
 

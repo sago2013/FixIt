@@ -102,16 +102,16 @@ public class MyDevices extends Fragment {
 
                     //tv animation
                     phone_tv.startAnimation(fab_open);
-                    laptop_tv.startAnimation(fab_open2);
-                    desktop_tv.startAnimation(fab_open3);
-                    tablet_tv.startAnimation(fab_open4);
+                    laptop_tv.startAnimation(fab_open);
+                    desktop_tv.startAnimation(fab_open);
+                    tablet_tv.startAnimation(fab_open);
 
 
                     //fab animation
                     fab_phone.startAnimation(fab_open);
-                    fab_laptop.startAnimation(fab_open2);
-                    fab_desktop.startAnimation(fab_open3);
-                    fab_tablet.startAnimation(fab_open4);
+                    fab_laptop.startAnimation(fab_open);
+                    fab_desktop.startAnimation(fab_open);
+                    fab_tablet.startAnimation(fab_open);
                     fab_tablet.setClickable(true);
                     fab_laptop.setClickable(true);
                     fab_desktop.setClickable(true);

@@ -1,17 +1,31 @@
 package com.fixit.fixit;
 
+import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewParentCompat;
+import android.support.v4.content.res.TypedArrayUtils;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewParent;
+import android.widget.TextView;
+import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
+
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,10 +35,13 @@ import java.util.List;
 
 public class NF_public extends Fragment {
     private RecyclerView recyclerView;
-    private RecyclerView.LayoutManager layoutManager;
     private RecyclerView.Adapter adapter;
-    Context context = this.getContext();
-    List<post> UserPostList;
+    List<Post> UserPostList;
+    private FirebaseAuth mAuth;
+    String TAG = "NF_public--";
+   ProgressDialog mProgressBox;
+    private FirebaseAuth.AuthStateListener mAuthListener;
+    DatabaseReference PostDB;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,51 +51,56 @@ public class NF_public extends Fragment {
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
                              Bundle savedInstanceState) {
         View fragview = inflater.inflate(R.layout.fragment_nf_public, container, false);
+        mProgressBox = new ProgressDialog(getContext());
         UserPostList = new ArrayList<>();
-        fakepopulation();
+        PostDB = FirebaseDatabase.getInstance().getReference("Posts");
+        // this was used for testing before connecting the database -->fakepopulation();
+        populate_PUBLIC_NewsFeed();
         recyclerView = (RecyclerView) fragview.findViewById(R.id.recyclerView);
-        layoutManager = new LinearLayoutManager(context);
-        adapter = new post_recycler_adapter(UserPostList);
+        recyclerView.setHasFixedSize(true);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
+        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(layoutManager);
+        adapter = new post_recycler_adapter(UserPostList);
         recyclerView.setAdapter(adapter);
-        /*
-        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
-            @Override
-            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                View parentview = inflater.inflate(R.layout.fragment_newsfeed, container, false);
-                final FloatingActionButton fab = (FloatingActionButton) parentview.findViewById(R.id.fab2);
-                fab.hide();
-                    if (dy > 0 ||dy<0 && fab.isShown())
-                    {
-                        fab.hide();
-                    }
-                }
-
-                @Override
-                public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-                    ViewParentCompat.onNestedScroll(ViewParent pa);
-                    final FloatingActionButton fab = (FloatingActionButton) parentview.findViewById(R.id.fab2);
-                    fab.hide();
-                    if (newState == RecyclerView.SCROLL_STATE_IDLE) {
-                        fab.show();
-                    }
-                    super.onScrollStateChanged(recyclerView, newState);
-                }
-
-        });
-*/
         return fragview;
     }
 
-    private void fakepopulation() {
-        UserPostList.add(new post("1h","time","public", " Fixed","iPhone","", "works better than new","Martial Mathers","Santiago Salmeron","1.3"));
-        UserPostList.add(new post("23h","time","public", " Replaced","Samsung Galaxy","screen", "Amazing Job :)","Bob Belcher","Rocio Suarez","2.5"));
-        UserPostList.add(new post("3d","time","public", " Replaced","Lenovo yoga","battery", "Was done so quickly","Gene Belcher","Leticia Alfaro","5.0"));
-        UserPostList.add(new post("10d","time","friends", " Replaced","HP Envy","keyboard", "<3","Louise Belcher","Ale Salmeron","4.5"));
-        UserPostList.add(new post("13d","time","public", " Replaced","iPhone","home button", "Still cant belive how easy this was","Tina Belcher","Rudy Suarez","4.8"));
-        UserPostList.add(new post("Apr 5","time","friends", " Diagnosed & repaired","Chromebook","", ":)","Jake Chizle","Roman Sualmarez","3.2"));
-        UserPostList.add(new post("04/18/16","time","friends", " Fixed","Google Pixel","", "Not bad, but I have high standards ","Gabriel Maupome","Sarah Sualmarez","3.2"));
-        UserPostList.add(new post("date","time","privacy", " transaction_info","device","parts", "status","fixer","Brooklyn Sualmarez","5.0"));
+    public void populate_PUBLIC_NewsFeed() {
+        Query allPosts = PostDB.orderByChild("privacy").equalTo("Public");
+        allPosts.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                mProgressBox.setTitle("Loading Posts");
+                mProgressBox.setMessage("Almost Done......");
+                mProgressBox.show();
+                UserPostList.clear();
+                for (DataSnapshot post : dataSnapshot.getChildren()) {
+                    UserPostList.add(new Post(post.child("dateTime").getValue().toString(),
+                            post.child("privacy").getValue().toString(),
+                            post.child("transaction_info").getValue().toString(),
+                            post.child("status").getValue().toString(),
+                            post.child("fixer").getValue().toString(),
+                            post.child("fixey").getValue().toString(),
+                            post.child("rating").getValue().toString(),
+                            post.child("device").getValue().toString(),
+                            post.child("part").getValue().toString(),
+                            post.child("userID").getValue().toString(),
+                            post.child("likes").getValue().toString(),
+                            post.child("comments").getValue().toString()));
+
+                }
+                mProgressBox.dismiss();
+                adapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                Log.w(TAG, "loadPost:onCancelled", databaseError.toException());
+            }
+        });
+
     }
+
 
 }

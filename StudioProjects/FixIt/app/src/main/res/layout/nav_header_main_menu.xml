@@ -2,32 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="180dp"
+    android:layout_height="200dp"
     android:background="@mipmap/teal_pentagonal_background"
     android:gravity="bottom"
     android:orientation="vertical"
-    android:paddingBottom="10dp"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <TextView
-        android:id="@+id/Fullname"
+        android:id="@+id/fullName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dave Fletcher"
+        android:text="@string/l"
         android:textAlignment="center"
         android:textSize="20dp"
         android:textColor="@android:color/white" />
 
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:layout_marginTop="13dp"
-        android:src="@drawable/stock_man_4"
-        app:civ_border_width="2dp"
-        android:layout_gravity="center"/>
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:src="@mipmap/no_pic"
+        android:layout_gravity="center"
+        android:onClick="gotoprofile"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="3dp"/>
     <RatingBar
         android:id="@+id/ratingBar"
         style="?android:attr/ratingBarStyleSmall"
@@ -42,11 +41,13 @@
         android:layout_gravity="center"/>
     <TextView
         android:id="@+id/email"
+        android:layout_marginTop="8.5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="fletcherdavy@gmail.com"
+        android:layout_margin="5dp"
+        android:text="@string/l"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-         />
+        />
 
 
 

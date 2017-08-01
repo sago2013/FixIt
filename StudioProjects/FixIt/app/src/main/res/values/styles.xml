@@ -9,8 +9,8 @@
         <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb_custom</item>
         <item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track_custom</item>
         <item name="android:scrollbarSize">8dp</item>
-        <item name="android:scrollbarFadeDuration">1000</item>
-        <item name="android:scrollbarDefaultDelayBeforeFade">500</item>
+        <item name="android:scrollbarFadeDuration">500</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">50</item>
     </style>
 
 
@@ -35,6 +35,17 @@
         parent="android:style/Widget.Material.RatingBar.Small">
     </style>
 
+    <!--Input layout custom style
+    <style name="CustomTextLabel" parent="TextAppearance.AppCompat">
+         Hint color and label color in FALSE state
+        <item name="android:textColorHint">#c40303</item>
+        <item name="android:textSize">20sp</item>
+         Label color in TRUE state and bar color FALSE and TRUE State
+        <item name="colorAccent">#050505</item>
+        <item name="colorControlNormal">#8e8c8c</item>
+        <item name="colorControlActivated">#050505</item>
+    </style>
+    -->
 
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
