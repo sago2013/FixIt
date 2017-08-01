@@ -20,28 +20,33 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_brand_p"
+    <include layout="@layout/content_brand_p_v3"
         android:id="@+id/include3" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
-        android:layout_width="61dp"
-        android:layout_height="61dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_gravity="bottom|end"
         android:layout_margin="8dp"
         app:fabSize="mini"
+        app:elevation="6dp"
         app:rippleColor="@color/colorAccent"
-        app:srcCompat="@mipmap/cancel_fab" />
+        app:srcCompat="@drawable/ic_not_interested_black_24dp" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab_return"
-        android:layout_width="61dp"
-        android:layout_height="61dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_gravity="top|right"
         android:layout_margin="8dp"
         app:fabSize="mini"
+        app:elevation="6dp"
         app:layout_anchor="@+id/include3"
         app:layout_anchorGravity="bottom|left"
         app:rippleColor="@color/colorAccent"
-        app:srcCompat="@mipmap/arrow_2" />
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/ic_arrow_back_24dp" />
+
+
 </android.support.design.widget.CoordinatorLayout>

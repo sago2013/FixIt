@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@mipmap/background_create_account"
+    tools:context="com.fixit.fixit.AccountCreation"
     android:weightSum="1">
-
-
 
     <ProgressBar
         android:id="@+id/login_progress"
@@ -37,7 +38,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="10dp"
         android:background="#c6f7fffd"
         android:orientation="vertical">
         <android.support.design.widget.TextInputLayout
@@ -46,9 +47,9 @@
 
         <AutoCompleteTextView
             android:id="@+id/fullname"
+            android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
             android:background="#ffffff"
             android:hint="Full Name"
             android:inputType="textEmailAddress"
@@ -64,7 +65,7 @@
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:hint="@string/prompt_email"
                 android:inputType="textEmailAddress"
@@ -82,7 +83,7 @@
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="5dp"
                 android:background="#ffffff"
                 android:hint="Password"
                 android:imeActionId="@+id/login"
@@ -99,7 +100,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/email_sign_in_button"
+        android:id="@+id/create_account_btn"
         style="?android:textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -114,6 +115,35 @@
         android:textSize="24dp"
         android:textStyle="bold"
         app:layout_anchor="@+id/email_login_form" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Already Have an Account?"
+        android:textColor="#ffff"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/create_account"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:background="@drawable/border_2"
+        android:onClick="gotologin"
+        android:layout_marginEnd="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginStart="18dp"/>
 
 
 

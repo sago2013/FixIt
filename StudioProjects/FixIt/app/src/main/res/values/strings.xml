@@ -67,8 +67,24 @@
     <string name="pre_spec1">What model is your</string>
     <string name="facebook_app_id">124799804768880</string>
     <string name="fb_login_protocol_scheme">fb124799804768880</string>
+    <string name="my_web_client_id">485721809163-oangpg8507aj48pmefdc9v0cj93skpff.apps.googleusercontent.com</string>
+    <string name="l">Loading…</string>
 
 
+    //Array for audience spinner
+    <string-array name="audienceList">
+        <item>Public</item>
+        <item>Friends</item>
+        <item>Only Me</item>
+    </string-array>
+    //Array for fix_type spinner
+    <string-array name="fixTypeList">
+        <item>Upgraded</item>
+        <item>Fixed</item>
+        <item>Replaced</item>
+        <item>Removed</item>
+        <item>Diagnosed</item>
+    </string-array>
 
     ///Arrays for models, to save time. and space in the users phone
     <string-array name="huaw_honor">

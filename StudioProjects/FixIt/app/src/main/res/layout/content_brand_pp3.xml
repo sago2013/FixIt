@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nice_plain"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fixit.fixit.brand_pp"
+    tools:showIn="@layout/activity_brand_pp"
+    android:orientation="vertical">
+
+
+    <android.support.v4.widget.NestedScrollView
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:paddingTop="0.5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_acer">
+
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_acer" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Acer"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_tcl">
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_alcatel" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Alcatel"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_archos"
+                    >
+
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_archos"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Archos"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_bb_pa"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_blackberry"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BlackBerry"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_blu"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_blu"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Blu"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_coolpad"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_coolpad"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Coolpad"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_fly"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_fly"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fly"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_gionee"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_gionee"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gionee"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_google"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_google"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Google"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_htc"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_htc"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="HTC"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_huawei"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_huawei"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Huawei"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_iball"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_iball"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="iBall"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_idea"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_idea"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Idea"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_intex_p"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_intex"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Intex"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_lenovo_p"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_lenovo"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lenovo"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_lg"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_lg"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="LG"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_lyf_p"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_lyf"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="LYF"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_meizu"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_meizu"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Meizu"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_motolenovo"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_motorola"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Motorola"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_mts"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_mts"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MTS"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_nokia"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_nokia"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nokia"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_oppo"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_oppo"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Oppo"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_panasonic"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_panasonic"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Panasonic"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_philips"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_philips"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Philips"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_samsung"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_samsung"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Samsung"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_sony"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_sony"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sony"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_swipe"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_swipe"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Swipe"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_vivo"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_vivo"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Vivo"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_xiomi"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_xiaomi"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Xiamoi"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_yu"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_yu"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yu"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_zopo"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_zopo"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Zopo"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginBottom="1.5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_brands"
+                    android:onClick="ch_zte"
+                    >
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="85dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_zte"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ZTE"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!---                                       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/asus_p"
+                    android:onClick="ch_asus"/>
+
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/adcom_p"
+                    android:onClick="ch_adcom"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/celkon_p"
+                    android:onClick="ch_celkon"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/datawind_p"
+                    android:onClick="ch_datawind"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/iberry_p"
+                    android:onClick="ch_iberry"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/infocus_p"
+                    android:onClick="ch_infocus_p"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/karbonn_p"
+                    android:onClick="ch_karbonn"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/kyocera"
+                    android:onClick="ch_kyocera"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/lava_p"
+                    android:onClick="ch_lava"/>
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/leeco_p2"
+                    android:onClick="ch_leeco"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/maxx_p"
+                    android:onClick="ch_max"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/micromax_pp"
+                    android:onClick="ch_micromax"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/obi_p"
+                    android:onClick="ch_obi"/>
+
+
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/rb_p"
+                    android:onClick="ch_ringingbells"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/sharp_p"
+                    android:onClick="ch_sharp"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/spice_p"
+                    android:onClick="ch_spice"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/videocon_p"
+                    android:onClick="ch_videocon"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/wickedleak_p"
+                    android:onClick="ch_wickedleak"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/xolo_p"
+                    android:onClick="ch_xolo"/>
+
+                <Button
+                    android:layout_width="193dp"
+                    android:layout_height="193dp"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/zen_p"
+                    android:onClick="ch_zen"/>
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text=""/>
+        </LinearLayout>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</LinearLayout>

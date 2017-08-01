@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:fillAfter="true">
+    <rotate android:fromDegrees="0"
+        android:toDegrees="360"
+        android:duration="850"
+        android:interpolator="@android:anim/linear_interpolator"/>
+
     <scale
         android:duration="850"
         android:fromXScale="0.0"
@@ -10,6 +15,7 @@
         android:pivotX="50%"
         android:pivotY="50%"
         android:toYScale="0.8" />
+
     <alpha
         android:fromAlpha="0.0"
         android:toAlpha="1.0"
