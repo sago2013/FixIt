@@ -1,0 +1,24 @@
+<div ng-show="tab.isSet(1)">
+  <h1>Welcome Back Student!</h1>
+  <p></p>
+
+   <md-content class="md-padding">
+    <form ng-submit="$event.preventDefault()" name="searchForm">
+
+      <div layout-gt-sm="row">
+        <md-input-container flex>
+          <label>Email</label>
+          <input type="text"/>
+        </md-input-container>
+        <md-input-container flex>
+          <label>Password</label>
+          <input type="text"/>
+      </div>
+    </form>
+  </md-content>
+
+    <md-button class="md-raised btn1"> Login </md-button>
+    <p></p>
+    <p><b>Dont have an account?</b></p>
+    <md-button class="md-raised btn1">Create New Student Account </md-button>
+</div>
